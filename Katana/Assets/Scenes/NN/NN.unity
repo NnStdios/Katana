@@ -293,6 +293,55 @@ Transform:
   - {fileID: 393394268}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &636923605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 636923607}
+  - component: {fileID: 636923606}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &636923606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636923605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 24db92515b2adf4bf9900e024dc45a90, type: 2}
+--- !u!4 &636923607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636923605}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &843226434
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,10 +625,9 @@ MonoBehaviour:
   IsPerformingStrikeImpact: 0
   _rb: {fileID: 1461481853}
   _collider: {fileID: 968672865}
-  _model: {fileID: 0}
   _cameraSwitchDuration: 0.5
   _cameraSwitchEasing: 16
-  _tiltSpeed: 90
+  _tiltSpeed: 1
   _tiltInvertPoint: 180
   _flipForce: {x: 20, y: 25}
   _flipRotation: 10
@@ -1005,7 +1053,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -1152,8 +1200,9 @@ SceneRoots:
   m_Roots:
   - {fileID: 20844135305825245}
   - {fileID: 843226437}
+  - {fileID: 636923607}
   - {fileID: 1623444628}
   - {fileID: 24345334}
   - {fileID: 2043410005}
-  - {fileID: 1461481851}
   - {fileID: 481012974}
+  - {fileID: 1461481851}
