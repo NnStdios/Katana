@@ -57,7 +57,7 @@ Transform:
   m_GameObject: {fileID: 986359664635976980}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7660445, y: 0, z: 0, w: 0.64278764}
-  m_LocalPosition: {x: -0.15, y: -1.5, z: 0}
+  m_LocalPosition: {x: -0.25, y: -1.5, z: -0.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -79,7 +79,7 @@ MonoBehaviour:
   _cameraCollisionMask:
     serializedVersion: 2
     m_Bits: 1
-  _offset: {x: -0.15, y: -1.5, z: 0}
+  _offset: {x: -0.25, y: -1.5, z: -0.05}
   _localOffset: 1
   _translateOffset: 0
   _rotateCamera: 0
@@ -166,6 +166,7 @@ MonoBehaviour:
   IsPerformingStrikeImpact: 0
   _rb: {fileID: 6053209432441537912}
   _collider: {fileID: 6443529158496922150}
+  _meshObject: {fileID: 0}
   _renderer: {fileID: 6588910724352230419}
   _decalPrefab: {fileID: 2951458016823287143, guid: 4d376fa6d8db48692861ce21e2b116ab, type: 3}
   _decalPoint: {fileID: 4659045580749405382}
@@ -252,6 +253,8 @@ MonoBehaviour:
     - TimeScale: 0.25
       Time: 2
       Easing: 10
+  _deathTimeScale:
+    Keys: []
 --- !u!1 &2700068650421365856
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,7 +334,7 @@ Transform:
   m_GameObject: {fileID: 5140100605762766378}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7660445, y: 0, z: 0, w: 0.64278764}
-  m_LocalPosition: {x: 0.15, y: -1.5, z: 0}
+  m_LocalPosition: {x: 0.25, y: -1.5, z: -0.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -353,7 +356,7 @@ MonoBehaviour:
   _cameraCollisionMask:
     serializedVersion: 2
     m_Bits: 1
-  _offset: {x: 0.15, y: -1.5, z: 0}
+  _offset: {x: 0.25, y: -1.5, z: -0.05}
   _localOffset: 1
   _translateOffset: 0
   _rotateCamera: 0
