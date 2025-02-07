@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Dragon's Breath Katana
   Price: 0
-  UnlockedByDefault: 1
+  UnlockedByDefault: 0
   Material: {fileID: 2100000, guid: 88b8c4c3bb25900028cff5345ce6a98a, type: 2}
