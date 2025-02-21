@@ -62,7 +62,8 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: -4835308684839927443}
   - {fileID: 6191523616085622551}
-  m_RendererFeatureMap: 6d41c1a45e88e5bc17bf39bbecb5ec55
+  - {fileID: 8396533886632575327}
+  m_RendererFeatureMap: 6d41c1a45e88e5bc17bf39bbecb5ec555fc14349157b8674
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -105,3 +106,26 @@ MonoBehaviour:
   pop: 600
   blendMaterial: {fileID: 2100000, guid: d641aedc8e0dc757f862f5a4152a65fd, type: 2}
   useFBF: 0
+--- !u!114 &8396533886632575327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 980a78cc4df543b29a2663be288cd2f5, type: 3}
+  m_Name: UniversalBlurFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  iterations: 3
+  intensity: 1
+  downsample: 10
+  scale: 5
+  offset: 2
+  scaleBlurWith: 1
+  scaleReferenceSize: 1080
+  shaderPass: 0
+  injectionPoint: 600
+  shader: {fileID: 4800000, guid: bb11bdc2e8aaf4c80b5315f3778d7ad4, type: 3}

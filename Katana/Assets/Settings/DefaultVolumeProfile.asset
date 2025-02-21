@@ -357,6 +357,9 @@ MonoBehaviour:
   enabled:
     m_OverrideState: 1
     m_Value: 0
+  renderPassEvent:
+    m_OverrideState: 1
+    m_Value: 550
 --- !u!114 &-1410297666881709256
 MonoBehaviour:
   m_ObjectHideFlags: 3
