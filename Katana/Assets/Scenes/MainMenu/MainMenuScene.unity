@@ -2456,7 +2456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 795007629}
   m_Layer: 0
-  m_Name: Shop
+  m_Name: ShopEnvironment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3124,7 +3124,7 @@ GameObject:
   - component: {fileID: 955069500}
   - component: {fileID: 955069502}
   m_Layer: 0
-  m_Name: Quit
+  m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3648,7 +3648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1016158044}
   m_Layer: 0
-  m_Name: Settings
+  m_Name: SettingsEnvironment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5257,17 +5257,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c1295456187d28ebb86b7d22750592f1, type: 3}
   m_PrefabInstance: {fileID: 1276640790}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1280403654 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 389705453610516225, guid: 74a40c38c447d584daeee9807b2c605e, type: 3}
-  m_PrefabInstance: {fileID: 712717965}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fabaf466d2d068bd2ae4809bb57cb62c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1291814774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6481,7 +6470,7 @@ GameObject:
   - component: {fileID: 1615352228}
   - component: {fileID: 1615352230}
   m_Layer: 0
-  m_Name: Settings
+  m_Name: SettingsButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8308,7 +8297,7 @@ GameObject:
   - component: {fileID: 1927798352}
   - component: {fileID: 1927798354}
   m_Layer: 0
-  m_Name: Play
+  m_Name: PlayButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10984,9 +10973,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1280403654}
-        m_TargetAssemblyTypeName: Assets.Scripts.Core.SettingsManager, Assembly-CSharp
-        m_MethodName: ChangeMusicVolume
+      - m_Target: {fileID: 8783057276670701520}
+        m_TargetAssemblyTypeName: Assets.Scripts.MainMenu.SettingsMenu, Assembly-CSharp
+        m_MethodName: SetMusicVolume
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11160,6 +11149,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1864686685}
     m_Modifications:
+    - target: {fileID: 200947662477398835, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -9144824963878731993, guid: 4d5df30ef9eab6b43ab2394747a350e2, type: 3}
     - target: {fileID: 833063046352790645, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalPosition.y
       value: -6.5
@@ -11451,9 +11444,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1280403654}
-        m_TargetAssemblyTypeName: Assets.Scripts.Core.SettingsManager, Assembly-CSharp
-        m_MethodName: ChangeMasterVolume
+      - m_Target: {fileID: 8783057276670701520}
+        m_TargetAssemblyTypeName: Assets.Scripts.MainMenu.SettingsMenu, Assembly-CSharp
+        m_MethodName: SetMasterVolume
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11963,9 +11956,9 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1280403654}
-        m_TargetAssemblyTypeName: Assets.Scripts.Core.SettingsManager, Assembly-CSharp
-        m_MethodName: ChangeDOF
+      - m_Target: {fileID: 8783057276670701520}
+        m_TargetAssemblyTypeName: Assets.Scripts.MainMenu.SettingsMenu, Assembly-CSharp
+        m_MethodName: SetDOF
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12224,9 +12217,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1280403654}
-        m_TargetAssemblyTypeName: Assets.Scripts.Core.SettingsManager, Assembly-CSharp
-        m_MethodName: ChangeSFXVolume
+      - m_Target: {fileID: 8783057276670701520}
+        m_TargetAssemblyTypeName: Assets.Scripts.MainMenu.SettingsMenu, Assembly-CSharp
+        m_MethodName: SetSFXVolume
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12759,9 +12752,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1280403654}
-        m_TargetAssemblyTypeName: Assets.Scripts.Core.SettingsManager, Assembly-CSharp
-        m_MethodName: ChangePerspective
+      - m_Target: {fileID: 8783057276670701520}
+        m_TargetAssemblyTypeName: Assets.Scripts.MainMenu.SettingsMenu, Assembly-CSharp
+        m_MethodName: SetPerspective
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13302,9 +13295,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1280403654}
-        m_TargetAssemblyTypeName: Assets.Scripts.Core.SettingsManager, Assembly-CSharp
-        m_MethodName: ChangeMotionBlur
+      - m_Target: {fileID: 8783057276670701520}
+        m_TargetAssemblyTypeName: Assets.Scripts.MainMenu.SettingsMenu, Assembly-CSharp
+        m_MethodName: SetMotionBlur
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
