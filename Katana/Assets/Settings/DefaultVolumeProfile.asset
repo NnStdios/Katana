@@ -333,6 +333,12 @@ MonoBehaviour:
   attenuationDistance:
     m_OverrideState: 1
     m_Value: 128
+  enableAPVContribution:
+    m_OverrideState: 1
+    m_Value: 0
+  APVContributionWeight:
+    m_OverrideState: 0
+    m_Value: 1
   enableMainLightContribution:
     m_OverrideState: 1
     m_Value: 0

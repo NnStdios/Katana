@@ -48,6 +48,12 @@ MonoBehaviour:
   attenuationDistance:
     m_OverrideState: 1
     m_Value: 128
+  enableAPVContribution:
+    m_OverrideState: 1
+    m_Value: 1
+  APVContributionWeight:
+    m_OverrideState: 1
+    m_Value: 0.005
   enableMainLightContribution:
     m_OverrideState: 1
     m_Value: 1
@@ -65,7 +71,7 @@ MonoBehaviour:
     m_Value: 1
   maxSteps:
     m_OverrideState: 1
-    m_Value: 128
+    m_Value: 256
   blurIterations:
     m_OverrideState: 0
     m_Value: 2
