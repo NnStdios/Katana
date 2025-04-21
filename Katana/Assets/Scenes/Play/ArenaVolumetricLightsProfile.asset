@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: ArenaFogVolumeProfile
+  m_Name: ArenaVolumetricLightsProfile
   m_EditorClassIdentifier: 
   components:
   - {fileID: 493558734461698938}
@@ -48,6 +48,12 @@ MonoBehaviour:
   attenuationDistance:
     m_OverrideState: 1
     m_Value: 128
+  enableAPVContribution:
+    m_OverrideState: 1
+    m_Value: 1
+  APVContributionWeight:
+    m_OverrideState: 1
+    m_Value: 0.01
   enableMainLightContribution:
     m_OverrideState: 1
     m_Value: 1
