@@ -31,7 +31,8 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -50,8 +51,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _DepthFadeDistance: 1
+    - _DepthFadePower: 1
     - _NoiseScale: 1
+    - _NoiseScrollSpeed: 0.25
+    - _QueueControl: 0
+    - _QueueOffset: 0
     - _ScrollSpeed: 3
-    m_Colors: []
+    m_Colors:
+    - _Color: {r: 23.96863, g: 23.96863, b: 23.96863, a: 1}
+    - _EdgeSmoothstep: {r: 0.1, g: 0.75, b: 0, a: 0}
+    - _NoiseMinMax: {r: 0.1, g: 1, b: 0, a: 0}
+    - _NoiseSmoothstep: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
