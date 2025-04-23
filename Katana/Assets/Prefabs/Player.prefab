@@ -166,10 +166,14 @@ MonoBehaviour:
   IsPerformingStrikeImpact: 0
   _rb: {fileID: 6053209432441537912}
   _collider: {fileID: 6443529158496922150}
-  _meshObject: {fileID: 0}
+  _katanaObject: {fileID: 8198447046917598476}
+  _mesh: {fileID: 8976927694010069209}
   _renderer: {fileID: 6588910724352230419}
   _decalPrefab: {fileID: 2951458016823287143, guid: 4d376fa6d8db48692861ce21e2b116ab, type: 3}
   _decalPoint: {fileID: 4659045580749405382}
+  _sliceLayer:
+    serializedVersion: 2
+    m_Bits: 512
   _cameraSwitchDuration: 0.5
   _cameraSwitchEasing: 16
   _tiltSpeed: 1
@@ -254,7 +258,10 @@ MonoBehaviour:
       Time: 2
       Easing: 10
   _deathTimeScale:
-    Keys: []
+    Keys:
+    - TimeScale: 0.1
+      Time: 1
+      Easing: 16
 --- !u!1 &2700068650421365856
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,5 +478,15 @@ MeshRenderer:
 --- !u!4 &6841603374842545881 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 622755268422086721, guid: 5fc0b7a45e9f0344b9ee07143ea41846, type: 3}
+  m_PrefabInstance: {fileID: 6221224362450073240}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8198447046917598476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2850926716783172500, guid: 5fc0b7a45e9f0344b9ee07143ea41846, type: 3}
+  m_PrefabInstance: {fileID: 6221224362450073240}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &8976927694010069209 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 3081111636921124417, guid: 5fc0b7a45e9f0344b9ee07143ea41846, type: 3}
   m_PrefabInstance: {fileID: 6221224362450073240}
   m_PrefabAsset: {fileID: 0}
