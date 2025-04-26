@@ -1703,14 +1703,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d83d5f9af484a97a3075873641402f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CameraHolder: {fileID: 287414054}
+  Camera: {fileID: 2087302220}
+  PlayerCamera: {fileID: 898698351}
   Handlers:
   - {fileID: 7885427314332751303}
   - {fileID: 7885427314332751302}
   - {fileID: 7885427314332751301}
   - {fileID: 24345335}
-  CameraHolder: {fileID: 287414054}
-  Camera: {fileID: 2087302220}
-  PlayerCamera: {fileID: 898698351}
 --- !u!4 &843226437
 Transform:
   m_ObjectHideFlags: 0
