@@ -166,7 +166,7 @@ MonoBehaviour:
   Perspective: 1
   _cameraCollisionMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 1281
   _offset: {x: 0, y: 1, z: -5}
   _localOffset: 0
   _translateOffset: 1
@@ -4583,6 +4583,18 @@ PrefabInstance:
     - target: {fileID: 1402137443040997536, guid: 686405cbee95be469b93c305e9304870, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2828340462301735358, guid: 686405cbee95be469b93c305e9304870, type: 3}
+      propertyPath: _cameraCollisionMask.m_Bits
+      value: 1281
+      objectReference: {fileID: 0}
+    - target: {fileID: 2866496197393159214, guid: 686405cbee95be469b93c305e9304870, type: 3}
+      propertyPath: _cameraCollisionMask.m_Bits
+      value: 1281
+      objectReference: {fileID: 0}
+    - target: {fileID: 3312503379943868112, guid: 686405cbee95be469b93c305e9304870, type: 3}
+      propertyPath: _cameraCollisionMask.m_Bits
+      value: 1281
       objectReference: {fileID: 0}
     - target: {fileID: 3622743797374421925, guid: 686405cbee95be469b93c305e9304870, type: 3}
       propertyPath: m_LocalPosition.y
