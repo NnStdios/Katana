@@ -876,11 +876,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1214249934}
-  - {fileID: 1133896610}
   - {fileID: 1182403314}
-  - {fileID: 236467735}
+  - {fileID: 1133896610}
   - {fileID: 257512134}
   - {fileID: 776842971}
+  - {fileID: 236467735}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &494668610
@@ -1671,7 +1671,7 @@ GameObject:
   - component: {fileID: 843226436}
   - component: {fileID: 843226438}
   m_Layer: 0
-  m_Name: PlaySceneManager
+  m_Name: ColosseumSceneManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
