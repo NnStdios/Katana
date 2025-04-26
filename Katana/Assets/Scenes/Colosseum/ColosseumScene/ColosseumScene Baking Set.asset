@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4881f9a2c4d568047b316028d20a8dca, type: 3}
-  m_Name: PlayScene Baking Set
+  m_Name: ColosseumScene Baking Set
   m_EditorClassIdentifier: 
   m_SceneBakeData:
     m_Keys:
@@ -176,11 +176,11 @@ MonoBehaviour:
         hasOnlyBiggerBricks: 0
     - position: {x: -1, y: 0, z: -1}
       index: 26
-      probeCount: 351680
+      probeCount: 351296
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 43
-      bricksCount: 5495
+      bricksCount: 5489
       indirectionEntryInfo:
       - positionInBricks: {x: -27, y: 0, z: -27}
         minSubdiv: 0
@@ -190,11 +190,11 @@ MonoBehaviour:
         hasOnlyBiggerBricks: 0
     - position: {x: -1, y: 0, z: 0}
       index: 46
-      probeCount: 351488
+      probeCount: 350976
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 43
-      bricksCount: 5492
+      bricksCount: 5484
       indirectionEntryInfo:
       - positionInBricks: {x: -27, y: 0, z: 0}
         minSubdiv: 0
@@ -316,11 +316,11 @@ MonoBehaviour:
         hasOnlyBiggerBricks: 0
     - position: {x: 0, y: 0, z: -1}
       index: 27
-      probeCount: 348352
+      probeCount: 347840
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 43
-      bricksCount: 5443
+      bricksCount: 5435
       indirectionEntryInfo:
       - positionInBricks: {x: 0, y: 0, z: -27}
         minSubdiv: 0
@@ -330,11 +330,11 @@ MonoBehaviour:
         hasOnlyBiggerBricks: 0
     - position: {x: 0, y: 0, z: 0}
       index: 47
-      probeCount: 349568
+      probeCount: 349120
       minSubdiv: 0
       indexChunkCount: 91
       shChunkCount: 43
-      bricksCount: 5462
+      bricksCount: 5455
       indirectionEntryInfo:
       - positionInBricks: {x: 0, y: 0, z: 0}
         minSubdiv: 0
@@ -511,7 +511,7 @@ MonoBehaviour:
     m_Keys:
     - Default
     m_Values:
-    - sceneHash: 834120629
+    - sceneHash: -42101700
       cellDataAsset:
         m_AssetGUID: 661d55736e1cc3f4b9cb519998e52282
         m_StreamableAssetPath: APVStreamingAssets/395de40b2754c39618cf28529d60ab08/661d55736e1cc3f4b9cb519998e52282.bytes
@@ -730,42 +730,42 @@ MonoBehaviour:
       - offset: 6768
         elementCount: 98
       - offset: 8336
-        elementCount: 5495
-      - offset: 96256
-        elementCount: 5492
-      - offset: 184128
+        elementCount: 5489
+      - offset: 96160
+        elementCount: 5484
+      - offset: 183904
         elementCount: 98
-      - offset: 185696
+      - offset: 185472
         elementCount: 166
-      - offset: 188352
+      - offset: 188128
         elementCount: 163
-      - offset: 190960
+      - offset: 190736
         elementCount: 4
-      - offset: 191024
+      - offset: 190800
         elementCount: 97
-      - offset: 192576
+      - offset: 192352
         elementCount: 131
-      - offset: 194672
+      - offset: 194448
         elementCount: 9
-      - offset: 194816
+      - offset: 194592
         elementCount: 94
-      - offset: 196320
-        elementCount: 5443
-      - offset: 283408
-        elementCount: 5462
-      - offset: 370800
+      - offset: 196096
+        elementCount: 5435
+      - offset: 283056
+        elementCount: 5455
+      - offset: 370336
         elementCount: 94
-      - offset: 372304
+      - offset: 371840
         elementCount: 166
-      - offset: 374960
+      - offset: 374496
         elementCount: 162
-      - offset: 377552
+      - offset: 377088
         elementCount: 9
-      - offset: 377696
+      - offset: 377232
         elementCount: 9
-      - offset: 377840
+      - offset: 377376
         elementCount: 88
-      - offset: 379248
+      - offset: 378784
         elementCount: 88
     m_Asset: {fileID: 0}
   cellSupportDataAsset:

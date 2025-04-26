@@ -777,7 +777,7 @@ ReflectionProbe:
   m_Mode: 0
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 256
+  m_Resolution: 2048
   m_UpdateFrequency: 0
   m_BoxSize: {x: 180, y: 90, z: 180}
   m_BoxOffset: {x: 0, y: 0, z: 0}
@@ -878,8 +878,8 @@ Transform:
   - {fileID: 1214249934}
   - {fileID: 1182403314}
   - {fileID: 1133896610}
-  - {fileID: 257512134}
   - {fileID: 776842971}
+  - {fileID: 257512134}
   - {fileID: 236467735}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
