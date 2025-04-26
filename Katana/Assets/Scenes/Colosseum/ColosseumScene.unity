@@ -1686,10 +1686,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f66c77d53b1e4e7799bfea4f99fe39cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 1461481852}
   _cameraManager: {fileID: 843226436}
   _explosionManager: {fileID: 843226438}
   IsDead: 0
+  _player: {fileID: 1461481852}
   _deathScreen: {fileID: 1789759881}
 --- !u!114 &843226436
 MonoBehaviour:

@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _item: {fileID: 11400000, guid: b38cab2c5a18223078a69a4110f997db, type: 2}
-  _itemTransform: {fileID: 8682069243499885523}
+  _itemObject: {fileID: 8682069243499885523}
   _uiPanel: {fileID: 6907105544014535203}
   _nameTMP: {fileID: 1412219638884024841}
   _priceTMP: {fileID: 3317317178604266141}
