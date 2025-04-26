@@ -161,9 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e731a6ac9301794c4865bae41e743069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsStuck: 0
-  IsPerformingStrike: 0
-  IsPerformingStrikeImpact: 0
+  _inputActionAsset: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   _rb: {fileID: 6053209432441537912}
   _collider: {fileID: 6443529158496922150}
   _katanaObject: {fileID: 8198447046917598476}
@@ -177,21 +175,6 @@ MonoBehaviour:
   _cameraSwitchDuration: 0.5
   _cameraSwitchEasing: 16
   _tiltSpeed: 1
-  _stickMask:
-    serializedVersion: 2
-    m_Bits: 385
-  _minStickVelocity: 25
-  _maxStickAngle: 45
-  _flipForce: {x: 20, y: 25}
-  _flipRotation: 10
-  _flipTimeScale:
-    Keys:
-    - TimeScale: 1.5
-      Time: 0
-      Easing: 0
-    - TimeScale: 0.25
-      Time: 1
-      Easing: 9
   _dashForce: 150
   _dashTimeScale:
     Keys:
@@ -210,58 +193,27 @@ MonoBehaviour:
     - TimeScale: 0.25
       Time: 1
       Easing: 9
-  _strikeTransitionTime: 3
-  _strikeTransitionCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: -0
-      outSlope: 0.08554226
-      tangentMode: 1
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.05055055
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: -0.7733753
-      outSlope: -0.7733753
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.06500012
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _strikeHoverHeight: 55
-  _strikeHoverDuration: 5
-  _strikeHoverTimeScale: 0.5
-  _camReturnDuration: 1
-  _camReturnEasing: 9
-  _strikeLayerMask:
-    serializedVersion: 2
-    m_Bits: 129
-  _strikeImpactForce: 500
-  _strikeImpactTimeScale:
+  _flipForce: {x: 20, y: 25}
+  _flipRotation: 10
+  _flipTimeScale:
     Keys:
-    - TimeScale: 1
-      Time: 0.25
-      Easing: 8
-  _postStrikeImpactTimeScale:
-    Keys:
-    - TimeScale: 0.1
+    - TimeScale: 1.5
       Time: 0
       Easing: 0
     - TimeScale: 0.25
-      Time: 2
-      Easing: 10
+      Time: 1
+      Easing: 9
+  _stickMask:
+    serializedVersion: 2
+    m_Bits: 385
+  _minStickVelocity: 25
+  _maxStickAngle: 45
   _deathTimeScale:
     Keys:
     - TimeScale: 0.1
       Time: 1
       Easing: 16
+  IsStuck: 0
 --- !u!1 &2700068650421365856
 GameObject:
   m_ObjectHideFlags: 0
