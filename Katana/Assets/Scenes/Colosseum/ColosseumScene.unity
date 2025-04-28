@@ -725,6 +725,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cannon (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6152999226736819730, guid: bd003a7e86f0f6d75ad747c389d4196b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6968627129604021535, guid: bd003a7e86f0f6d75ad747c389d4196b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -4450,6 +4454,10 @@ PrefabInstance:
     - target: {fileID: 6152999226736819730, guid: bd003a7e86f0f6d75ad747c389d4196b, type: 3}
       propertyPath: m_Name
       value: Cannon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6430877912764789368, guid: bd003a7e86f0f6d75ad747c389d4196b, type: 3}
+      propertyPath: _projectiles.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6968627129604021535, guid: bd003a7e86f0f6d75ad747c389d4196b, type: 3}
       propertyPath: m_StaticEditorFlags
