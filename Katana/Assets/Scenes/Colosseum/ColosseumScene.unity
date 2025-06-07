@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 185322721}
   - component: {fileID: 185322723}
   m_Layer: 8
-  m_Name: Text (TMP)
+  m_Name: '- Score'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1393,7 +1393,7 @@ MonoBehaviour:
   version: 2
   globalVolume: 0
   mode: 1
-  size: {x: 179.8144, y: 92.40721, z: 179.81439}
+  size: {x: 179.8144, y: 92.4072, z: 179.81439}
   overrideRendererFilters: 0
   minRendererVolumeSize: 0.1
   objectLayerMask:
@@ -1402,7 +1402,7 @@ MonoBehaviour:
   lowestSubdivLevelOverride: 0
   highestSubdivLevelOverride: 7
   overridesSubdivLevels: 0
-  mightNeedRebaking: 0
+  mightNeedRebaking: 1
   cachedTransform:
     e00: 1
     e01: 0
@@ -1431,7 +1431,7 @@ Transform:
   m_GameObject: {fileID: 776842969}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 43.703606, z: 0}
+  m_LocalPosition: {x: 0, y: 43.7036, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2379,7 +2379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1133896610}
   m_Layer: 0
-  m_Name: Lights
+  m_Name: '- Lights'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2416,7 +2416,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1182403314}
   m_Layer: 0
-  m_Name: VFX
+  m_Name: '- VFX'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2480,7 +2480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2544329054606176548, guid: 8c287bba4f7c7a74592cb8cca5ebe6a5, type: 3}
       propertyPath: m_Name
-      value: Colosseum
+      value: '- Colosseum'
       objectReference: {fileID: 0}
     - target: {fileID: 2544329054606176548, guid: 8c287bba4f7c7a74592cb8cca5ebe6a5, type: 3}
       propertyPath: m_IsActive
@@ -3631,7 +3631,7 @@ GameObject:
   - component: {fileID: 1789759883}
   - component: {fileID: 1789759885}
   m_Layer: 8
-  m_Name: DeathScreen
+  m_Name: '- DeathScreen'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -474,7 +474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 190359432}
   m_Layer: 0
-  m_Name: VFX
+  m_Name: '- VFX'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2371,7 +2371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 795007629}
   m_Layer: 0
-  m_Name: ShopEnvironment
+  m_Name: '- ShopEnvironment'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3580,7 +3580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1016158044}
   m_Layer: 0
-  m_Name: SettingsEnvironment
+  m_Name: '- SettingsEnvironment'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4461,7 +4461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1261084372}
   m_Layer: 0
-  m_Name: Volumes
+  m_Name: '- Volumes'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6538,10 +6538,10 @@ Transform:
   - {fileID: 795007629}
   - {fileID: 1016158044}
   - {fileID: 190359432}
+  - {fileID: 1261084372}
   - {fileID: 1132837368}
   - {fileID: 577129993}
   - {fileID: 1268771710}
-  - {fileID: 1261084372}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1658004527
