@@ -2987,8 +2987,8 @@ GameObject:
   m_Component:
   - component: {fileID: 955069498}
   - component: {fileID: 955069501}
-  - component: {fileID: 955069500}
   - component: {fileID: 955069502}
+  - component: {fileID: 955069500}
   m_Layer: 0
   m_Name: QuitButton
   m_TagString: Untagged
@@ -3108,7 +3108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mesh: {fileID: 303119621}
   _animationTime: 1
-  _animationEasing: 16
+  _animationEasing: 17
 --- !u!1001 &958240862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6308,8 +6308,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1615352226}
   - component: {fileID: 1615352229}
-  - component: {fileID: 1615352228}
   - component: {fileID: 1615352230}
+  - component: {fileID: 1615352228}
   m_Layer: 0
   m_Name: SettingsButton
   m_TagString: Untagged
@@ -6429,7 +6429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mesh: {fileID: 1276640791}
   _animationTime: 1
-  _animationEasing: 16
+  _animationEasing: 17
 --- !u!1 &1631076745
 GameObject:
   m_ObjectHideFlags: 0
@@ -8259,7 +8259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mesh: {fileID: 861616490}
   _animationTime: 1
-  _animationEasing: 16
+  _animationEasing: 17
 --- !u!1001 &1954572412
 PrefabInstance:
   m_ObjectHideFlags: 0
