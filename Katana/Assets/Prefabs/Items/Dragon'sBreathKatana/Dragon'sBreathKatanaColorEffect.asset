@@ -17,7 +17,7 @@ MonoBehaviour:
   charLength: 0
   animationType: 2
   fixedDuration: 0
-  durationPerChar: 1
+  durationPerChar: 0.75
   timeBetweenChars: 0.05
   noDelayForChars: 0
   reverseCharOrder: 0
@@ -28,7 +28,7 @@ MonoBehaviour:
       time: 0
       value: 0
       inSlope: 0
-      outSlope: 1
+      outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
@@ -36,7 +36,7 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 1
+      inSlope: 0
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
@@ -52,8 +52,8 @@ MonoBehaviour:
   endColor: {r: 1, g: 1, b: 1, a: 1}
   gradient:
     serializedVersion: 2
-    key0: {r: 0.7490196, g: 0, b: 0, a: 1}
-    key1: {r: 4, g: 2, b: 0, a: 1}
+    key0: {r: 1, g: 0, b: 0, a: 1}
+    key1: {r: 1, g: 1, b: 0, a: 1}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -80,7 +80,7 @@ MonoBehaviour:
     m_ColorSpace: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  orientation: 0
-  stride: 10
+  orientation: 1
+  stride: 50
   startAlpha: 0
   endAlpha: 1
