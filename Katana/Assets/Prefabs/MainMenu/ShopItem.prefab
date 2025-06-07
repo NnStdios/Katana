@@ -106,6 +106,7 @@ MonoBehaviour:
   _itemRenderer: {fileID: 3682139835823138018}
   _uiPanel: {fileID: 6907105544014535203}
   _nameTMP: {fileID: 1412219638884024841}
+  _nameEffect: {fileID: 947384238384145275}
   _priceTMP: {fileID: 3317317178604266141}
   _position: {x: 0, y: 1.25, z: 0}
   _animationTime: 0.3
@@ -311,8 +312,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 7866805105696818783}
     m_Modifications:
     - target: {fileID: 869773078341784552, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
+      propertyPath: m_text
+      value: Ancient Katana
+      objectReference: {fileID: 0}
+    - target: {fileID: 869773078341784552, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
       propertyPath: m_fontSize
-      value: 0.55
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 1212278338119940727, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
       propertyPath: m_Pivot.x
@@ -399,14 +404,41 @@ PrefabInstance:
       value: ShopItemUI
       objectReference: {fileID: 0}
     - target: {fileID: 3567486576399479676, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
+      propertyPath: m_text
+      value: Ancient Katana
+      objectReference: {fileID: 0}
+    - target: {fileID: 3567486576399479676, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
       propertyPath: m_fontSize
-      value: 0.3
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634713793486638018, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634713793486638018, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4634713793486638018, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
+--- !u!114 &947384238384145275 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1346277995252363930, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
+  m_PrefabInstance: {fileID: 2272972310929592801}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9840f87219df84505803024c796e739d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1106153777146882966 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1212278338119940727, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
