@@ -878,9 +878,9 @@ Transform:
   - {fileID: 1214249934}
   - {fileID: 1182403314}
   - {fileID: 1133896610}
+  - {fileID: 236467735}
   - {fileID: 776842971}
   - {fileID: 257512134}
-  - {fileID: 236467735}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &494668610
@@ -1393,7 +1393,7 @@ MonoBehaviour:
   version: 2
   globalVolume: 0
   mode: 1
-  size: {x: 179.8144, y: 92.4072, z: 179.81439}
+  size: {x: 179.8144, y: 92.40721, z: 179.81439}
   overrideRendererFilters: 0
   minRendererVolumeSize: 0.1
   objectLayerMask:
@@ -1431,7 +1431,7 @@ Transform:
   m_GameObject: {fileID: 776842969}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 43.7036, z: 0}
+  m_LocalPosition: {x: 0, y: 43.703606, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3949,7 +3949,7 @@ MonoBehaviour:
     m_Bits: 385
   _defaultDistance: 100
   _transitionTime: 0.5
-  _transitionEasing: 16
+  _transitionEasing: 17
 --- !u!1001 &1924403321
 PrefabInstance:
   m_ObjectHideFlags: 0
