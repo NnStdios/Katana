@@ -189,7 +189,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   _defaultDistance: 75
   _transitionTime: 1
-  _transitionEasing: 16
+  _transitionEasing: 17
 --- !u!1 &54255321 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1eb78da7b26c46949b9f9eb78d2b5089, type: 3}
