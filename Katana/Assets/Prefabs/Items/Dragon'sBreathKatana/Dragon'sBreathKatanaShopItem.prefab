@@ -19,7 +19,7 @@ PrefabInstance:
     - target: {fileID: 947384238384145275, guid: d023e6c56419e3ba8a7b532f970928a7, type: 3}
       propertyPath: globalEffects.Array.data[1].effect
       value: 
-      objectReference: {fileID: 11400000, guid: 63cd8d5d07c10cb4cb005bf73c2fd450, type: 2}
+      objectReference: {fileID: 11400000, guid: e20222890c9914418b883d0f430b5794, type: 2}
     - target: {fileID: 1412219638884024841, guid: d023e6c56419e3ba8a7b532f970928a7, type: 3}
       propertyPath: m_text
       value: Dragon's Breath Katana
