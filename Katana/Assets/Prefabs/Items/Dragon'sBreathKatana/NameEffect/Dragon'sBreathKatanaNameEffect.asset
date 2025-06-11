@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e66ffc343c5f4ecaa9115a4c0e055e81, type: 3}
-  m_Name: GoldKatanaNameEffect
+  m_Name: Dragon'sBreathKatanaNameEffect
   m_EditorClassIdentifier: 
   effectTag: 
   startCharIndex: 0
@@ -48,5 +48,5 @@ MonoBehaviour:
   clampBetween0And1: 0
   timeType: 0
   effects:
-  - {fileID: 11400000, guid: 40dd8d9d8e92e8d5cb1dd5da5dfcaf8c, type: 2}
-  - {fileID: 11400000, guid: d2b159e352be11c71be65580a90e9d20, type: 2}
+  - {fileID: 11400000, guid: 14f7413327909561da4834d87d15b89c, type: 2}
+  - {fileID: 11400000, guid: 76cfeb3cab36a3e04a8aff8965447cb1, type: 2}

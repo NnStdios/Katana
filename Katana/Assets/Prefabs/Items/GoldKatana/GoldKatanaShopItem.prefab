@@ -40,6 +40,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoldKatanaShopItem
       objectReference: {fileID: 0}
+    - target: {fileID: 6919610254177109997, guid: d023e6c56419e3ba8a7b532f970928a7, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 27
+      objectReference: {fileID: 0}
     - target: {fileID: 7866805105696818783, guid: d023e6c56419e3ba8a7b532f970928a7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

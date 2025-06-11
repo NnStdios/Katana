@@ -9,17 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee4b0ef2dd414493a6f1da97633e9e39, type: 3}
-  m_Name: GalaxyKatanaRotateEffect
+  m_Script: {fileID: 11500000, guid: 8f8a5a04a3b145299afb77db9d03c233, type: 3}
+  m_Name: Dragon'sBreathKatanaMoveTL
   m_EditorClassIdentifier: 
   effectTag: 
   startCharIndex: 0
   charLength: 0
   animationType: 2
   fixedDuration: 0
-  durationPerChar: 1.75
-  timeBetweenChars: 0.05
-  noDelayForChars: 0
+  durationPerChar: 2
+  timeBetweenChars: 0.5
+  noDelayForChars: 1
   reverseCharOrder: 0
   easingCurve:
     serializedVersion: 2
@@ -47,6 +47,5 @@ MonoBehaviour:
     m_RotationOrder: 4
   clampBetween0And1: 0
   timeType: 0
-  centerOffset: {x: 0, y: 0}
-  startAngle: -5
-  endAngle: 5
+  startOffset: {x: -0.01, y: -0.01}
+  endOffset: {x: 0.01, y: 0.01}

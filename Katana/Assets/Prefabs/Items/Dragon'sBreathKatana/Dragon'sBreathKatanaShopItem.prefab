@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 947384238384145275, guid: d023e6c56419e3ba8a7b532f970928a7, type: 3}
       propertyPath: globalEffects.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 947384238384145275, guid: d023e6c56419e3ba8a7b532f970928a7, type: 3}
       propertyPath: globalEffects.Array.data[0].effect
@@ -26,7 +26,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1412219638884024841, guid: d023e6c56419e3ba8a7b532f970928a7, type: 3}
       propertyPath: m_fontSize
-      value: 0.25
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 3317317178604266141, guid: d023e6c56419e3ba8a7b532f970928a7, type: 3}
       propertyPath: m_text
@@ -43,6 +43,10 @@ PrefabInstance:
     - target: {fileID: 6463576154645440841, guid: d023e6c56419e3ba8a7b532f970928a7, type: 3}
       propertyPath: m_Name
       value: Dragon'sBreathKatanaShopItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6919610254177109997, guid: d023e6c56419e3ba8a7b532f970928a7, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 7866805105696818783, guid: d023e6c56419e3ba8a7b532f970928a7, type: 3}
       propertyPath: m_LocalPosition.x
