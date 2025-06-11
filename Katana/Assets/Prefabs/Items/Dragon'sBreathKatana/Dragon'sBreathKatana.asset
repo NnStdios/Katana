@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a21134f56454c77bc3b9e8b77bf2228, type: 3}
   m_Name: Dragon'sBreathKatana
   m_EditorClassIdentifier: 
-  Name: Dragon's Breath Katana
+  Name: Dragon's Breath
   Price: 0
   UnlockedByDefault: 1
   Material: {fileID: 2100000, guid: 88b8c4c3bb25900028cff5345ce6a98a, type: 2}

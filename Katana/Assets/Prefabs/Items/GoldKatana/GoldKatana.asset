@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a21134f56454c77bc3b9e8b77bf2228, type: 3}
   m_Name: GoldKatana
   m_EditorClassIdentifier: 
-  Name: Gold Katana
+  Name: Gold
   Price: 10000
   UnlockedByDefault: 1
   Material: {fileID: 2100000, guid: e47e234fd9b01bd308f9075a8f49a914, type: 2}
