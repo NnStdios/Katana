@@ -18,8 +18,8 @@ MonoBehaviour:
   animationType: 2
   fixedDuration: 0
   durationPerChar: 2
-  timeBetweenChars: 0.1
-  noDelayForChars: 0
+  timeBetweenChars: 0.25
+  noDelayForChars: 1
   reverseCharOrder: 0
   easingCurve:
     serializedVersion: 2
