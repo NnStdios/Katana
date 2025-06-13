@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f8a5a04a3b145299afb77db9d03c233, type: 3}
-  m_Name: Dragon'sBreathKatanaMoveTL
+  m_Script: {fileID: 11500000, guid: f2676ef4f29b4d6891f834d4489f54da, type: 3}
+  m_Name: GoldKatanaScaleEffect
   m_EditorClassIdentifier: 
   effectTag: 
   startCharIndex: 0
@@ -18,8 +18,8 @@ MonoBehaviour:
   animationType: 2
   fixedDuration: 0
   durationPerChar: 2
-  timeBetweenChars: 0.5
-  noDelayForChars: 1
+  timeBetweenChars: 0.075
+  noDelayForChars: 0
   reverseCharOrder: 0
   easingCurve:
     serializedVersion: 2
@@ -27,25 +27,34 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 0
-      outSlope: 0
+      inSlope: 6.3635545
+      outSlope: 6.3635545
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 0.042857718
+    - serializedVersion: 3
+      time: 0.5
+      value: 1.0026741
+      inSlope: 0.071300775
+      outSlope: -0.1091818
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.29999954
+      outWeight: 0.342857
     - serializedVersion: 3
       time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
+      value: 0.0026855469
+      inSlope: -6.288238
+      outSlope: -6.288238
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0
+      inWeight: 0.047619343
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   clampBetween0And1: 0
   timeType: 0
-  startOffset: {x: -0.01, y: -0.01}
-  endOffset: {x: 0.01, y: 0.01}
+  startScale: 1.25
+  endScale: 1

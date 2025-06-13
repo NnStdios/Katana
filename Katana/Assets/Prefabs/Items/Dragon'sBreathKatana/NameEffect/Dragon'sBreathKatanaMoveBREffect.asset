@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f8a5a04a3b145299afb77db9d03c233, type: 3}
-  m_Name: GalaxyKatanaMove
+  m_Name: Dragon'sBreathKatanaMoveBREffect
   m_EditorClassIdentifier: 
   effectTag: 
   startCharIndex: 0
   charLength: 0
   animationType: 2
   fixedDuration: 0
-  durationPerChar: 2
-  timeBetweenChars: 0.25
+  durationPerChar: 2.5
+  timeBetweenChars: 0.5
   noDelayForChars: 1
   reverseCharOrder: 0
   easingCurve:
