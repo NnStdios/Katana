@@ -16,4 +16,10 @@ MonoBehaviour:
   Price: 250
   UnlockedByDefault: 1
   Material: {fileID: 2100000, guid: fb7f9a9eea0216a4b80ea8aa16942ea9, type: 2}
-  NameTextEffects: []
+  NameTextEffects:
+  - triggerWhen: 0
+    effect: {fileID: 11400000, guid: a44443d1041e661d8843cb891d1c9dd1, type: 2}
+    onEffectCompleted:
+      m_PersistentCalls:
+        m_Calls: []
+    overrideTagEffects: 0
