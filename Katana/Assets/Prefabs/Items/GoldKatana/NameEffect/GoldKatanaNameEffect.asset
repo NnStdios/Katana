@@ -48,5 +48,5 @@ MonoBehaviour:
   clampBetween0And1: 0
   timeType: 0
   effects:
-  - {fileID: 11400000, guid: 40dd8d9d8e92e8d5cb1dd5da5dfcaf8c, type: 2}
   - {fileID: 11400000, guid: d2b159e352be11c71be65580a90e9d20, type: 2}
+  - {fileID: 11400000, guid: 40dd8d9d8e92e8d5cb1dd5da5dfcaf8c, type: 2}
