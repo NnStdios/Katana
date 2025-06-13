@@ -14544,7 +14544,7 @@ GameObject:
   - component: {fileID: 7830467427119774276}
   - component: {fileID: 4988149165308798951}
   - component: {fileID: 8067665879230676271}
-  - component: {fileID: 662414281605346368}
+  - component: {fileID: 2860318108924998370}
   - component: {fileID: 4207201206932212134}
   - component: {fileID: 9118297475109966299}
   - component: {fileID: 1078031833832199306}
@@ -14566,7 +14566,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3006171325932367138}
@@ -14625,8 +14625,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &662414281605346368
-MeshCollider:
+--- !u!135 &2860318108924998370
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -14643,10 +14643,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4711208715938537054, guid: 9ebf478d7ffbac6458efee01b2669653, type: 3}
+  serializedVersion: 3
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &4207201206932212134
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14686,15 +14685,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 705f0c4e22b91fe41b3247f78e29da8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _collider: {fileID: 662414281605346368}
+  _collider: {fileID: 2860318108924998370}
   _rigidbody: {fileID: 4207201206932212134}
   _pointsMask:
     serializedVersion: 2
     m_Bits: 64
   _destroyForce: 25
   _coins: 100
-  _fragmentLayer: 11
-  _fragmentLifetime: 10
+  _fragmentSettings: {fileID: 5543267838222358531, guid: e477ee761296a20f7986b4c86fbf9e0e, type: 3}
   _slice: {fileID: 1078031833832199306}
   _sliceForce: 20
   _fracture: {fileID: 7182325162093764280}

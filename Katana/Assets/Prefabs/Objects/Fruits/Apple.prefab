@@ -9677,7 +9677,7 @@ GameObject:
   - component: {fileID: 8356688655292655994}
   - component: {fileID: 6483252590793462133}
   - component: {fileID: 894956051010080104}
-  - component: {fileID: 5160055474042035708}
+  - component: {fileID: 3626176319086523908}
   - component: {fileID: 8879357509263256632}
   - component: {fileID: 4285087448963019003}
   - component: {fileID: 8328426821523275245}
@@ -9698,8 +9698,8 @@ Transform:
   m_GameObject: {fileID: 2931941142456590181}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 18.04, z: 9.86}
-  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3780264449875566262}
@@ -9758,8 +9758,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5160055474042035708
-MeshCollider:
+--- !u!135 &3626176319086523908
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9776,10 +9776,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -472147775963580301, guid: 350ef89042164ce48be1bb542836448c, type: 3}
+  serializedVersion: 3
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &8879357509263256632
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9819,15 +9818,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 705f0c4e22b91fe41b3247f78e29da8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _collider: {fileID: 5160055474042035708}
+  _collider: {fileID: 3626176319086523908}
   _rigidbody: {fileID: 8879357509263256632}
   _pointsMask:
     serializedVersion: 2
     m_Bits: 64
   _destroyForce: 25
   _coins: 75
-  _fragmentLayer: 11
-  _fragmentLifetime: 10
+  _fragmentSettings: {fileID: 5543267838222358531, guid: e477ee761296a20f7986b4c86fbf9e0e, type: 3}
   _slice: {fileID: 8328426821523275245}
   _sliceForce: 20
   _fracture: {fileID: 4645734170566181358}
