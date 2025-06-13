@@ -9681,6 +9681,7 @@ GameObject:
   - component: {fileID: 8879357509263256632}
   - component: {fileID: 4285087448963019003}
   - component: {fileID: 8328426821523275245}
+  - component: {fileID: 4645734170566181358}
   m_Layer: 9
   m_Name: Apple
   m_TagString: Untagged
@@ -9820,12 +9821,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _collider: {fileID: 5160055474042035708}
   _rigidbody: {fileID: 8879357509263256632}
-  _slice: {fileID: 8328426821523275245}
   _pointsMask:
     serializedVersion: 2
     m_Bits: 64
   _destroyForce: 25
   _coins: 75
+  _fragmentLayer: 11
+  _fragmentLifetime: 10
+  _slice: {fileID: 8328426821523275245}
+  _sliceForce: 20
+  _fracture: {fileID: 4645734170566181358}
+  _fractureForce: 10
   _particles: {fileID: 3780264449875566262}
   _explosionParticles:
   - {fileID: 6276309137972857433}
@@ -9858,6 +9864,46 @@ MonoBehaviour:
     onCompleted:
       m_PersistentCalls:
         m_Calls: []
+--- !u!114 &4645734170566181358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2931941142456590181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91fc9178a0b0c3d4bb8b6d91b16d9893, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerOptions:
+    triggerType: 3
+    minimumCollisionForce: 0
+    filterCollisionsByTag: 0
+    triggerAllowedTags: []
+    triggerKey: 0
+  fractureOptions:
+    fragmentCount: 10
+    xAxis: 1
+    yAxis: 1
+    zAxis: 1
+    detectFloatingFragments: 0
+    asynchronous: 0
+    insideMaterial: {fileID: 2100000, guid: f5b48e16934f13c3c824d211ed264420, type: 2}
+    textureScale: {x: 1, y: 1}
+    textureOffset: {x: 0, y: 0}
+  refractureOptions:
+    enableRefracturing: 0
+    maxRefractureCount: 1
+    invokeCallbacks: 0
+  callbackOptions:
+    onFracture:
+      m_PersistentCalls:
+        m_Calls: []
+    onCompleted:
+      m_PersistentCalls:
+        m_Calls: []
+  currentRefractureCount: 0
 --- !u!1 &3603315590657147124
 GameObject:
   m_ObjectHideFlags: 0

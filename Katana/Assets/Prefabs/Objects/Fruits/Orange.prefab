@@ -14548,6 +14548,7 @@ GameObject:
   - component: {fileID: 4207201206932212134}
   - component: {fileID: 9118297475109966299}
   - component: {fileID: 1078031833832199306}
+  - component: {fileID: 7182325162093764280}
   m_Layer: 9
   m_Name: Orange
   m_TagString: Untagged
@@ -14687,12 +14688,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _collider: {fileID: 662414281605346368}
   _rigidbody: {fileID: 4207201206932212134}
-  _slice: {fileID: 1078031833832199306}
   _pointsMask:
     serializedVersion: 2
     m_Bits: 64
   _destroyForce: 25
   _coins: 100
+  _fragmentLayer: 11
+  _fragmentLifetime: 10
+  _slice: {fileID: 1078031833832199306}
+  _sliceForce: 20
+  _fracture: {fileID: 7182325162093764280}
+  _fractureForce: 10
   _particles: {fileID: 3006171325932367138}
   _explosionParticles:
   - {fileID: 8397802866233750335}
@@ -14725,3 +14731,43 @@ MonoBehaviour:
     onCompleted:
       m_PersistentCalls:
         m_Calls: []
+--- !u!114 &7182325162093764280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6872385393323574660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91fc9178a0b0c3d4bb8b6d91b16d9893, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerOptions:
+    triggerType: 3
+    minimumCollisionForce: 0
+    filterCollisionsByTag: 0
+    triggerAllowedTags: []
+    triggerKey: 0
+  fractureOptions:
+    fragmentCount: 10
+    xAxis: 1
+    yAxis: 1
+    zAxis: 1
+    detectFloatingFragments: 0
+    asynchronous: 0
+    insideMaterial: {fileID: 2100000, guid: 3b0fe23331a765c1488633fff86ea721, type: 2}
+    textureScale: {x: 1, y: 1}
+    textureOffset: {x: 0, y: 0}
+  refractureOptions:
+    enableRefracturing: 0
+    maxRefractureCount: 1
+    invokeCallbacks: 0
+  callbackOptions:
+    onFracture:
+      m_PersistentCalls:
+        m_Calls: []
+    onCompleted:
+      m_PersistentCalls:
+        m_Calls: []
+  currentRefractureCount: 0
