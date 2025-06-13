@@ -9718,8 +9718,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6413691099576323388}
+  - component: {fileID: 1095286721402025833}
   - component: {fileID: 1948522854732417726}
+  - component: {fileID: 2953636282211928054}
+  - component: {fileID: 4320063993747497076}
   - component: {fileID: 4059366278566499076}
+  - component: {fileID: 2638401674502622217}
   m_Layer: 9
   m_Name: Bomb
   m_TagString: Untagged
@@ -9744,6 +9748,28 @@ Transform:
   - {fileID: 6283195202776858674}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1095286721402025833
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6976726557826778181}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -849867405023671905, guid: d15d21f8397432661a959239815a8b59, type: 3}
 --- !u!54 &1948522854732417726
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9771,6 +9797,59 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!33 &2953636282211928054
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6976726557826778181}
+  m_Mesh: {fileID: 0}
+--- !u!23 &4320063993747497076
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6976726557826778181}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &4059366278566499076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9783,12 +9862,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66dd7b4411681fab8867f7b7b810059d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _collider: {fileID: 7109426521805165639}
-  _playerMask:
-    serializedVersion: 2
-    m_Bits: 64
+  _collider: {fileID: 1095286721402025833}
+  _rigidbody: {fileID: 1948522854732417726}
   _destroyForce: 25
-  _radius: 20
+  _fracture: {fileID: 2638401674502622217}
+  _fragmentSettings: {fileID: 5543267838222358531, guid: e477ee761296a20f7986b4c86fbf9e0e, type: 3}
+  _destructibleMask:
+    serializedVersion: 2
+    m_Bits: 2752
+  _explosionRadius: 10
+  _explosionForce: 25
+--- !u!114 &2638401674502622217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6976726557826778181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91fc9178a0b0c3d4bb8b6d91b16d9893, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerOptions:
+    triggerType: 0
+    minimumCollisionForce: 0
+    filterCollisionsByTag: 0
+    triggerAllowedTags: []
+    triggerKey: 0
+  fractureOptions:
+    fragmentCount: 10
+    xAxis: 1
+    yAxis: 1
+    zAxis: 1
+    detectFloatingFragments: 0
+    asynchronous: 0
+    insideMaterial: {fileID: 0}
+    textureScale: {x: 1, y: 1}
+    textureOffset: {x: 0, y: 0}
+  refractureOptions:
+    enableRefracturing: 0
+    maxRefractureCount: 1
+    invokeCallbacks: 0
+  callbackOptions:
+    onFracture:
+      m_PersistentCalls:
+        m_Calls: []
+    onCompleted:
+      m_PersistentCalls:
+        m_Calls: []
+  currentRefractureCount: 0
 --- !u!1 &7527631436477360085
 GameObject:
   m_ObjectHideFlags: 0
@@ -14690,38 +14813,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d15d21f8397432661a959239815a8b59, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7109426521805165639}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d15d21f8397432661a959239815a8b59, type: 3}
---- !u!1 &6920082454153700906 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d15d21f8397432661a959239815a8b59, type: 3}
-  m_PrefabInstance: {fileID: 7838650950053239675}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &7109426521805165639
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6920082454153700906}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -849867405023671905, guid: d15d21f8397432661a959239815a8b59, type: 3}
 --- !u!4 &7728954312781397136 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d15d21f8397432661a959239815a8b59, type: 3}
