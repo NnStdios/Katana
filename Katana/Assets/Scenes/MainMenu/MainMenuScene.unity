@@ -4868,8 +4868,8 @@ ReflectionProbe:
   m_TimeSlicingMode: 0
   m_Resolution: 2048
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 250, y: 30, z: 300}
-  m_BoxOffset: {x: 0, y: 0, z: 0}
+  m_BoxSize: {x: 200, y: 50, z: 200}
+  m_BoxOffset: {x: 0, y: 7.5, z: 0}
   m_NearClip: 0.3
   m_FarClip: 1000
   m_ShadowDistance: 100
@@ -11488,18 +11488,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.11594339
+      value: -0.66087765
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.99325585
+      value: 0.7504937
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 3389981251679080356, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8131798469040687611, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4538440871823483719}
   m_SourcePrefab: {fileID: 100100000, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
+--- !u!1 &4538440871823483718 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8131798469040687611, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
+  m_PrefabInstance: {fileID: 4538440871823483717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4538440871823483719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4538440871823483718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!224 &4558879700386136611
 RectTransform:
   m_ObjectHideFlags: 0

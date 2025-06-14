@@ -16,6 +16,12 @@ PresetManager:
     - m_Preset: {fileID: 2655988077585873504, guid: 6df4766a2b8c2bce4ac33c3c9ba1f30f, type: 2}
       m_Filter: normal
       m_Disabled: 0
+    - m_Preset: {fileID: 2655988077585873504, guid: 5e6017290ef6e9b479341ffa1829a478, type: 2}
+      m_Filter: lightmap
+      m_Disabled: 0
+    - m_Preset: {fileID: 2655988077585873504, guid: 22db42737faefb8e883c5583ec19e5ea, type: 2}
+      m_Filter: relectionprobe
+      m_Disabled: 0
   - first:
       m_NativeTypeID: 1041
       m_ManagedTypePPtr: {fileID: 0}
