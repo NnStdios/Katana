@@ -11486,13 +11486,21 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.z
       value: -3.1479273e-25
       objectReference: {fileID: 0}
+    - target: {fileID: 8120974309414830951, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
+      propertyPath: m_Color.b
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 8120974309414830951, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9019608
+      objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.66087765
+      value: -0.7963841
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7504937
+      value: -0.6047912
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

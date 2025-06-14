@@ -20,7 +20,7 @@ PresetManager:
       m_Filter: lightmap
       m_Disabled: 0
     - m_Preset: {fileID: 2655988077585873504, guid: 22db42737faefb8e883c5583ec19e5ea, type: 2}
-      m_Filter: relectionprobe
+      m_Filter: reflectionprobe
       m_Disabled: 0
   - first:
       m_NativeTypeID: 1041
