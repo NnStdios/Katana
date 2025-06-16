@@ -30,6 +30,8 @@ MonoBehaviour:
       Value: 1
     - Key: Artifice_ValidatorModule_CustomAttributeChecker
       Value: 1
+    - Key: Artifice_ValidatorModule_ScriptableObject
+      Value: 1
   logTypesMap:
     list:
     - Key: 3
