@@ -15,6 +15,12 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-English (en)
   m_GUID: ded053069126e058ea76676c38ef538e
   m_SerializeEntries:
+  - m_GUID: 7937fdc85c378b9349df04127532a4d4
+    m_Address: Katanas_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: bafd3bc0e11c639f382df79a711195e9
     m_Address: MainMenu_en
     m_ReadOnly: 1

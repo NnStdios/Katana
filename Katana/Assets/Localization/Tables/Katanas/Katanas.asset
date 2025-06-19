@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: Katanas
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: bdfa180f17056523fa429777fc3414cf, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 7937fdc85c378b9349df04127532a4d4, type: 2}
+  - {fileID: 11400000, guid: 836480dbc288f16fba9ecfd1adb978f5, type: 2}
+  - {fileID: 11400000, guid: c3f0e8408e83e70e6bc6fe14714beaf7, type: 2}
+  - {fileID: 11400000, guid: 5faf0b228c5969033bcc130d3128bae1, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []
