@@ -20,6 +20,7 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-ru
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 92cfef9f3e2ed8c9fa9680e9f3cd7d29
     m_Address: MainMenu_ru
