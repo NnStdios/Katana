@@ -12,5 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Colosseum/ColosseumScene.unity
     guid: 40e5c99c841d183999e52bf1d98de9c7
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 5fbd7e6662f3ce544b493bed5dee19d6, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: 0c7c4824bdedb952a8da4c3c42fe4c89, type: 2}
   m_UseUCBPForAssetBundles: 0
