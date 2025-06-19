@@ -23,3 +23,15 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     overrideTagEffects: 0
+  LocalizedString:
+    m_TableReference:
+      m_TableCollectionName: GUID:bdfa180f17056523fa429777fc3414cf
+    m_TableEntryReference:
+      m_KeyId: 1089065390080
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

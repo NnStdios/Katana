@@ -167,7 +167,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u20A61000"
+  m_text: "\u20A60"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7e3a2b582d8953d86bec4b14f8207b8f, type: 2}
   m_sharedMaterial: {fileID: -6191239410180305371, guid: 7e3a2b582d8953d86bec4b14f8207b8f, type: 2}
@@ -194,7 +194,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.65
+  m_fontSize: 0.3
   m_fontSizeBase: 0.25
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -250,6 +250,7 @@ GameObject:
   - component: {fileID: 3765100392716706979}
   - component: {fileID: 869773078341784552}
   - component: {fileID: 1346277995252363930}
+  - component: {fileID: 2935099962178763027}
   m_Layer: 0
   m_Name: ItemName
   m_TagString: Untagged
@@ -393,6 +394,46 @@ MonoBehaviour:
   tagEffects: []
   globalEffects: []
   updatesPerSecond: 30
+--- !u!114 &2935099962178763027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3227490214285064127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:bdfa180f17056523fa429777fc3414cf
+    m_TableEntryReference:
+      m_KeyId: 856096968704
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 869773078341784552}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &8221744413866512840
 GameObject:
   m_ObjectHideFlags: 0

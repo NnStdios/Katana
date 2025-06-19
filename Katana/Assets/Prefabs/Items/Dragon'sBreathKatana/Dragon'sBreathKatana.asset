@@ -18,8 +18,20 @@ MonoBehaviour:
   Material: {fileID: 2100000, guid: 88b8c4c3bb25900028cff5345ce6a98a, type: 2}
   NameTextEffects:
   - triggerWhen: 0
-    effect: {fileID: 11400000, guid: f584dd22e44d2dda6bc0dda7bfedcbe1, type: 2}
+    effect: {fileID: 11400000, guid: 76cfeb3cab36a3e04a8aff8965447cb1, type: 2}
     onEffectCompleted:
       m_PersistentCalls:
         m_Calls: []
     overrideTagEffects: 0
+  LocalizedString:
+    m_TableReference:
+      m_TableCollectionName: GUID:bdfa180f17056523fa429777fc3414cf
+    m_TableEntryReference:
+      m_KeyId: 1112452829184
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

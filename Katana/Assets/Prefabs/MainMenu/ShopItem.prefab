@@ -399,17 +399,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1346277995252363930, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
+      propertyPath: globalEffects.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346277995252363930, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
+      propertyPath: globalEffects.Array.data[0].effect
+      value: 
+      objectReference: {fileID: 11400000, guid: 91747143a81ec570081a087a3126924f, type: 2}
     - target: {fileID: 1982876562308595288, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
       propertyPath: m_Name
       value: ShopItemUI
-      objectReference: {fileID: 0}
-    - target: {fileID: 3567486576399479676, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
-      propertyPath: m_text
-      value: "\u20A60"
-      objectReference: {fileID: 0}
-    - target: {fileID: 3567486576399479676, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
-      propertyPath: m_fontSize
-      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4634713793486638018, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
       propertyPath: m_LocalScale.x

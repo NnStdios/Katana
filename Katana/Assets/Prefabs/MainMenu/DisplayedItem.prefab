@@ -236,6 +236,7 @@ GameObject:
   - component: {fileID: 5443113771383300038}
   - component: {fileID: 7117056643015533975}
   - component: {fileID: 8811634293023608563}
+  - component: {fileID: 8580474614308086130}
   m_Layer: 0
   m_Name: Name
   m_TagString: Untagged
@@ -379,6 +380,34 @@ MonoBehaviour:
   tagEffects: []
   globalEffects: []
   updatesPerSecond: 30
+--- !u!114 &8580474614308086130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653753712893482651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1735689764739075105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1010,6 +1039,7 @@ MonoBehaviour:
   _katana: {fileID: 181495110005541054}
   _nameTMP: {fileID: 7117056643015533975}
   _nameEffect: {fileID: 8811634293023608563}
+  _nameLocalizeStringEvent: {fileID: 0}
   _coinsTMP: {fileID: 869374209966454187}
 --- !u!1 &8131798469040687611
 GameObject:
