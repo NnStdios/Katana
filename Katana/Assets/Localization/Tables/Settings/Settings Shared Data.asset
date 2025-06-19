@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Settings Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Settings
+  m_TableCollectionNameGuidString: 5c842220a76282d9dbc0412ef50cf5d6
+  m_Entries:
+  - m_Id: 21642987900928
+    m_Key: Graphics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22491579486208
+    m_Key: "Audio\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23094279999488
+    m_Key: Input
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46985270464512
+    m_Key: Depth Of Field
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48743447203840
+    m_Key: Motion Blur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54021525803008
+    m_Key: Perspective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54644061179904
+    m_Key: First Person
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55073759236096
+    m_Key: Third Person
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55576895361024
+    m_Key: Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56102194188288
+    m_Key: Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71216309932032
+    m_Key: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72254060433408
+    m_Key: SFX
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72679736152064
+    m_Key: Music
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3230855976367685632
+  references:
+    version: 2
+    RefIds:
+    - rid: 3230855976367685632
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1750296694449

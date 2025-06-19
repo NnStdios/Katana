@@ -169,8 +169,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u20A61000"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8405f42ccc0b42c6fa53554c0ce34a80, type: 2}
-  m_sharedMaterial: {fileID: 3041660229554477734, guid: 8405f42ccc0b42c6fa53554c0ce34a80, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7e3a2b582d8953d86bec4b14f8207b8f, type: 2}
+  m_sharedMaterial: {fileID: -6191239410180305371, guid: 7e3a2b582d8953d86bec4b14f8207b8f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -306,8 +306,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Item Name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8405f42ccc0b42c6fa53554c0ce34a80, type: 2}
-  m_sharedMaterial: {fileID: 3041660229554477734, guid: 8405f42ccc0b42c6fa53554c0ce34a80, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7e3a2b582d8953d86bec4b14f8207b8f, type: 2}
+  m_sharedMaterial: {fileID: -6191239410180305371, guid: 7e3a2b582d8953d86bec4b14f8207b8f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

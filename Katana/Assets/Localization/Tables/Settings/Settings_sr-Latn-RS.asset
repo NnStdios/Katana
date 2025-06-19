@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Settings_sr-Latn-RS
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: sr-Latn-RS
+  m_SharedData: {fileID: 11400000, guid: 5c842220a76282d9dbc0412ef50cf5d6, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 21642987900928
+    m_Localized: Grafike
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22491579486208
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23094279999488
+    m_Localized: Unos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46985270464512
+    m_Localized: Dubina Polja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48743447203840
+    m_Localized: "Zamu\u0107enje Pokreta"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54021525803008
+    m_Localized: Perspektiva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54644061179904
+    m_Localized: Prvo Lice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55073759236096
+    m_Localized: "Tre\u0107e Lice"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55576895361024
+    m_Localized: Desna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56102194188288
+    m_Localized: Levo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71216309932032
+    m_Localized: "Glasno\u0107a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72254060433408
+    m_Localized: Efekti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72679736152064
+    m_Localized: Muzika
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
