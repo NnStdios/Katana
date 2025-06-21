@@ -54,6 +54,8 @@ ShaderVariantCollection:
         passType: 0
       - keywords: COLOR_FILTER EDGE_PLAIN
         passType: 0
+      - keywords: DETAIL_MASKING
+        passType: 0
       - keywords: DETAIL_MULTIPLY
         passType: 0
       - keywords: EDGE_PLAIN
