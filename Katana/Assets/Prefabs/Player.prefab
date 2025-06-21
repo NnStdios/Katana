@@ -183,7 +183,7 @@ MonoBehaviour:
       Easing: 0
     - TimeScale: 0.25
       Time: 1
-      Easing: 10
+      Easing: 8
   _dodgeForce: 50
   _dodgeTimeScale:
     Keys:
@@ -192,7 +192,7 @@ MonoBehaviour:
       Easing: 0
     - TimeScale: 0.25
       Time: 1
-      Easing: 10
+      Easing: 8
   _flipForce: {x: 20, y: 25}
   _flipRotation: 10
   _flipTimeScale:
@@ -202,10 +202,10 @@ MonoBehaviour:
       Easing: 0
     - TimeScale: 0.25
       Time: 1
-      Easing: 10
+      Easing: 8
   _stickMask:
     serializedVersion: 2
-    m_Bits: 385
+    m_Bits: 1409
   _minStickVelocity: 25
   _maxStickAngle: 45
   _deathTimeScale:

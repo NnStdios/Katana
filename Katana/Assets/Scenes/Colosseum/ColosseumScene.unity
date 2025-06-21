@@ -119,6 +119,20 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &19675721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: Player/Perspective
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_ActionId: a5785041-6967-4da2-9b87-39cf43cca48e
 --- !u!1 &24345332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1437,6 +1451,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 481012974}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &800662037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: Player/Flip
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_ActionId: 94823098-60fc-41b2-9503-38a9d01ac936
 --- !u!4 &805802571 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6100109698983717187, guid: bd003a7e86f0f6d75ad747c389d4196b, type: 3}
@@ -3291,6 +3319,20 @@ VisualEffect:
       m_Array: []
     m_Bool:
       m_Array: []
+--- !u!114 &1602955780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: Player/Dash
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_ActionId: b9787e2b-6c5f-4890-996b-00eff6a1a28d
 --- !u!1 &1631219073
 GameObject:
   m_ObjectHideFlags: 0
@@ -4199,6 +4241,20 @@ Transform:
   - {fileID: 842748354}
   m_Father: {fileID: 1133896610}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2016027814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: Player/Dodge
+  m_EditorClassIdentifier: 
+  m_Asset: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_ActionId: 85e3ac6d-024c-44ce-9656-5ac62750d73f
 --- !u!1001 &2060409062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4832,20 +4888,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1653048413}
     - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _stickMask.m_Bits
-      value: 1409
+      propertyPath: _dashAction.m_Name
+      value: Dash
       objectReference: {fileID: 0}
     - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _dashTimeScale.Keys.Array.data[1].Easing
-      value: 8
+      propertyPath: _flipAction.m_Name
+      value: Flip
       objectReference: {fileID: 0}
     - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _flipTimeScale.Keys.Array.data[1].Easing
-      value: 8
+      propertyPath: _dodgeAction.m_Name
+      value: Dodge
       objectReference: {fileID: 0}
     - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _dodgeTimeScale.Keys.Array.data[1].Easing
-      value: 8
+      propertyPath: _perspectiveAction.m_Name
+      value: Perspective
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
