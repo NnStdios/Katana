@@ -74,6 +74,10 @@ MonoBehaviour:
     m_Localized: Jezik
     m_Metadata:
       m_Items: []
+  - m_Id: 723736422191104
+    m_Localized: Resetuj
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

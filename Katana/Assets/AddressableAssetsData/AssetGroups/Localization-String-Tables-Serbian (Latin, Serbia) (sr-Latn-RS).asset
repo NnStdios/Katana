@@ -36,6 +36,12 @@ MonoBehaviour:
     - Locale-sr-Latn-RS
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2ea7c578898c07308020beccf086a49
+    m_Address: Actions_sr-Latn-RS
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-sr-Latn-RS
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 140cf8a8ed88c89a899410f09b30f2cb, type: 2}
   m_SchemaSet:

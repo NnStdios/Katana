@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Actions_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 1b75b0a67b8963586a02e5552196ff56, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6519721984
+    m_Localized: Flip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11116679168
+    m_Localized: Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13540986880
+    m_Localized: Dodge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17039036416
+    m_Localized: Perspective
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

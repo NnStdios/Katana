@@ -22,6 +22,12 @@ MonoBehaviour:
     - Locale-sr-Cyrl
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 929c48e48341c0a3b9af1e6faa879d63
+    m_Address: Actions_sr-Cyrl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-sr-Cyrl
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: aee127833b10a0fe9bec71484b02065e
     m_Address: Settings_sr-Cyrl
     m_ReadOnly: 1
