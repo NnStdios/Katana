@@ -42,6 +42,12 @@ MonoBehaviour:
     - Locale-sr-Cyrl
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ceaa983011a0dbceba4644e9f55aed66
+    m_Address: Colosseum_sr-Cyrl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-sr-Cyrl
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 140cf8a8ed88c89a899410f09b30f2cb, type: 2}
   m_SchemaSet:

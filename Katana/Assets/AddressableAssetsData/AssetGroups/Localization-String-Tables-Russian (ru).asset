@@ -15,6 +15,12 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Russian (ru)
   m_GUID: 7f41b613d70d0662c95462e24c504aad
   m_SerializeEntries:
+  - m_GUID: 318828db817d49194906e9a95b7c78b9
+    m_Address: Colosseum_ru
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ru
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5faf0b228c5969033bcc130d3128bae1
     m_Address: Katanas_ru
     m_ReadOnly: 1

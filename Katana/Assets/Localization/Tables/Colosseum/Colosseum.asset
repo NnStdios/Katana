@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: Colosseum
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: dd3223439a56eaa5795194f2d0e95090, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 567c235985ac3c9caa8399991b0b7a22, type: 2}
+  - {fileID: 11400000, guid: 6a1ef4029dc216d509bbcfd806f2c80c, type: 2}
+  - {fileID: 11400000, guid: ceaa983011a0dbceba4644e9f55aed66, type: 2}
+  - {fileID: 11400000, guid: 318828db817d49194906e9a95b7c78b9, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

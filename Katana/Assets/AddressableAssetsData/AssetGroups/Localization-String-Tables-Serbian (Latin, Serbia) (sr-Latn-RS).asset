@@ -15,6 +15,12 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Serbian (Latin, Serbia) (sr-Latn-RS)
   m_GUID: a05971f875607115eb5c94d2f78c8aec
   m_SerializeEntries:
+  - m_GUID: 6a1ef4029dc216d509bbcfd806f2c80c
+    m_Address: Colosseum_sr-Latn-RS
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-sr-Latn-RS
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 77c44edd956b120569a33fe38a5cf46b
     m_Address: MainMenu_sr-Latn-RS
     m_ReadOnly: 1
