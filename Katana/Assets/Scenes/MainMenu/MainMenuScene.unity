@@ -10780,8 +10780,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1927798350}
   - component: {fileID: 1927798353}
-  - component: {fileID: 1927798352}
   - component: {fileID: 1927798354}
+  - component: {fileID: 1927798352}
   m_Layer: 0
   m_Name: PlayButton
   m_TagString: Untagged
@@ -14432,11 +14432,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.095759034
+      value: -0.24797033
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.9954046
+      value: 0.96876764
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
