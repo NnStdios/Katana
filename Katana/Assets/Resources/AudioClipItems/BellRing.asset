@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: BellRing
   m_EditorClassIdentifier: 
   Name: Bell
-  Clip: {fileID: 8300000, guid: c3df1461956bacf3a89c77c8385eaec7, type: 3}
+  Resource: {fileID: 8300000, guid: c3df1461956bacf3a89c77c8385eaec7, type: 3}
