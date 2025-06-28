@@ -11038,62 +11038,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5717465613178721516, guid: b991f95f8dad44a93909a53fe9eeb8c8, type: 3}
   m_PrefabInstance: {fileID: 1954572412}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2003725090
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2003725092}
-  - component: {fileID: 2003725093}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2003725092
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2003725090}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2003725093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2003725090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eae2a142ca123152f89a0f7651e48d23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Item:
-    ClipAssignmentType: 3
-    ClipItem: {fileID: 0}
-    Clip: {fileID: 8300000, guid: c3df1461956bacf3a89c77c8385eaec7, type: 3}
-    ClipName: 
-    MixerGroup: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
-    Type: 1
-    Position: {x: 0, y: 0, z: 0}
-    AssignTargetAtRuntime: 1
-    Target: {fileID: 0}
-    UseSettingsPreset: 0
-    SettingsPreset: {fileID: 0}
 --- !u!1001 &2004149630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14488,11 +14432,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.093987405
+      value: -0.30432028
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.9955734
+      value: -0.9525698
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
@@ -17879,4 +17823,3 @@ SceneRoots:
   - {fileID: 1646565329}
   - {fileID: 1736255787}
   - {fileID: 160561935}
-  - {fileID: 2003725092}

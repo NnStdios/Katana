@@ -12,3 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75127520be2643ee96686f0baf74a0de, type: 3}
   m_Name: AudioItemSettingsPreset
   m_EditorClassIdentifier: 
+  Settings:
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    Loop: 0
+    Priority: 128
+    Volume: {x: 1, y: 1}
+    Pitch: {x: 1, y: 1}
+    StereoPan: {x: 0, y: 0}
+    SpatialBlendRange: {x: 0, y: 0}
+    ReverbZoneMixRange: {x: 1, y: 1}
+    DopplerLevelRange: {x: 1, y: 1}
+    SpreadRange: {x: 0, y: 0}
+    RolloffMode: 0
+    DistanceRange: {x: 0, y: 500}

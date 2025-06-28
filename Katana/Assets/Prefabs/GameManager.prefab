@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5628954683069759738}
   - component: {fileID: 3653763213422082960}
   - component: {fileID: 389705453610516225}
+  - component: {fileID: 8975196864383009302}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -49,6 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _settingsManager: {fileID: 389705453610516225}
   _timeScaleManager: {fileID: 5628954683069759738}
+  _audioManager: {fileID: 8975196864383009302}
   _itemManager: {fileID: 3653763213422082960}
 --- !u!114 &5628954683069759738
 MonoBehaviour:
@@ -96,9 +98,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fabaf466d2d068bd2ae4809bb57cb62c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsRebinding: 0
   _dofProfile: {fileID: 11400000, guid: 938587e53954a523193178966c78029a, type: 2}
   _menuDOFProfile: {fileID: 11400000, guid: c79c608b773d05460a47c1615f3713eb, type: 2}
   _motionBlurProfile: {fileID: 11400000, guid: 09927a804cb3f1171af33436b439b7b6, type: 2}
   _master: {fileID: 24300002, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
   _sfx: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
   _music: {fileID: -2359160903320283803, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
+--- !u!114 &8975196864383009302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3814498220043547093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae2a142ca123152f89a0f7651e48d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
