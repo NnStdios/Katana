@@ -96,32 +96,33 @@ MonoBehaviour:
   _ringAudioItem:
     ResourceAssignmentType: 0
     AudioResourceItem: {fileID: 11400000, guid: fbe2ee1b02d397648b4052ee682c0d3f, type: 2}
-    Resource: {fileID: 0}
-    ResourceName: 
+    AudioResource: {fileID: 0}
+    AudioResourceName: 
     MixerGroup: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
     SourceType: 0
+    PlayOnAwake: 1
     DestroySourceOnFinished: 0
     DestroyTargetOnFinished: 0
     Position: {x: 0, y: 0, z: 0}
     AssignTargetAtRuntime: 0
     Target: {fileID: 0}
-    UseSettingsPreset: 0
-    Settings:
+    UseItemSettingsPreset: 0
+    ItemSettings:
       BypassEffects: 0
       BypassListenerEffects: 0
       BypassReverbZones: 0
       Loop: 0
       Priority: 128
-      Volume: {x: 1, y: 1}
-      Pitch: {x: 1, y: 1}
-      StereoPan: {x: 0, y: 0}
-      SpatialBlendRange: {x: 0, y: 0}
-      ReverbZoneMixRange: {x: 1, y: 1}
-      DopplerLevelRange: {x: 1, y: 1}
+      Volume: {x: 0.8, y: 1}
+      Pitch: {x: 0.98, y: 1.02}
+      StereoPan: {x: -0.25, y: 0.5}
+      SpatialBlendRange: {x: 0.5, y: 0.75}
+      ReverbZoneMixRange: {x: 0.9, y: 1.1}
+      DopplerLevelRange: {x: 1, y: 5}
       SpreadRange: {x: 0, y: 0}
       RolloffMode: 0
       DistanceRange: {x: 1, y: 500}
-    SettingsPreset: {fileID: 0}
+    ItemSettingsPreset: {fileID: 0}
 --- !u!114 &6968112742701143146
 MonoBehaviour:
   m_ObjectHideFlags: 0
