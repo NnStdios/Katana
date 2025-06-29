@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1865809923337824484}
   - component: {fileID: 1767376430702613360}
   - component: {fileID: 271469813451294476}
-  - component: {fileID: 1863058783585143995}
   - component: {fileID: 6968112742701143146}
+  - component: {fileID: 9125297711497244095}
   m_Layer: 0
   m_Name: Bell
   m_TagString: Untagged
@@ -80,49 +80,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8535160913856711875, guid: f89c5aa12a4589a41ac987c71d4d5ec8, type: 3}
---- !u!114 &1863058783585143995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2366264451381462704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0247c3d08b3b4c42a072fa1a632be52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animator: {fileID: 2088146016796315969}
-  _ringAudioItem:
-    ResourceAssignmentType: 0
-    AudioResourceItem: {fileID: 11400000, guid: fbe2ee1b02d397648b4052ee682c0d3f, type: 2}
-    AudioResource: {fileID: 0}
-    AudioResourceName: 
-    MixerGroup: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
-    SourceType: 0
-    PlayOnAwake: 0
-    DestroySourceOnFinished: 0
-    DestroyTargetOnFinished: 0
-    Position: {x: 0, y: 0, z: 0}
-    AssignTargetAtRuntime: 0
-    Target: {fileID: 0}
-    UseItemSettingsPreset: 0
-    ItemSettings:
-      BypassEffects: 0
-      BypassListenerEffects: 0
-      BypassReverbZones: 0
-      Loop: 0
-      Priority: 128
-      Volume: {x: 0.8, y: 1}
-      Pitch: {x: 0.98, y: 1.02}
-      StereoPan: {x: -0.25, y: 0.5}
-      SpatialBlendRange: {x: 0.5, y: 0.75}
-      ReverbZoneMixRange: {x: 0.9, y: 1.1}
-      DopplerLevelRange: {x: 1, y: 5}
-      SpreadRange: {x: 0, y: 0}
-      RolloffMode: 0
-      DistanceRange: {x: 1, y: 500}
-    ItemSettingsPreset: {fileID: 0}
 --- !u!114 &6968112742701143146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,7 +97,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1863058783585143995}
+        - m_Target: {fileID: 9125297711497244095}
           m_TargetAssemblyTypeName: Assets.Scripts.MainMenu.BellScript, Scripts
           m_MethodName: Ring
           m_Mode: 1
@@ -152,6 +109,65 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &9125297711497244095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2366264451381462704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0247c3d08b3b4c42a072fa1a632be52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  set:
+    BypassEffects: 0
+    BypassListenerEffects: 0
+    BypassReverbZones: 0
+    Loop: 0
+    Priority: 0
+    VolumeRange: {x: 0, y: 0}
+    PitchRange: {x: 0, y: 0}
+    StereoPanRange: {x: 0, y: 0}
+    SpatialBlendRange: {x: 0, y: 0}
+    ReverbZoneMixRange: {x: 0, y: 0}
+    DopplerLevelRange: {x: 0, y: 0}
+    SpreadRange: {x: 0, y: 0}
+    RolloffMode: 0
+    DistanceRange: {x: 0, y: 0}
+  _animator: {fileID: 2088146016796315969}
+  _ringAudioItem:
+    ResourceAssignmentType: 0
+    AudioResourceItem: {fileID: 11400000, guid: fbe2ee1b02d397648b4052ee682c0d3f, type: 2}
+    AudioResource: {fileID: 0}
+    AudioResourceName: 
+    MixerGroup: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
+    SourceType: 0
+    ReuseSource: 1
+    PlayOnAwake: 0
+    DestroySourceOnFinished: 0
+    DestroyTargetOnFinished: 0
+    Position: {x: 0, y: 0, z: 0}
+    AssignTargetAtRuntime: 0
+    Target: {fileID: 0}
+    UseItemSettingsPreset: 0
+    ItemSettings:
+      BypassEffects: 0
+      BypassListenerEffects: 0
+      BypassReverbZones: 0
+      Loop: 0
+      Priority: 0
+      VolumeRange: {x: 0.9, y: 1}
+      PitchRange: {x: 0.98, y: 1.02}
+      StereoPanRange: {x: 0.1, y: 0.25}
+      SpatialBlendRange: {x: 0.5, y: 0.75}
+      ReverbZoneMixRange: {x: 0.9, y: 1.1}
+      DopplerLevelRange: {x: 0, y: 1}
+      SpreadRange: {x: 120, y: 240}
+      RolloffMode: 0
+      DistanceRange: {x: 1, y: 500}
+    ItemSettingsPreset: {fileID: 0}
 --- !u!1001 &7534885393350042893
 PrefabInstance:
   m_ObjectHideFlags: 0
