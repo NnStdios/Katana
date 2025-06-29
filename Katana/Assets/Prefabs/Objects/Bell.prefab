@@ -121,36 +121,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0247c3d08b3b4c42a072fa1a632be52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  set:
-    BypassEffects: 0
-    BypassListenerEffects: 0
-    BypassReverbZones: 0
-    Loop: 0
-    Priority: 0
-    VolumeRange: {x: 0, y: 0}
-    PitchRange: {x: 0, y: 0}
-    StereoPanRange: {x: 0, y: 0}
-    SpatialBlendRange: {x: 0, y: 0}
-    ReverbZoneMixRange: {x: 0, y: 0}
-    DopplerLevelRange: {x: 0, y: 0}
-    SpreadRange: {x: 0, y: 0}
-    RolloffMode: 0
-    DistanceRange: {x: 0, y: 0}
   _animator: {fileID: 2088146016796315969}
   _ringAudioItem:
     ResourceAssignmentType: 0
     AudioResourceItem: {fileID: 11400000, guid: fbe2ee1b02d397648b4052ee682c0d3f, type: 2}
-    AudioResource: {fileID: 0}
+    AudioResource: {fileID: 8300000, guid: c3df1461956bacf3a89c77c8385eaec7, type: 3}
     AudioResourceName: 
+    OverrideMixerGroup: 1
     MixerGroup: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
-    SourceType: 0
+    SourceType: 2
     ReuseSource: 1
+    OverridePlayOnAwake: 0
     PlayOnAwake: 0
     DestroySourceOnFinished: 0
     DestroyTargetOnFinished: 0
     Position: {x: 0, y: 0, z: 0}
     AssignTargetAtRuntime: 0
-    Target: {fileID: 0}
+    Target: {fileID: 2366264451381462704}
+    OverrideSettings: 1
     UseItemSettingsPreset: 0
     ItemSettings:
       BypassEffects: 0
@@ -167,7 +155,7 @@ MonoBehaviour:
       SpreadRange: {x: 120, y: 240}
       RolloffMode: 0
       DistanceRange: {x: 1, y: 500}
-    ItemSettingsPreset: {fileID: 0}
+    ItemSettingsPreset: {fileID: 11400000, guid: c943de62746b4896090bac4aa428c89f, type: 2}
 --- !u!1001 &7534885393350042893
 PrefabInstance:
   m_ObjectHideFlags: 0

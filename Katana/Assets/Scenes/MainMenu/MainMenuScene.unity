@@ -5676,11 +5676,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7e52134ec376ab70ea639b7852460f52, type: 3}
   m_PrefabInstance: {fileID: 1141513972}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1149918104 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2366264451381462704, guid: 55799ab160637312690832850335746b, type: 3}
-  m_PrefabInstance: {fileID: 5251914145213998866}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1162330327
 GameObject:
   m_ObjectHideFlags: 0
@@ -14566,11 +14561,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9227661
+      value: 0.79550743
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.38536078
+      value: -0.60594386
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
@@ -15243,14 +15238,6 @@ PrefabInstance:
     - target: {fileID: 2366264451381462704, guid: 55799ab160637312690832850335746b, type: 3}
       propertyPath: m_Name
       value: Bell
-      objectReference: {fileID: 0}
-    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
-      propertyPath: _ringAudioItem.Target
-      value: 
-      objectReference: {fileID: 1149918104}
-    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
-      propertyPath: _ringAudioItem.SourceType
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
