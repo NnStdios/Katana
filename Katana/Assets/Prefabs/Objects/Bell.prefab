@@ -138,7 +138,7 @@ MonoBehaviour:
     Position: {x: 0, y: 0, z: 0}
     AssignTargetAtRuntime: 0
     Target: {fileID: 2366264451381462704}
-    OverrideSettings: 1
+    OverrideSettings: 0
     UseItemSettingsPreset: 1
     ItemSettings:
       OverrideBypassEffects: 0

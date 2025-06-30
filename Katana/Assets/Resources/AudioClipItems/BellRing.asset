@@ -12,5 +12,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ab6a93c62c43a8beed8d6911ad406b, type: 3}
   m_Name: BellRing
   m_EditorClassIdentifier: 
-  Name: Bell
+  Name: BellRing
   Resource: {fileID: 8300000, guid: c3df1461956bacf3a89c77c8385eaec7, type: 3}
+  PlayOnAwake: 1
+  MixerGroup: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
+  SourceType: 0
+  Position: {x: 0, y: 0, z: 0}
+  OverrideSettings: 1
+  UseItemSettingsPreset: 1
+  ItemSettings:
+    OverrideBypassEffects: 0
+    BypassEffects: 0
+    OverrideBypassListenerEffects: 0
+    BypassListenerEffects: 0
+    OverrideBypassReverbZones: 0
+    BypassReverbZones: 0
+    OverrideLoop: 0
+    Loop: 0
+    OverridePriority: 0
+    Priority: 128
+    OverrideVolume: 0
+    VolumeRange: {x: 1, y: 1}
+    OverridePitch: 0
+    PitchRange: {x: 1, y: 1}
+    OverrideStereoPan: 0
+    StereoPanRange: {x: 0, y: 0}
+    OverrideSpatialBlend: 0
+    SpatialBlendRange: {x: 0, y: 0}
+    OverrideReverbZoneMix: 0
+    ReverbZoneMixRange: {x: 1, y: 1}
+    OverrideDopplerLevel: 0
+    DopplerLevelRange: {x: 1, y: 1}
+    OverrideSpread: 0
+    SpreadRange: {x: 0, y: 0}
+    OverrideRolloffMode: 0
+    RolloffMode: 0
+    OverrideDistanceRange: 0
+    DistanceRange: {x: 1, y: 500}
+  ItemSettingsPreset: {fileID: 11400000, guid: 0c7f3c2d84ce52d4e99ac9224897e7a4, type: 2}
