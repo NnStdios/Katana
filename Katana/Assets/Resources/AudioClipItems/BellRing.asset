@@ -71,7 +71,7 @@ MonoBehaviour:
       Enabled: 0
       Level: 0.5
     Echo:
-      Enabled: 1
+      Enabled: 0
       Delay: 298
       DecayRatio: 0.533
       DryMix: 1
