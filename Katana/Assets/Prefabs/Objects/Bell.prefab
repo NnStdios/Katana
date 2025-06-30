@@ -171,6 +171,13 @@ MonoBehaviour:
       OverrideDistanceRange: 0
       DistanceRange: {x: 1, y: 500}
     ItemSettingsPreset: {fileID: 11400000, guid: 0c7f3c2d84ce52d4e99ac9224897e7a4, type: 2}
+    AudioEffects:
+      FadeIn: 1
+      FadeInTime: 0
+      FadeInEasing: 0
+      FadeOut: 1
+      FadeOutTime: 0
+      FadeOutEasing: 0
 --- !u!1001 &7534885393350042893
 PrefabInstance:
   m_ObjectHideFlags: 0

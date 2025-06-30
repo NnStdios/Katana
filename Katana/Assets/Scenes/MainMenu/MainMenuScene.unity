@@ -5093,6 +5093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1111006981}
   - component: {fileID: 1111006980}
+  - component: {fileID: 1111006982}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -5212,6 +5213,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!166 &1111006982
+AudioChorusFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111006979}
+  m_Enabled: 1
+  m_DryMix: 0.39
+  m_WetMix1: 1
+  m_WetMix2: 0
+  m_WetMix3: 1
+  m_Delay: 100
+  m_Rate: 20
+  m_Depth: 1
 --- !u!1001 &1115271791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14561,11 +14577,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.9303794
+      value: 0.65775746
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.3665982
+      value: 0.7532298
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
@@ -15238,6 +15254,10 @@ PrefabInstance:
     - target: {fileID: 2366264451381462704, guid: 55799ab160637312690832850335746b, type: 3}
       propertyPath: m_Name
       value: Bell
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: _ringAudioItem.AudioEffects.Chorus
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
