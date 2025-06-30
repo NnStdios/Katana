@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: BellRing
   Resource: {fileID: 8300000, guid: c3df1461956bacf3a89c77c8385eaec7, type: 3}
-  PlayOnAwake: 1
+  PlayOnAwake: 0
   MixerGroup: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
   SourceType: 0
   Position: {x: 0, y: 0, z: 0}
