@@ -139,23 +139,37 @@ MonoBehaviour:
     AssignTargetAtRuntime: 0
     Target: {fileID: 2366264451381462704}
     OverrideSettings: 1
-    UseItemSettingsPreset: 0
+    UseItemSettingsPreset: 1
     ItemSettings:
+      OverrideBypassEffects: 0
       BypassEffects: 0
+      OverrideBypassListenerEffects: 0
       BypassListenerEffects: 0
+      OverrideBypassReverbZones: 0
       BypassReverbZones: 0
+      OverrideLoop: 0
       Loop: 0
-      Priority: 0
+      OverridePriority: 1
+      Priority: 128
+      OverrideVolume: 0
       VolumeRange: {x: 0.9, y: 1}
+      OverridePitch: 0
       PitchRange: {x: 0.98, y: 1.02}
+      OverrideStereoPan: 0
       StereoPanRange: {x: 0.1, y: 0.25}
+      OverrideSpatialBlend: 0
       SpatialBlendRange: {x: 0.5, y: 0.75}
+      OverrideReverbZoneMix: 0
       ReverbZoneMixRange: {x: 0.9, y: 1.1}
+      OverrideDopplerLevel: 0
       DopplerLevelRange: {x: 0, y: 1}
+      OverrideSpread: 0
       SpreadRange: {x: 120, y: 240}
+      OverrideRolloffMode: 0
       RolloffMode: 0
+      OverrideDistanceRange: 0
       DistanceRange: {x: 1, y: 500}
-    ItemSettingsPreset: {fileID: 11400000, guid: c943de62746b4896090bac4aa428c89f, type: 2}
+    ItemSettingsPreset: {fileID: 11400000, guid: 0c7f3c2d84ce52d4e99ac9224897e7a4, type: 2}
 --- !u!1001 &7534885393350042893
 PrefabInstance:
   m_ObjectHideFlags: 0
