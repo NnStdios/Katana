@@ -5094,6 +5094,7 @@ GameObject:
   - component: {fileID: 1111006981}
   - component: {fileID: 1111006980}
   - component: {fileID: 1111006982}
+  - component: {fileID: 1111006983}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -5221,13 +5222,22 @@ AudioChorusFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111006979}
   m_Enabled: 1
-  m_DryMix: 0.39
-  m_WetMix1: 1
-  m_WetMix2: 0
-  m_WetMix3: 1
-  m_Delay: 100
-  m_Rate: 20
-  m_Depth: 1
+  m_DryMix: 0.5
+  m_WetMix1: 0.5
+  m_WetMix2: 0.5
+  m_WetMix3: 0.5
+  m_Delay: 40
+  m_Rate: 0.8
+  m_Depth: 0.03
+--- !u!170 &1111006983
+AudioDistortionFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111006979}
+  m_Enabled: 1
+  m_DistortionLevel: 0.5
 --- !u!1001 &1115271791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14577,11 +14587,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.37935767
+      value: -0.9968497
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.9252502
+      value: -0.07931349
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
