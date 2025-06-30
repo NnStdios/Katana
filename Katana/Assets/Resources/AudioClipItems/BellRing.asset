@@ -71,11 +71,11 @@ MonoBehaviour:
       Enabled: 0
       Level: 0.5
     Echo:
-      Enabled: 0
-      Delay: 298
-      DecayRatio: 0.533
+      Enabled: 1
+      Delay: 353
+      DecayRatio: 0.347
       DryMix: 1
-      WetMix: 0.058
+      WetMix: 0.026
     HighPass:
       Enabled: 0
       HighPassCutoffFrequency: 5000
