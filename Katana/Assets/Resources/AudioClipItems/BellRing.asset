@@ -52,10 +52,12 @@ MonoBehaviour:
   SettingsPreset: {fileID: 11400000, guid: 0c7f3c2d84ce52d4e99ac9224897e7a4, type: 2}
   UseEffectsPreset: 0
   AudioEffects:
-    FadeIn: 0
+    OverrideFadeIn: 1
+    FadeIn: 1
     FadeInTime: 0
     FadeInEasing: 0
-    FadeOut: 0
+    OverrideFadeOut: 1
+    FadeOut: 1
     FadeOutTime: 0
     FadeOutEasing: 0
     Chorus:

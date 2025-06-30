@@ -138,6 +138,14 @@ MonoBehaviour:
     Position: {x: 0, y: 0, z: 0}
     AssignTargetAtRuntime: 0
     Target: {fileID: 2366264451381462704}
+    OverrideFadeIn: 0
+    FadeIn: 0
+    FadeInTime: 0
+    FadeInEasing: 0
+    OverrideFadeOut: 0
+    FadeOut: 0
+    FadeOutTime: 0
+    FadeOutEasing: 0
     OverrideSettings: 1
     ReloadSettingsEveryPlay: 1
     UseSettingsPreset: 1
@@ -174,33 +182,49 @@ MonoBehaviour:
     OverrideEffects: 0
     UseEffectsPreset: 0
     AudioEffects:
-      FadeIn: 1
-      FadeInTime: 0
-      FadeInEasing: 0
-      FadeOut: 1
-      FadeOutTime: 0
-      FadeOutEasing: 0
-      Chorus: 0
-      ChorusDryMix: 0
-      ChorusWetMix1: 0
-      ChorusWetMix2: 0
-      ChorusWetMix3: 0
-      ChorusDelay: 0.1
-      ChorusRate: 0
-      ChorusDepth: 0
-      Distortion: 0
-      DistortionLevel: 0
-      Echo: 0
-      EchoDelay: 0
-      EchoDecayRatio: 0
-      EchoDryMix: 0
-      EchoWetMix: 0
-      Highpass: 0
-      HighpassCutoffFrequency: 0
-      HighpassResonanceQ: 0
-      Lowpass: 0
-      LowpassCutoffFrequency: 0
-      LowpassResonanceQ: 0
+      Chorus:
+        Enabled: 0
+        DryMix: 0.5
+        WetMix1: 0.5
+        WetMix2: 0.5
+        WetMix3: 0.5
+        Delay: 40
+        Rate: 0.8
+        Depth: 0.03
+      Distortion:
+        Enabled: 0
+        Level: 0.5
+      Echo:
+        Enabled: 0
+        Delay: 500
+        DecayRatio: 0.5
+        DryMix: 1
+        WetMix: 1
+      HighPass:
+        Enabled: 0
+        HighPassCutoffFrequency: 5000
+        HighPassResonanceQ: 1
+      Lowpass:
+        Enabled: 0
+        LowPassCutoffFrequency: 5007.7
+        LowPassResonanceQ: 1
+      Reverb:
+        Enabled: 0
+        Preset: 0
+        DryLevel: 0
+        Room: 0
+        RoomHF: 0
+        RoomLF: 0
+        DecayTime: 1
+        DecayHFRatio: 0.5
+        ReflectionsLevel: -10000
+        ReflectionsDelay: 0
+        ReverbLevel: 0
+        ReverbDelay: 0.04
+        HFReference: 5000
+        LFReference: 250
+        Diffusion: 100
+        Density: 100
     AudioEffectsPreset: {fileID: 0}
 --- !u!1001 &7534885393350042893
 PrefabInstance:

@@ -14432,11 +14432,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.011638864
+      value: -0.94883496
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.9999323
+      value: -0.31577253
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
@@ -15109,6 +15109,18 @@ PrefabInstance:
     - target: {fileID: 2366264451381462704, guid: 55799ab160637312690832850335746b, type: 3}
       propertyPath: m_Name
       value: Bell
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: _ringAudioItem.Scaled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: _ringAudioItem.OverrideScaled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: _ringAudioItem.OverrideEffects
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
