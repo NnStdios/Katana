@@ -50,3 +50,38 @@ MonoBehaviour:
     OverrideDistanceRange: 0
     DistanceRange: {x: 1, y: 500}
   SettingsPreset: {fileID: 11400000, guid: 0c7f3c2d84ce52d4e99ac9224897e7a4, type: 2}
+  UseEffectsPreset: 0
+  AudioEffects:
+    FadeIn: 0
+    FadeInTime: 0
+    FadeInEasing: 0
+    FadeOut: 0
+    FadeOutTime: 0
+    FadeOutEasing: 0
+    Chorus:
+      Enabled: 0
+      DryMix: 0.5
+      WetMix1: 0.5
+      WetMix2: 0.5
+      WetMix3: 0.5
+      Delay: 40
+      Rate: 0.8
+      Depth: 0.03
+    Distortion:
+      Enabled: 0
+      Level: 0.5
+    Echo:
+      Enabled: 1
+      Delay: 298
+      DecayRatio: 0.533
+      DryMix: 1
+      WetMix: 0.058
+    HighPass:
+      Enabled: 0
+      HighPassCutoffFrequency: 5000
+      HighPassResonanceQ: 1
+    Lowpass:
+      Enabled: 0
+      LowPassCutoffFrequency: 5007.7
+      LowPassResonanceQ: 1
+  AudioEffectsPreset: {fileID: 0}
