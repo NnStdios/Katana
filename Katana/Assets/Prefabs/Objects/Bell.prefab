@@ -138,10 +138,10 @@ MonoBehaviour:
     Position: {x: 0, y: 0, z: 0}
     AssignTargetAtRuntime: 0
     Target: {fileID: 2366264451381462704}
-    OverrideItemSettings: 1
+    OverrideSettings: 1
     ReloadSettingsEveryPlay: 1
-    UseItemSettingsPreset: 1
-    ItemSettings:
+    UseSettingsPreset: 1
+    AudioSettings:
       OverrideBypassEffects: 0
       BypassEffects: 0
       OverrideBypassListenerEffects: 0
@@ -150,27 +150,29 @@ MonoBehaviour:
       BypassReverbZones: 0
       OverrideLoop: 0
       Loop: 0
-      OverridePriority: 1
+      OverridePriority: 0
       Priority: 128
       OverrideVolume: 0
-      VolumeRange: {x: 0.9, y: 1}
+      VolumeRange: {x: 1, y: 1}
       OverridePitch: 0
-      PitchRange: {x: 0.98, y: 1.02}
+      PitchRange: {x: 1, y: 1}
       OverrideStereoPan: 0
-      StereoPanRange: {x: 0.1, y: 0.25}
+      StereoPanRange: {x: 0, y: 0}
       OverrideSpatialBlend: 0
-      SpatialBlendRange: {x: 0.5, y: 0.75}
+      SpatialBlendRange: {x: 0, y: 0}
       OverrideReverbZoneMix: 0
-      ReverbZoneMixRange: {x: 0.9, y: 1.1}
+      ReverbZoneMixRange: {x: 1, y: 1}
       OverrideDopplerLevel: 0
-      DopplerLevelRange: {x: 0, y: 1}
+      DopplerLevelRange: {x: 1, y: 1}
       OverrideSpread: 0
-      SpreadRange: {x: 120, y: 240}
+      SpreadRange: {x: 0, y: 0}
       OverrideRolloffMode: 0
       RolloffMode: 0
       OverrideDistanceRange: 0
       DistanceRange: {x: 1, y: 500}
-    ItemSettingsPreset: {fileID: 11400000, guid: 0c7f3c2d84ce52d4e99ac9224897e7a4, type: 2}
+    AudioSettingsPreset: {fileID: 11400000, guid: 0c7f3c2d84ce52d4e99ac9224897e7a4, type: 2}
+    OverrideEffects: 0
+    UseEffectsPreset: 0
     AudioEffects:
       FadeIn: 1
       FadeInTime: 0
@@ -178,6 +180,28 @@ MonoBehaviour:
       FadeOut: 1
       FadeOutTime: 0
       FadeOutEasing: 0
+      Chorus: 0
+      ChorusDryMix: 0
+      ChorusWetMix1: 0
+      ChorusWetMix2: 0
+      ChorusWetMix3: 0
+      ChorusDelay: 0.1
+      ChorusRate: 0
+      ChorusDepth: 0
+      Distortion: 0
+      DistortionLevel: 0
+      Echo: 0
+      EchoDelay: 0
+      EchoDecayRatio: 0
+      EchoDryMix: 0
+      EchoWetMix: 0
+      Highpass: 0
+      HighpassCutoffFrequency: 0
+      HighpassResonanceQ: 0
+      Lowpass: 0
+      LowpassCutoffFrequency: 0
+      LowpassResonanceQ: 0
+    AudioEffectsPreset: {fileID: 0}
 --- !u!1001 &7534885393350042893
 PrefabInstance:
   m_ObjectHideFlags: 0
