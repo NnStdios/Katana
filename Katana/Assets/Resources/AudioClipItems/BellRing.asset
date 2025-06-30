@@ -15,9 +15,16 @@ MonoBehaviour:
   Name: BellRing
   Resource: {fileID: 8300000, guid: c3df1461956bacf3a89c77c8385eaec7, type: 3}
   PlayOnAwake: 0
+  Scaled: 0
   MixerGroup: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
   SourceType: 0
   Position: {x: 0, y: 0, z: 0}
+  FadeIn: 0
+  FadeInTime: 0
+  FadeInEasing: 0
+  FadeOut: 0
+  FadeOutTime: 0
+  FadeOutEasing: 0
   ReloadSettingsEveryPlay: 1
   UseSettingsPreset: 1
   Settings:
@@ -52,14 +59,6 @@ MonoBehaviour:
   SettingsPreset: {fileID: 11400000, guid: 0c7f3c2d84ce52d4e99ac9224897e7a4, type: 2}
   UseEffectsPreset: 0
   AudioEffects:
-    OverrideFadeIn: 1
-    FadeIn: 1
-    FadeInTime: 0
-    FadeInEasing: 0
-    OverrideFadeOut: 1
-    FadeOut: 1
-    FadeOutTime: 0
-    FadeOutEasing: 0
     Chorus:
       Enabled: 0
       DryMix: 0.5
