@@ -7,7 +7,7 @@ using Random = UnityEngine.Random;
 namespace Assets.Scripts.Audio
 {
     [Serializable]
-    public class AudioItemSettings
+    public class AudioSettings
     {
         [HideInInspector]
         public bool OverrideBypassEffects;
@@ -172,7 +172,7 @@ namespace Assets.Scripts.Audio
             return source;
         }
 
-        public AudioItemSettings() : this(priority: 128,
+        public AudioSettings() : this(priority: 128,
                                           volumeRange: Vector2.one,
                                           pitchRange: Vector2.one,
                                           stereoPanRange: Vector2.zero,
@@ -183,7 +183,7 @@ namespace Assets.Scripts.Audio
                                           rolloffMode: AudioRolloffMode.Logarithmic,
                                           distanceRange: new(1, 500)) { }
 
-        public AudioItemSettings(bool overrideBypassEffects = false,
+        public AudioSettings(bool overrideBypassEffects = false,
                                  bool bypassEffects = false,
                                  bool overrideBypassListenerEffects = false,
                                  bool bypassListenerEffects = false,

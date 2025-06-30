@@ -14577,11 +14577,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.65775746
+      value: -0.37935767
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7532298
+      value: 0.9252502
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
@@ -15256,8 +15256,40 @@ PrefabInstance:
       value: Bell
       objectReference: {fileID: 0}
     - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: _ringAudioItem.SourceType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: _ringAudioItem.OverrideEffects
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: _ringAudioItem.UseEffectsPreset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: _ringAudioItem.UseSettingsPreset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
       propertyPath: _ringAudioItem.AudioEffects.Chorus
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: _ringAudioItem.AssignTargetAtRuntime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: _ringAudioItem.AudioSettings.BypassEffects
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: _ringAudioItem.AudioSettings.OverrideRolloffMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: _ringAudioItem.AudioSettings.OverrideBypassEffects
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
