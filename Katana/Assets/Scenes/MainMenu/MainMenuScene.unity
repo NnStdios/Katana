@@ -14432,11 +14432,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.94883496
+      value: -0.49302274
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.31577253
+      value: -0.87001646
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
@@ -15112,6 +15112,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
       propertyPath: _ringAudioItem.Scaled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: _ringAudioItem.OverrideFadeIn
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}

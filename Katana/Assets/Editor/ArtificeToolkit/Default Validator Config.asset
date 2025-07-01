@@ -20,8 +20,6 @@ MonoBehaviour:
     list:
     - Key: MainMenuScene
       Value: 1
-    - Key: ColosseumScene
-      Value: 1
   validatorTypesMap:
     list:
     - Key: Artifice_ValidatorModule_ScriptableObject
