@@ -22,9 +22,13 @@ MonoBehaviour:
   FadeIn: 0
   FadeInTime: 0
   FadeInEasing: 0
+  FadeInScale: 1
+  FadeInScaleWithPitch: 1
   FadeOut: 0
   FadeOutTime: 0
   FadeOutEasing: 0
+  FadeOutScale: 1
+  FadeOutScaleWithPitch: 1
   ReloadSettingsEveryPlay: 1
   UseSettingsPreset: 1
   Settings:
