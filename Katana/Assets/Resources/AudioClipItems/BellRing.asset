@@ -19,7 +19,7 @@ MonoBehaviour:
   MixerGroup: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
   SourceType: 0
   Position: {x: 0, y: 0, z: 0}
-  FadeIn: 1
+  FadeIn: 0
   FadeInTime: 0.5
   FadeInEasing: 0
   FadeOut: 0
