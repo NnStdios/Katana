@@ -78,6 +78,10 @@ MonoBehaviour:
     m_Localized: Reset
     m_Metadata:
       m_Items: []
+  - m_Id: 4562956098146304
+    m_Localized: Ambience
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

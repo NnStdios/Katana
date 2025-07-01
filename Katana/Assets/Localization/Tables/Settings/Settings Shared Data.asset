@@ -71,6 +71,10 @@ MonoBehaviour:
     m_Key: Music
     m_Metadata:
       m_Items: []
+  - m_Id: 4562956098146304
+    m_Key: Ambience
+    m_Metadata:
+      m_Items: []
   - m_Id: 723736422191104
     m_Key: "Reset\t"
     m_Metadata:
