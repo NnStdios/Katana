@@ -65,13 +65,13 @@ MonoBehaviour:
   AudioEffects:
     Chorus:
       Enabled: 0
-      DryMix: 0.5
-      WetMix1: 0.5
-      WetMix2: 0.5
-      WetMix3: 0.5
+      DryMix: 1
+      WetMix1: 1
+      WetMix2: 1
+      WetMix3: 1
       Delay: 40
-      Rate: 0.8
-      Depth: 0.03
+      Rate: 4.45
+      Depth: 0.085
     Distortion:
       Enabled: 0
       Level: 0.5
@@ -95,8 +95,8 @@ MonoBehaviour:
       DryLevel: 0
       Room: 0
       RoomHF: 0
-      RoomLF: 0
-      DecayTime: 1
+      RoomLF: -10000
+      DecayTime: 20
       DecayHFRatio: 0.5
       ReflectionsLevel: -10000
       ReflectionsDelay: 0
