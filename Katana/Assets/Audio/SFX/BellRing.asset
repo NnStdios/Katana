@@ -15,8 +15,8 @@ MonoBehaviour:
   Name: BellRing
   Resource: {fileID: 8300000, guid: c3df1461956bacf3a89c77c8385eaec7, type: 3}
   PlayOnAwake: 0
-  Scaled: 0
-  MixerGroup: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
+  Loop: 0
+  Scaled: 1
   SourceType: 0
   Position: {x: 0, y: 0, z: 0}
   FadeIn: 0
@@ -29,38 +29,10 @@ MonoBehaviour:
   FadeOutEasing: 0
   FadeOutScale: 1
   FadeOutScaleWithPitch: 1
-  ReloadSettingsEveryPlay: 1
-  UseSettingsPreset: 1
-  Settings:
-    OverrideBypassEffects: 0
-    BypassEffects: 0
-    OverrideBypassListenerEffects: 0
-    BypassListenerEffects: 0
-    OverrideBypassReverbZones: 0
-    BypassReverbZones: 0
-    OverrideLoop: 0
-    Loop: 0
-    OverridePriority: 0
-    Priority: 128
-    OverrideVolume: 0
-    VolumeRange: {x: 1, y: 1}
-    OverridePitch: 0
-    PitchRange: {x: 1, y: 1}
-    OverrideStereoPan: 0
-    StereoPanRange: {x: 0, y: 0}
-    OverrideSpatialBlend: 0
-    SpatialBlendRange: {x: 0, y: 0}
-    OverrideReverbZoneMix: 0
-    ReverbZoneMixRange: {x: 1, y: 1}
-    OverrideDopplerLevel: 0
-    DopplerLevelRange: {x: 1, y: 1}
-    OverrideSpread: 0
-    SpreadRange: {x: 0, y: 0}
-    OverrideRolloffMode: 0
-    RolloffMode: 0
-    OverrideDistanceRange: 0
-    DistanceRange: {x: 1, y: 500}
-  SettingsPreset: {fileID: 11400000, guid: 0c7f3c2d84ce52d4e99ac9224897e7a4, type: 2}
+  Tweaks:
+  - rid: 3270339084461801592
+  - rid: 3270339084461801593
+  - rid: 3270339084461801594
   UseEffectsPreset: 0
   AudioEffects:
     Chorus:
@@ -77,10 +49,10 @@ MonoBehaviour:
       Level: 0.5
     Echo:
       Enabled: 1
-      Delay: 353
-      DecayRatio: 0.347
+      Delay: 1000
+      DecayRatio: 0.25
       DryMix: 1
-      WetMix: 0.026
+      WetMix: 0.01
     HighPass:
       Enabled: 0
       HighPassCutoffFrequency: 5000
@@ -107,3 +79,18 @@ MonoBehaviour:
       Diffusion: 100
       Density: 100
   AudioEffectsPreset: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 3270339084461801592
+      type: {class: AudioTweaksPresetTweak, ns: AudioManager.Tweaks, asm: nnra.AudioManager}
+      data:
+        AudioTweaksPreset: {fileID: 11400000, guid: 43eef0739df825b5f9f26027524483b1, type: 2}
+    - rid: 3270339084461801593
+      type: {class: MixerGroupTweak, ns: AudioManager.Tweaks, asm: nnra.AudioManager}
+      data:
+        MixerGroup: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
+    - rid: 3270339084461801594
+      type: {class: SpatialBlendRangeTweak, ns: AudioManager.Tweaks, asm: nnra.AudioManager}
+      data:
+        SpatialBlendRange: {x: 0.75, y: 1}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24e551df7158499aa7dd42449a7254b3, type: 3}
+  m_Name: RandomTweaks
+  m_EditorClassIdentifier: 
+  Tweaks:
+  - rid: 3270339084461801583
+  - rid: 3270339084461801584
+  - rid: -2
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 3270339084461801583
+      type: {class: PitchRangeTweak, ns: AudioManager.Tweaks, asm: nnra.AudioManager}
+      data:
+        PitchRange: {x: 0.98, y: 1.02}
+    - rid: 3270339084461801584
+      type: {class: VolumeRangeTweak, ns: AudioManager.Tweaks, asm: nnra.AudioManager}
+      data:
+        VolumeRange: {x: 0.9, y: 1}

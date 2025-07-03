@@ -132,70 +132,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _ambienceItem:
-    ResourceAssignmentType: 1
-    AudioResourceItem: {fileID: 0}
+    ResourceAssignmentType: 0
+    AudioResourceItem: {fileID: 11400000, guid: 2b85c7d7214a9f7119d88b18c7249e61, type: 2}
     AudioResource: {fileID: 8300000, guid: 2cbd9f5c98e5e13e9afcf66b2c6df637, type: 3}
     AudioResourceName: 
-    OverrideMixerGroup: 1
-    MixerGroup: {fileID: -7213454378708015870, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
     SourceType: 2
     ReuseSource: 0
     OverridePlayOnAwake: 0
     PlayOnAwake: 0
     OverrideScaled: 1
     Scaled: 1
+    OverrideLoop: 0
+    Loop: 0
     DestroySourceOnFinished: 0
     DestroyTargetOnFinished: 1
     Position: {x: 0, y: 0, z: 0}
     AsChildObject: 1
     AssignTargetAtRuntime: 1
     Target: {fileID: 0}
-    OverrideFadeIn: 1
+    OverrideFadeIn: 0
     FadeIn: 1
     FadeInTime: 10
     FadeInEasing: 1
     FadeInScale: 1
     FadeInScaleWithPitch: 1
-    OverrideFadeOut: 1
+    OverrideFadeOut: 0
     FadeOut: 1
     FadeOutTime: 10
     FadeOutEasing: 1
     FadeOutScale: 1
     FadeOutScaleWithPitch: 1
-    OverrideSettings: 1
-    ReloadSettingsEveryPlay: 1
-    UseSettingsPreset: 1
-    AudioSettings:
-      OverrideBypassEffects: 0
-      BypassEffects: 0
-      OverrideBypassListenerEffects: 0
-      BypassListenerEffects: 0
-      OverrideBypassReverbZones: 0
-      BypassReverbZones: 0
-      OverrideLoop: 0
-      Loop: 0
-      OverridePriority: 0
-      Priority: 128
-      OverrideVolume: 0
-      VolumeRange: {x: 1, y: 1}
-      OverridePitch: 0
-      PitchRange: {x: 1, y: 1}
-      OverrideStereoPan: 0
-      StereoPanRange: {x: 0, y: 0}
-      OverrideSpatialBlend: 0
-      SpatialBlendRange: {x: 0, y: 0}
-      OverrideReverbZoneMix: 0
-      ReverbZoneMixRange: {x: 1, y: 1}
-      OverrideDopplerLevel: 0
-      DopplerLevelRange: {x: 1, y: 1}
-      OverrideSpread: 0
-      SpreadRange: {x: 0, y: 0}
-      OverrideRolloffMode: 0
-      RolloffMode: 0
-      OverrideDistanceRange: 0
-      DistanceRange: {x: 1, y: 500}
-    AudioSettingsPreset: {fileID: 11400000, guid: 20d817d2e09bd69759d8a0909cab7ada, type: 2}
-    OverrideEffects: 1
+    ReloadTweaksEveryPlay: 1
+    Tweaks: []
+    OverrideEffects: 0
     UseEffectsPreset: 0
     AudioEffects:
       Chorus:
@@ -242,3 +211,6 @@ MonoBehaviour:
         Diffusion: 100
         Density: 100
     AudioEffectsPreset: {fileID: 0}
+  references:
+    version: 2
+    RefIds: []

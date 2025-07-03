@@ -133,19 +133,28 @@ MonoBehaviour:
     ReuseSource: 1
     OverridePlayOnAwake: 1
     PlayOnAwake: 0
+    OverrideScaled: 0
+    Scaled: 0
+    OverrideLoop: 0
+    Loop: 0
     DestroySourceOnFinished: 0
     DestroyTargetOnFinished: 0
     Position: {x: 0, y: 0, z: 0}
+    AsChildObject: 1
     AssignTargetAtRuntime: 0
     Target: {fileID: 2366264451381462704}
     OverrideFadeIn: 0
     FadeIn: 0
     FadeInTime: 0
     FadeInEasing: 0
+    FadeInScale: 1
+    FadeInScaleWithPitch: 1
     OverrideFadeOut: 0
     FadeOut: 0
     FadeOutTime: 0
     FadeOutEasing: 0
+    FadeOutScale: 1
+    FadeOutScaleWithPitch: 1
     OverrideSettings: 1
     ReloadSettingsEveryPlay: 1
     UseSettingsPreset: 1
@@ -156,8 +165,6 @@ MonoBehaviour:
       BypassListenerEffects: 0
       OverrideBypassReverbZones: 0
       BypassReverbZones: 0
-      OverrideLoop: 0
-      Loop: 0
       OverridePriority: 0
       Priority: 128
       OverrideVolume: 0
