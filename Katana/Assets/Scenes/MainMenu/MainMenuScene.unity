@@ -15046,11 +15046,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99935406
+      value: 0.7936978
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.035937857
+      value: 0.6083123
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
@@ -15725,19 +15725,107 @@ PrefabInstance:
       value: Bell
       objectReference: {fileID: 0}
     - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
-      propertyPath: _ringAudioItem.Scaled
+      propertyPath: 'managedReferences[-2]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: _ringAudioItem.Tweaks.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
-      propertyPath: _ringAudioItem.OverrideFadeIn
+      propertyPath: '_ringAudioItem.Tweaks.Array.data[0]'
+      value: 3270339084461801582
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: 'managedReferences[3270339082974396519]'
+      value: nnra.AudioManager AudioManager.Tweaks.SpreadTweak
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: 'managedReferences[3270339082974396520]'
+      value: nnra.AudioManager AudioManager.Tweaks.DistanceRangeTweak
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: 'managedReferences[3270339084461801574]'
+      value: nnra.AudioManager AudioManager.Tweaks.PitchRangeTweak
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: 'managedReferences[3270339084461801578]'
+      value: nnra.AudioManager AudioManager.Tweaks.BypassTweak
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: 'managedReferences[3270339084461801579]'
+      value: nnra.AudioManager AudioManager.Tweaks.DopplerLevelRangeTweak
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: 'managedReferences[3270339084461801580]'
+      value: nnra.AudioManager AudioManager.Tweaks.AudioTweaksPresetTweak
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: 'managedReferences[3270339084461801581]'
+      value: nnra.AudioManager AudioManager.Tweaks.ReverbZoneMixRangeTweak
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: 'managedReferences[3270339084461801582]'
+      value: nnra.AudioManager AudioManager.Tweaks.PitchRangeTweak
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: managedReferences[3270339082974396519].Spread
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
-      propertyPath: _ringAudioItem.OverrideScaled
+      propertyPath: managedReferences[3270339084461801574].PitchRange.x
+      value: 0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: managedReferences[3270339084461801574].PitchRange.y
+      value: 1.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: managedReferences[3270339084461801582].PitchRange.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: managedReferences[3270339084461801582].PitchRange.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: managedReferences[3270339084461801578].BypassEffects
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
-      propertyPath: _ringAudioItem.OverrideEffects
+      propertyPath: managedReferences[3270339082974396520].DistanceRange.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: managedReferences[3270339082974396520].DistanceRange.y
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: managedReferences[3270339084461801578].BypassReverbZones
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: managedReferences[3270339084461801580].AudioTweaksPreset
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: managedReferences[3270339084461801579].DopplerLevelRange.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: managedReferences[3270339084461801579].DopplerLevelRange.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: managedReferences[3270339084461801581].ReverbZoneMixRange.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: managedReferences[3270339084461801581].ReverbZoneMixRange.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125297711497244095, guid: 55799ab160637312690832850335746b, type: 3}
+      propertyPath: managedReferences[3270339084461801578].BypassListenerEffects
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
