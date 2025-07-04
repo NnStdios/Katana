@@ -62,8 +62,8 @@ MonoBehaviour:
       LowPassCutoffFrequency: 5007.7
       LowPassResonanceQ: 1
     Reverb:
-      Enabled: 1
-      Preset: 26
+      Enabled: 0
+      Preset: 0
       DryLevel: 0
       Room: 0
       RoomHF: 0
