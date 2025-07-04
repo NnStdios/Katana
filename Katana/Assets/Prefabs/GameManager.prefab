@@ -103,10 +103,15 @@ MonoBehaviour:
   _dofProfile: {fileID: 11400000, guid: 938587e53954a523193178966c78029a, type: 2}
   _menuDOFProfile: {fileID: 11400000, guid: c79c608b773d05460a47c1615f3713eb, type: 2}
   _motionBlurProfile: {fileID: 11400000, guid: 09927a804cb3f1171af33436b439b7b6, type: 2}
-  _master: {fileID: 24300002, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
-  _sfx: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
-  _music: {fileID: -2359160903320283803, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
-  _ambience: {fileID: -7213454378708015870, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
+  _masterMixers:
+  - {fileID: 24300002, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
+  _sfxMixers:
+  - {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
+  - {fileID: 1543634024210411489, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
+  _musicMixers:
+  - {fileID: -2359160903320283803, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
+  _ambienceMixers:
+  - {fileID: -7213454378708015870, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
 --- !u!114 &8975196864383009302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,7 +141,6 @@ MonoBehaviour:
     AudioResourceItem: {fileID: 11400000, guid: 2b85c7d7214a9f7119d88b18c7249e61, type: 2}
     AudioResource: {fileID: 8300000, guid: 2cbd9f5c98e5e13e9afcf66b2c6df637, type: 3}
     AudioResourceName: 
-    SourceType: 2
     ReuseSource: 0
     OverridePlayOnAwake: 0
     PlayOnAwake: 0
@@ -146,6 +150,7 @@ MonoBehaviour:
     Loop: 0
     DestroySourceOnFinished: 0
     DestroyTargetOnFinished: 1
+    SourceType: 2
     Position: {x: 0, y: 0, z: 0}
     AsChildObject: 1
     AssignTargetAtRuntime: 1
