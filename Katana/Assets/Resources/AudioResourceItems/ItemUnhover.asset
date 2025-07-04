@@ -32,7 +32,7 @@ MonoBehaviour:
   Tweaks:
   - rid: 3270339084461801592
   - rid: 3270339084461801593
-  - rid: 3270339108732403998
+  - rid: 3270339118605271101
   UseEffectsPreset: 0
   AudioEffects:
     Chorus:
@@ -90,7 +90,7 @@ MonoBehaviour:
       type: {class: MixerGroupTweak, ns: AudioManager.Tweaks, asm: nnra.AudioManager}
       data:
         MixerGroup: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
-    - rid: 3270339108732403998
-      type: {class: SpatialBlendRangeTweak, ns: AudioManager.Tweaks, asm: nnra.AudioManager}
+    - rid: 3270339118605271101
+      type: {class: SpatialBlendTweak, ns: AudioManager.Tweaks, asm: nnra.AudioManager}
       data:
-        SpatialBlendRange: {x: 0.9, y: 1}
+        SpatialBlend: 1
