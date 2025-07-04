@@ -107,6 +107,7 @@ MonoBehaviour:
   _uiPanel: {fileID: 6907105544014535203}
   _nameTMP: {fileID: 1412219638884024841}
   _nameEffect: {fileID: 947384238384145275}
+  _nameLocalizeStringEvent: {fileID: 0}
   _priceTMP: {fileID: 3317317178604266141}
   _position: {x: 0, y: 1.25, z: 0}
   _animationTime: 0.3
@@ -153,6 +154,169 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   _rotationSpeed: 180
+  _hoverAudioItem:
+    ResourceAssignmentType: 0
+    AudioResourceItem: {fileID: 11400000, guid: fdc0662fabe278b75be94364b12b4ca5, type: 2}
+    AudioResource: {fileID: 0}
+    AudioResourceName: 
+    SourceType: 0
+    ReuseSource: 1
+    OverridePlayOnAwake: 0
+    PlayOnAwake: 0
+    OverrideScaled: 0
+    Scaled: 1
+    OverrideLoop: 0
+    Loop: 0
+    DestroySourceOnFinished: 0
+    DestroyTargetOnFinished: 0
+    Position: {x: 0, y: 0, z: 0}
+    AsChildObject: 1
+    AssignTargetAtRuntime: 0
+    Target: {fileID: 0}
+    OverrideFadeIn: 0
+    FadeIn: 0
+    FadeInTime: 0
+    FadeInEasing: 0
+    FadeInScale: 1
+    FadeInScaleWithPitch: 1
+    OverrideFadeOut: 0
+    FadeOut: 0
+    FadeOutTime: 0
+    FadeOutEasing: 0
+    FadeOutScale: 1
+    FadeOutScaleWithPitch: 1
+    ReloadTweaksEveryPlay: 1
+    Tweaks: []
+    OverrideEffects: 0
+    UseEffectsPreset: 0
+    AudioEffects:
+      Chorus:
+        Enabled: 0
+        DryMix: 0.5
+        WetMix1: 0.5
+        WetMix2: 0.5
+        WetMix3: 0.5
+        Delay: 40
+        Rate: 0.8
+        Depth: 0.03
+      Distortion:
+        Enabled: 0
+        Level: 0.5
+      Echo:
+        Enabled: 0
+        Delay: 500
+        DecayRatio: 0.5
+        DryMix: 1
+        WetMix: 1
+      HighPass:
+        Enabled: 0
+        HighPassCutoffFrequency: 5000
+        HighPassResonanceQ: 1
+      Lowpass:
+        Enabled: 0
+        LowPassCutoffFrequency: 5007.7
+        LowPassResonanceQ: 1
+      Reverb:
+        Enabled: 0
+        Preset: 0
+        DryLevel: 0
+        Room: 0
+        RoomHF: 0
+        RoomLF: 0
+        DecayTime: 1
+        DecayHFRatio: 0.5
+        ReflectionsLevel: -10000
+        ReflectionsDelay: 0
+        ReverbLevel: 0
+        ReverbDelay: 0.04
+        HFReference: 5000
+        LFReference: 250
+        Diffusion: 100
+        Density: 100
+    AudioEffectsPreset: {fileID: 0}
+  _unhoverAudioItem:
+    ResourceAssignmentType: 0
+    AudioResourceItem: {fileID: 11400000, guid: 419b0dffcf2cea6558eb592d65f992ca, type: 2}
+    AudioResource: {fileID: 0}
+    AudioResourceName: 
+    SourceType: 0
+    ReuseSource: 1
+    OverridePlayOnAwake: 0
+    PlayOnAwake: 0
+    OverrideScaled: 0
+    Scaled: 1
+    OverrideLoop: 0
+    Loop: 0
+    DestroySourceOnFinished: 0
+    DestroyTargetOnFinished: 0
+    Position: {x: 0, y: 0, z: 0}
+    AsChildObject: 1
+    AssignTargetAtRuntime: 0
+    Target: {fileID: 0}
+    OverrideFadeIn: 0
+    FadeIn: 0
+    FadeInTime: 0
+    FadeInEasing: 0
+    FadeInScale: 1
+    FadeInScaleWithPitch: 1
+    OverrideFadeOut: 0
+    FadeOut: 0
+    FadeOutTime: 0
+    FadeOutEasing: 0
+    FadeOutScale: 1
+    FadeOutScaleWithPitch: 1
+    ReloadTweaksEveryPlay: 1
+    Tweaks: []
+    OverrideEffects: 0
+    UseEffectsPreset: 0
+    AudioEffects:
+      Chorus:
+        Enabled: 0
+        DryMix: 0.5
+        WetMix1: 0.5
+        WetMix2: 0.5
+        WetMix3: 0.5
+        Delay: 40
+        Rate: 0.8
+        Depth: 0.03
+      Distortion:
+        Enabled: 0
+        Level: 0.5
+      Echo:
+        Enabled: 0
+        Delay: 500
+        DecayRatio: 0.5
+        DryMix: 1
+        WetMix: 1
+      HighPass:
+        Enabled: 0
+        HighPassCutoffFrequency: 5000
+        HighPassResonanceQ: 1
+      Lowpass:
+        Enabled: 0
+        LowPassCutoffFrequency: 5007.7
+        LowPassResonanceQ: 1
+      Reverb:
+        Enabled: 0
+        Preset: 0
+        DryLevel: 0
+        Room: 0
+        RoomHF: 0
+        RoomLF: 0
+        DecayTime: 1
+        DecayHFRatio: 0.5
+        ReflectionsLevel: -10000
+        ReflectionsDelay: 0
+        ReverbLevel: 0
+        ReverbDelay: 0.04
+        HFReference: 5000
+        LFReference: 250
+        Diffusion: 100
+        Density: 100
+    AudioEffectsPreset: {fileID: 0}
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &311339141503981061
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -15,12 +15,9 @@ MonoBehaviour:
   Tweaks:
   - rid: 3270339084461801583
   - rid: 3270339084461801584
-  - rid: -2
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
     - rid: 3270339084461801583
       type: {class: PitchRangeTweak, ns: AudioManager.Tweaks, asm: nnra.AudioManager}
       data:

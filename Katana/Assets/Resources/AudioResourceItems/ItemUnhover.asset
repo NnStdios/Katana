@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82ab6a93c62c43a8beed8d6911ad406b, type: 3}
-  m_Name: BellRing
+  m_Name: ItemUnhover
   m_EditorClassIdentifier: 
-  Name: BellRing
-  Resource: {fileID: 8300000, guid: c3df1461956bacf3a89c77c8385eaec7, type: 3}
+  Name: ItemUnhover
+  Resource: {fileID: 8300000, guid: be4069483a0949e9eb40559f01e9dff5, type: 3}
   PlayOnAwake: 0
   Loop: 0
   Scaled: 1
@@ -32,7 +32,6 @@ MonoBehaviour:
   Tweaks:
   - rid: 3270339084461801592
   - rid: 3270339084461801593
-  - rid: 3270339084461801594
   UseEffectsPreset: 0
   AudioEffects:
     Chorus:
@@ -48,7 +47,7 @@ MonoBehaviour:
       Enabled: 0
       Level: 0.5
     Echo:
-      Enabled: 1
+      Enabled: 0
       Delay: 1000
       DecayRatio: 0.25
       DryMix: 1
@@ -90,7 +89,3 @@ MonoBehaviour:
       type: {class: MixerGroupTweak, ns: AudioManager.Tweaks, asm: nnra.AudioManager}
       data:
         MixerGroup: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
-    - rid: 3270339084461801594
-      type: {class: SpatialBlendRangeTweak, ns: AudioManager.Tweaks, asm: nnra.AudioManager}
-      data:
-        SpatialBlendRange: {x: 0.75, y: 1}
