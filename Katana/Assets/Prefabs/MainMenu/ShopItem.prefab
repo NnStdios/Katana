@@ -107,7 +107,7 @@ MonoBehaviour:
   _uiPanel: {fileID: 6907105544014535203}
   _nameTMP: {fileID: 1412219638884024841}
   _nameEffect: {fileID: 947384238384145275}
-  _nameLocalizeStringEvent: {fileID: 0}
+  _nameLocalizeStringEvent: {fileID: 3976864955372447986}
   _priceTMP: {fileID: 3317317178604266141}
   _position: {x: 0, y: 1.25, z: 0}
   _animationTime: 0.3
@@ -159,7 +159,6 @@ MonoBehaviour:
     AudioResourceItem: {fileID: 11400000, guid: fdc0662fabe278b75be94364b12b4ca5, type: 2}
     AudioResource: {fileID: 0}
     AudioResourceName: 
-    SourceType: 0
     ReuseSource: 1
     OverridePlayOnAwake: 0
     PlayOnAwake: 0
@@ -169,10 +168,11 @@ MonoBehaviour:
     Loop: 0
     DestroySourceOnFinished: 0
     DestroyTargetOnFinished: 0
+    SourceType: 2
     Position: {x: 0, y: 0, z: 0}
     AsChildObject: 1
     AssignTargetAtRuntime: 0
-    Target: {fileID: 0}
+    Target: {fileID: 6463576154645440841}
     OverrideFadeIn: 0
     FadeIn: 0
     FadeInTime: 0
@@ -239,7 +239,6 @@ MonoBehaviour:
     AudioResourceItem: {fileID: 11400000, guid: 419b0dffcf2cea6558eb592d65f992ca, type: 2}
     AudioResource: {fileID: 0}
     AudioResourceName: 
-    SourceType: 0
     ReuseSource: 1
     OverridePlayOnAwake: 0
     PlayOnAwake: 0
@@ -249,10 +248,11 @@ MonoBehaviour:
     Loop: 0
     DestroySourceOnFinished: 0
     DestroyTargetOnFinished: 0
+    SourceType: 2
     Position: {x: 0, y: 0, z: 0}
     AsChildObject: 1
     AssignTargetAtRuntime: 0
-    Target: {fileID: 0}
+    Target: {fileID: 6463576154645440841}
     OverrideFadeIn: 0
     FadeIn: 0
     FadeInTime: 0
@@ -575,6 +575,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShopItemUI
       objectReference: {fileID: 0}
+    - target: {fileID: 3567486576399479676, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
+      propertyPath: m_fontSize
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 4634713793486638018, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -628,6 +632,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3976864955372447986 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2935099962178763027, guid: 2a4bb4a7c432b9a359b3cb33f8ac776f, type: 3}
+  m_PrefabInstance: {fileID: 2272972310929592801}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!224 &6907105544014535203 stripped
