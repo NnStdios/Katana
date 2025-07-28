@@ -24892,8 +24892,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -2359160903320283803, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 4b4bfab14aaa41d6d9623ecf94e2e3a5, type: 3}
-  m_Resource: {fileID: 8300000, guid: 4b4bfab14aaa41d6d9623ecf94e2e3a5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 273bac81df82d8663b655be92fc69c58, type: 3}
+  m_Resource: {fileID: 8300000, guid: 273bac81df82d8663b655be92fc69c58, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -40695,11 +40695,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.993202
+      value: 0.93502647
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.11640431
+      value: -0.35457793
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
