@@ -18,17 +18,17 @@ MonoBehaviour:
   customBatchingValue: 0
   scenesMap:
     list:
-    - Key: MainMenuScene
+    - Key: ColosseumScene
       Value: 1
   validatorTypesMap:
     list:
-    - Key: Artifice_ValidatorModule_ScriptableObject
+    - Key: Artifice_ValidatorModule_NullScriptChecker
       Value: 1
     - Key: Artifice_ValidatorModule_IsArtificeEnabled
       Value: 1
-    - Key: Artifice_ValidatorModule_NullScriptChecker
-      Value: 1
     - Key: Artifice_ValidatorModule_CustomAttributeChecker
+      Value: 1
+    - Key: Artifice_ValidatorModule_ScriptableObject
       Value: 1
   logTypesMap:
     list:
