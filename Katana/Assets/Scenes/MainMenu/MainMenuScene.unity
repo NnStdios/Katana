@@ -26350,11 +26350,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5710381450443998021, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_text
-      value: SHIFT
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5710381450443998021, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_fontSize
-      value: 15.15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6680292650503350822, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_Name
@@ -27776,11 +27776,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5710381450443998021, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_text
-      value: Q
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5710381450443998021, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_fontSize
-      value: 15.15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6680292650503350822, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_Name
@@ -28366,6 +28366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 6802476309410619603, guid: 74a40c38c447d584daeee9807b2c605e, type: 3}
+      propertyPath: _ambienceItem.AsChildObject
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -28870,6 +28874,133 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8471638315816921224, guid: ab003fd7813ebe24da97bcec2399dcea, type: 3}
   m_PrefabInstance: {fileID: 830034360}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &832244805
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 832244807}
+  - component: {fileID: 832244806}
+  m_Layer: 0
+  m_Name: Ambience
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &832244806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832244805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec3cc4d4fa99b7739ec5ccc358f7967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ambienceItem:
+    ResourceAssignmentType: 0
+    AudioResourceItem: {fileID: 11400000, guid: 2b85c7d7214a9f7119d88b18c7249e61, type: 2}
+    AudioResource: {fileID: 8300000, guid: 2cbd9f5c98e5e13e9afcf66b2c6df637, type: 3}
+    AudioResourceName: 
+    ReuseSource: 0
+    OverridePlayOnAwake: 0
+    PlayOnAwake: 0
+    OverrideScaled: 1
+    Scaled: 1
+    OverrideLoop: 0
+    Loop: 0
+    DestroySourceOnFinished: 0
+    DestroyTargetOnFinished: 1
+    SourceType: 2
+    Position: {x: 0, y: 0, z: 0}
+    AsChildObject: 1
+    AssignTargetAtRuntime: 1
+    Target: {fileID: 0}
+    OverrideFadeIn: 0
+    FadeIn: 1
+    FadeInTime: 10
+    FadeInEasing: 1
+    FadeInScale: 1
+    FadeInScaleWithPitch: 1
+    OverrideFadeOut: 0
+    FadeOut: 1
+    FadeOutTime: 10
+    FadeOutEasing: 1
+    FadeOutScale: 1
+    FadeOutScaleWithPitch: 1
+    ReloadTweaksEveryPlay: 1
+    Tweaks: []
+    OverrideEffects: 0
+    UseEffectsPreset: 0
+    AudioEffects:
+      Chorus:
+        Enabled: 0
+        DryMix: 0.5
+        WetMix1: 0.5
+        WetMix2: 0.5
+        WetMix3: 0.5
+        Delay: 40
+        Rate: 0.8
+        Depth: 0.03
+      Distortion:
+        Enabled: 0
+        Level: 0.5
+      Echo:
+        Enabled: 0
+        Delay: 500
+        DecayRatio: 0.5
+        DryMix: 1
+        WetMix: 1
+      HighPass:
+        Enabled: 0
+        HighPassCutoffFrequency: 5000
+        HighPassResonanceQ: 1
+      Lowpass:
+        Enabled: 0
+        LowPassCutoffFrequency: 5007.7
+        LowPassResonanceQ: 1
+      Reverb:
+        Enabled: 0
+        Preset: 0
+        DryLevel: 0
+        Room: 0
+        RoomHF: 0
+        RoomLF: 0
+        DecayTime: 1
+        DecayHFRatio: 0.5
+        ReflectionsLevel: -10000
+        ReflectionsDelay: 0
+        ReverbLevel: 0
+        ReverbDelay: 0.04
+        HFReference: 5000
+        LFReference: 250
+        Diffusion: 100
+        Density: 100
+    AudioEffectsPreset: {fileID: 0}
+  references:
+    version: 2
+    RefIds: []
+--- !u!4 &832244807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832244805}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &840260705
 GameObject:
   m_ObjectHideFlags: 0
@@ -33148,11 +33279,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5710381450443998021, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_text
-      value: SPACE
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5710381450443998021, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_fontSize
-      value: 15.15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6680292650503350822, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_Name
@@ -33376,11 +33507,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5710381450443998021, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_text
-      value: D
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5710381450443998021, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_fontSize
-      value: 15.15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6680292650503350822, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_Name
@@ -37722,52 +37853,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 0
---- !u!1 &2020609387
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2020609389}
-  - component: {fileID: 2020609388}
-  m_Layer: 0
-  m_Name: Steam Audio Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2020609388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2020609387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b11066ff95bbf3344b868394742f7002, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentHRTF: 0
-  hrtfNames: []
---- !u!4 &2020609389
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2020609387}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2026072945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41315,11 +41400,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.94315135
+      value: 0.57721233
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.33236372
+      value: 0.8165941
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
@@ -44939,5 +45024,5 @@ SceneRoots:
   - {fileID: 1736255787}
   - {fileID: 160561935}
   - {fileID: 882989837}
-  - {fileID: 2020609389}
   - {fileID: 320962163}
+  - {fileID: 832244807}

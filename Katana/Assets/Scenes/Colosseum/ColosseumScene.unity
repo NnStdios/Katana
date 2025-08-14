@@ -279,14 +279,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122352524}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.051410332, y: 0.94782907, z: -0.20212796, w: -0.24108389}
-  m_LocalPosition: {x: 0, y: 100, z: 0}
+  m_LocalRotation: {x: 0.22128707, y: 0.7738126, z: -0.36730948, w: 0.46618646}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1727724629}
   m_Father: {fileID: 1133896610}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 60, y: -5.127, z: 0}
 --- !u!114 &122352526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,8 +299,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7097fae5875e7674f96704418480d092, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Scripts::Assets.Scripts.Core.ColosseumSun
-  _tiltRange: {x: 40, y: 320}
-  _rotationSpeed: {x: 1, y: 2.5}
+  _tiltRange: {x: -60, y: 60}
+  _tiltCycleTime: 29
+  _spinTime: 73
 --- !u!1001 &143910918
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4615,7 +4616,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3011350209451757021, guid: f0958e8d223e3248fbf46959734a92ed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.13
+      value: 7.176
       objectReference: {fileID: 0}
     - target: {fileID: 3011350209451757021, guid: f0958e8d223e3248fbf46959734a92ed, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4623,7 +4624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3011350209451757021, guid: f0958e8d223e3248fbf46959734a92ed, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12.25
+      value: -12.375
       objectReference: {fileID: 0}
     - target: {fileID: 3011350209451757021, guid: f0958e8d223e3248fbf46959734a92ed, type: 3}
       propertyPath: m_LocalRotation.w
