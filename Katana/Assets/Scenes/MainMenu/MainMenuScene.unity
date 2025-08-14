@@ -26467,7 +26467,7 @@ PrefabInstance:
     - target: {fileID: 6680292650503350826, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_Action
       value: 
-      objectReference: {fileID: 512774362350844198, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+      objectReference: {fileID: 512774362350844198, guid: 5f4e937ed6f5e8941ad4da9d8e587935, type: 3}
     - target: {fileID: 6680292650503350826, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_BindingId
       value: 19ab6c97-5fd1-4c67-b2c5-9caef1402008
@@ -27529,7 +27529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b6c2da2db9374dada6761b5e35121c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  actions: {fileID: -944628639613478452, guid: 5f4e937ed6f5e8941ad4da9d8e587935, type: 3}
 --- !u!1 &592422430 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6890166782557458122, guid: 55799ab160637312690832850335746b, type: 3}
@@ -27893,7 +27893,7 @@ PrefabInstance:
     - target: {fileID: 6680292650503350826, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_Action
       value: 
-      objectReference: {fileID: 7221449933317380823, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+      objectReference: {fileID: 7221449933317380823, guid: 5f4e937ed6f5e8941ad4da9d8e587935, type: 3}
     - target: {fileID: 6680292650503350826, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_BindingId
       value: 366702a0-c4a5-45cd-8222-9681a7889da4
@@ -33392,7 +33392,7 @@ PrefabInstance:
     - target: {fileID: 6680292650503350826, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_Action
       value: 
-      objectReference: {fileID: -9060642249146679494, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+      objectReference: {fileID: -9060642249146679494, guid: 5f4e937ed6f5e8941ad4da9d8e587935, type: 3}
     - target: {fileID: 6680292650503350826, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_BindingId
       value: 6530c7c4-06a8-4afd-8adb-c0327d403231
@@ -33624,7 +33624,7 @@ PrefabInstance:
     - target: {fileID: 6680292650503350826, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_Action
       value: 
-      objectReference: {fileID: -7255234244227977951, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+      objectReference: {fileID: -7255234244227977951, guid: 5f4e937ed6f5e8941ad4da9d8e587935, type: 3}
     - target: {fileID: 6680292650503350826, guid: f25dcd618d3acd64795bf8bb32edb6c9, type: 3}
       propertyPath: m_BindingId
       value: c3f5667b-5953-4b64-8cad-3cfdb6910a52
@@ -41400,11 +41400,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.57721233
+      value: 0.019051794
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.8165941
+      value: -0.9998185
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
