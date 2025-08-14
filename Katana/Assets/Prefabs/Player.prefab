@@ -130,9 +130,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402137443040997536}
   serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 1
-  m_AngularDamping: 1
+  m_Mass: 5
+  m_LinearDamping: 10
+  m_AngularDamping: 10
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -161,6 +161,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e731a6ac9301794c4865bae41e743069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ComboDuration: 0
+  TimeSinceLastAction: 0
+  LastAction: 1
   _rb: {fileID: 6053209432441537912}
   _collider: {fileID: 6443529158496922150}
   _katanaObject: {fileID: 8198447046917598476}
@@ -175,34 +178,36 @@ MonoBehaviour:
   _cameraSwitchEasing: 17
   _tiltSpeed: 1
   _tiltRotationMultiplier: 0.025
-  _dashForce: 150
+  _dashForce: {x: 0, y: 800, z: 0}
   _dashTimeScale:
     Keys:
-    - TimeScale: 1.5
+    - TimeScale: 1
       Time: 0
       Easing: 0
     - TimeScale: 0.25
-      Time: 1
+      Time: 0.5
       Easing: 8
-  _dodgeForce: 50
+  _dodgeForce: {x: 0, y: -300, z: 0}
   _dodgeTimeScale:
     Keys:
-    - TimeScale: 1.5
+    - TimeScale: 1
       Time: 0
       Easing: 0
     - TimeScale: 0.25
-      Time: 1
+      Time: 0.5
       Easing: 8
-  _flipForce: {x: 80, y: -10}
-  _flipStuckForce: {x: 20, y: 25}
-  _flipRotation: 15
+  _flipForce: {x: 0, y: 500, z: 20}
+  _flipStuckForce: {x: 0, y: -100, z: -100}
+  _flipRotation: 180
+  _flipRewardMultiplier: 2
+  _flipRewardMultiplierTime: 2
   _flipTimeScale:
     Keys:
-    - TimeScale: 1.5
+    - TimeScale: 1
       Time: 0
       Easing: 0
     - TimeScale: 0.25
-      Time: 1
+      Time: 0.75
       Easing: 8
   _stickMask:
     serializedVersion: 2
@@ -214,7 +219,7 @@ MonoBehaviour:
     - TimeScale: 0.1
       Time: 1
       Easing: 17
-  IsStuck: 0
+  IsStuck: 1
 --- !u!1 &2700068650421365856
 GameObject:
   m_ObjectHideFlags: 0
