@@ -279,7 +279,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122352524}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.108141914, y: 0.3748748, z: -0.044079684, w: -0.91969085}
+  m_LocalRotation: {x: -0.06914734, y: 0.9272588, z: 0.21437936, w: 0.2990842}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -300,8 +300,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Scripts::Assets.Scripts.Core.ColosseumSun
   _tiltRange: {x: -60, y: 60}
-  _tiltCycleTime: 29
-  _spinTime: 73
+  _tiltCycleTime: 237.31
+  _spinTime: 576.73
 --- !u!1001 &143910918
 PrefabInstance:
   m_ObjectHideFlags: 0
