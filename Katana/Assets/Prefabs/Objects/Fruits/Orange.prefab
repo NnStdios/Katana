@@ -14666,7 +14666,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6872385393323574660}
   serializedVersion: 5
-  m_Mass: 0.01
+  m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -14699,9 +14699,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _collider: {fileID: 2860318108924998370}
   _rigidbody: {fileID: 4207201206932212134}
-  _pointsMask:
-    serializedVersion: 2
-    m_Bits: 64
   _destroyForce: 25
   _coins: 100
   _fragmentSettings: {fileID: 5543267838222358531, guid: e477ee761296a20f7986b4c86fbf9e0e, type: 3}

@@ -82,8 +82,8 @@ MonoBehaviour:
   _projectileSpawnPoint: {fileID: 3401828251624042467}
   _cooldownRange: {x: 1, y: 3}
   _aimCooldownRange: {x: 0.5, y: 1.5}
-  _shootingForceRange: {x: 0.2, y: 0.5}
-  _shootingTorqueRange: {x: -1, y: 1}
+  _shootingForceRange: {x: 10, y: 10}
+  _shootingTorqueRange: {x: -30, y: 30}
   _projectiles:
   - {fileID: 2562961667287607126, guid: 05d2f7c23681718f9bc3dfeace2232ac, type: 3}
   - {fileID: 8879357509263256632, guid: 4218c549e9f4e92029fc3609e59a6c21, type: 3}
