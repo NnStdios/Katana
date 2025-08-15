@@ -80,10 +80,10 @@ MonoBehaviour:
   _barrel: {fileID: 2101967797704420084}
   _wheels: {fileID: 3610707069569453448}
   _projectileSpawnPoint: {fileID: 3401828251624042467}
-  _cooldownRange: {x: 1, y: 3}
-  _aimCooldownRange: {x: 0.5, y: 1.5}
-  _shootingForceRange: {x: 10, y: 10}
-  _shootingTorqueRange: {x: -30, y: 30}
+  _cooldownRange: {x: 0.1, y: 0.5}
+  _aimCooldownRange: {x: 0.05, y: 0.1}
+  _shootingForceRange: {x: 400, y: 500}
+  _shootingTorqueRange: {x: -360, y: 360}
   _projectiles:
   - {fileID: 2562961667287607126, guid: 05d2f7c23681718f9bc3dfeace2232ac, type: 3}
   - {fileID: 8879357509263256632, guid: 4218c549e9f4e92029fc3609e59a6c21, type: 3}

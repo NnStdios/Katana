@@ -14555,6 +14555,7 @@ GameObject:
   - component: {fileID: 8067665879230676271}
   - component: {fileID: 2860318108924998370}
   - component: {fileID: 4207201206932212134}
+  - component: {fileID: 7888313544787141694}
   - component: {fileID: 9118297475109966299}
   - component: {fileID: 1078031833832199306}
   - component: {fileID: 7182325162093764280}
@@ -14666,7 +14667,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6872385393323574660}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 5
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -14684,7 +14685,22 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
+--- !u!114 &7888313544787141694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6872385393323574660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876ffa78adccc459cb6894456c545f77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SadnessMonday.BetterPhysics::SadnessMonday.BetterPhysics.BetterRigidbody
+  limits: []
+  layerInteractions: []
+  physicsLayer: 4
 --- !u!114 &9118297475109966299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14699,13 +14715,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _collider: {fileID: 2860318108924998370}
   _rigidbody: {fileID: 4207201206932212134}
+  _betterRigidbody: {fileID: 7888313544787141694}
   _destroyForce: 25
   _coins: 100
   _fragmentSettings: {fileID: 5543267838222358531, guid: e477ee761296a20f7986b4c86fbf9e0e, type: 3}
   _slice: {fileID: 1078031833832199306}
-  _sliceForce: 20
+  _sliceForce: 10000
   _fracture: {fileID: 7182325162093764280}
-  _fractureForce: 10
+  _fractureForce: 20000
   _particles: {fileID: 3006171325932367138}
   _explosionParticles:
   - {fileID: 8397802866233750335}

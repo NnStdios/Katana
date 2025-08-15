@@ -279,7 +279,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122352524}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.11713049, y: 0.8423572, z: -0.48513037, w: -0.20337978}
+  m_LocalRotation: {x: 0.19978175, y: 0.12881544, z: -0.026504276, w: 0.97097445}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5166,10 +5166,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6053209432441537912, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: m_LinearDamping
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 6588910724352230419, guid: 686405cbee95be469b93c305e9304870, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -5219,30 +5215,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1653048413}
     - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _dashForce.y
-      value: 1500
-      objectReference: {fileID: 0}
-    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _flipForce.y
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _flipForce.z
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _dodgeForce.y
-      value: -800
-      objectReference: {fileID: 0}
-    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _flipStuckForce.y
-      value: -200
-      objectReference: {fileID: 0}
-    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _flipStuckForce.z
-      value: -200
-      objectReference: {fileID: 0}
-    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
       propertyPath: _dashAction.m_Name
       value: Dash
       objectReference: {fileID: 0}
@@ -5257,6 +5229,34 @@ PrefabInstance:
     - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
       propertyPath: _perspectiveAction.m_Name
       value: Perspective
+      objectReference: {fileID: 0}
+    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
+      propertyPath: _dashTimeScale.Keys.Array.data[1].Time
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
+      propertyPath: _flipTimeScale.Keys.Array.data[1].Time
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
+      propertyPath: _dodgeTimeScale.Keys.Array.data[1].Time
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
+      propertyPath: _dashTimeScale.Keys.Array.data[0].TimeScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
+      propertyPath: _dashTimeScale.Keys.Array.data[1].TimeScale
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
+      propertyPath: _flipTimeScale.Keys.Array.data[1].TimeScale
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
+      propertyPath: _dodgeTimeScale.Keys.Array.data[1].TimeScale
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
