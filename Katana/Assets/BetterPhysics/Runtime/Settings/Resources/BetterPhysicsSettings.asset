@@ -18,7 +18,17 @@ MonoBehaviour:
   - Feather
   - Player
   - Fruit
+  - FruitFragment
   interactionsStorage:
   - _actorLayer: 3
     _receiverLayer: 4
+    <InteractionType>k__BackingField: 2
+  - _actorLayer: 4
+    _receiverLayer: 5
+    <InteractionType>k__BackingField: 2
+  - _actorLayer: 4
+    _receiverLayer: 4
+    <InteractionType>k__BackingField: 2
+  - _actorLayer: 3
+    _receiverLayer: 5
     <InteractionType>k__BackingField: 2
