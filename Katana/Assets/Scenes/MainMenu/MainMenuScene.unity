@@ -28362,10 +28362,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2837193979928555887, guid: 74a40c38c447d584daeee9807b2c605e, type: 3}
-      propertyPath: _inputActionAsset
-      value: 
-      objectReference: {fileID: -944628639613478452, guid: 132226cb7b518967291101f08c496728, type: 3}
     - target: {fileID: 3814498220043547093, guid: 74a40c38c447d584daeee9807b2c605e, type: 3}
       propertyPath: m_Name
       value: GameManager
@@ -41404,11 +41400,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.94808286
+      value: 0.89608693
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.31802362
+      value: 0.44387862
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
