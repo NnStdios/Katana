@@ -1,0 +1,394 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8d3d82195b0efa4fb8110cca37d61f7, type: 3}
+  m_Name: MainMenu
+  m_EditorClassIdentifier: RoyTheunissen.AssetPalette::RoyTheunissen.AssetPalette.AssetPaletteCollection
+  folders:
+  - rid: 2857940045814038873
+  - rid: 2857940045814038874
+  - rid: 2857940045814038875
+  references:
+    version: 2
+    RefIds:
+    - rid: 2857940045814038873
+      type: {class: PaletteFolder, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        name: Prefabs
+        children: []
+        entries:
+        - rid: 2857940045814038882
+        - rid: 2857940045814038883
+        - rid: 2857940045814038887
+        - rid: 2857940045814038876
+        - rid: 2857940045814038877
+        - rid: 2857940045814038900
+        - rid: 2857940045814038878
+        - rid: 2857940045814038879
+        - rid: 2857940045814038884
+        - rid: 2857940045814038880
+        - rid: 2857940045814038881
+        - rid: 2857940045814038885
+        - rid: 2857940045814038886
+        - rid: 2857940045814038888
+        - rid: 2857940045814038889
+        selectionGuid: 99c27cb4eb1aec5099a8fea4127cad1f
+    - rid: 2857940045814038874
+      type: {class: PaletteFolder, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        name: Materials
+        children: []
+        entries:
+        - rid: 2857940045814038902
+        - rid: 2857940045814038890
+        - rid: 2857940045814038891
+        - rid: 2857940045814038903
+        - rid: 2857940045814038901
+        - rid: 2857940045814038911
+        - rid: 2857940045814038910
+        - rid: 2857940045814038892
+        - rid: 2857940045814038899
+        - rid: 2857940045814038893
+        - rid: 2857940045814038919
+        - rid: 2857940045814038912
+        - rid: 2857940045814038896
+        - rid: 2857940045814038897
+        - rid: 2857940045814038894
+        - rid: 2857940045814038905
+        - rid: 2857940045814038904
+        - rid: 2857940045814038895
+        - rid: 2857940045814038898
+        - rid: 2857940045814038906
+        - rid: 2857940045814038907
+        - rid: 2857940045814038908
+        - rid: 2857940045814038909
+        - rid: 2857940045814038913
+        - rid: 2857940045814038914
+        - rid: 2857940045814038915
+        - rid: 2857940045814038916
+        - rid: 2857940045814038917
+        - rid: 2857940045814038918
+        selectionGuid: 76e9b0389ec18b3f58df335cdc9c7f2e
+    - rid: 2857940045814038875
+      type: {class: PaletteFolder, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        name: Models
+        children: []
+        entries: []
+        selectionGuid: 25b80dd35578cbe029c8934593e9cd80
+    - rid: 2857940045814038876
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: f73c6c55098424c809b3b1d03ff706f0
+        asset: {fileID: 0}
+    - rid: 2857940045814038877
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: b348c4a55de8999b4851ddebb7029c54
+        asset: {fileID: 0}
+    - rid: 2857940045814038878
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: ce7c42291aaf91059819d1c3fd1eee27
+        asset: {fileID: 0}
+    - rid: 2857940045814038879
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: f25dcd618d3acd64795bf8bb32edb6c9
+        asset: {fileID: 0}
+    - rid: 2857940045814038880
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: d023e6c56419e3ba8a7b532f970928a7
+        asset: {fileID: 0}
+    - rid: 2857940045814038881
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 2a4bb4a7c432b9a359b3cb33f8ac776f
+        asset: {fileID: 0}
+    - rid: 2857940045814038882
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: f0958e8d223e3248fbf46959734a92ed
+        asset: {fileID: 0}
+    - rid: 2857940045814038883
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 052d77a8a4548ed398e1b5eef705c0e9
+        asset: {fileID: 0}
+    - rid: 2857940045814038884
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: e25a736e1e6ef2c5088292a8c80bce71
+        asset: {fileID: 0}
+    - rid: 2857940045814038885
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 47848c6cc1ffae04c9cb5c4dd34eca31
+        asset: {fileID: 0}
+    - rid: 2857940045814038886
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 6501f8ac9f4103fbf9b3154f9acd152d
+        asset: {fileID: 0}
+    - rid: 2857940045814038887
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 55799ab160637312690832850335746b
+        asset: {fileID: 0}
+    - rid: 2857940045814038888
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: ab003fd7813ebe24da97bcec2399dcea
+        asset: {fileID: 0}
+    - rid: 2857940045814038889
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: ac1104f4d10d67182b274190f629b254
+        asset: {fileID: 0}
+    - rid: 2857940045814038890
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: c94b76ff0e01705448d01de7d392a9dd
+        asset: {fileID: 0}
+    - rid: 2857940045814038891
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 90daa81aa63ff3242915c58906be0020
+        asset: {fileID: 0}
+    - rid: 2857940045814038892
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: d2940306ed4a40e41a5fbd9094d12286
+        asset: {fileID: 0}
+    - rid: 2857940045814038893
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 6326b6a3d14c37c489b6e85759cd4d2d
+        asset: {fileID: 0}
+    - rid: 2857940045814038894
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 8e38b788bd25c4142a824e40f61cc65f
+        asset: {fileID: 0}
+    - rid: 2857940045814038895
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: a25c72e4a8742e6459482104403c81ac
+        asset: {fileID: 0}
+    - rid: 2857940045814038896
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: a0804283944becb26aa13e6be47aa3ff
+        asset: {fileID: 0}
+    - rid: 2857940045814038897
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: e13492ac0595e850ca3e698a2dd8a4da
+        asset: {fileID: 0}
+    - rid: 2857940045814038898
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: f7992cf9bd00b64d9949bfe1f3307c20
+        asset: {fileID: 0}
+    - rid: 2857940045814038899
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: d54a3dfdc43dfa69995db1866d68832f
+        asset: {fileID: 0}
+    - rid: 2857940045814038900
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 62515e505d1e5348aa5046851eca2f24
+        asset: {fileID: 0}
+    - rid: 2857940045814038901
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 2046be4165084354fb76ae412e84c217
+        asset: {fileID: 0}
+    - rid: 2857940045814038902
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 53aa458647cc88ce28fd020588528dba
+        asset: {fileID: 0}
+    - rid: 2857940045814038903
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 60a7c2f93769eb9ea8786e43fe6bb8a3
+        asset: {fileID: 0}
+    - rid: 2857940045814038904
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: ff742bedbdab6d0afa72dcec9d233b4d
+        asset: {fileID: 0}
+    - rid: 2857940045814038905
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: f088906e874ae34a7a6495edd2876aa4
+        asset: {fileID: 0}
+    - rid: 2857940045814038906
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 6a800161a6a13d5579623a2e659370f1
+        asset: {fileID: 0}
+    - rid: 2857940045814038907
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 0282d822c2dfb9218bc827a4e18f6d9c
+        asset: {fileID: 0}
+    - rid: 2857940045814038908
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 176f3851335b3f8f7a43069357a8934b
+        asset: {fileID: 0}
+    - rid: 2857940045814038909
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 82409e5e2c965b14c800bd87f3455fc3
+        asset: {fileID: 0}
+    - rid: 2857940045814038910
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: c9c53ce2f3a157fd68af2648e98d73fe
+        asset: {fileID: 0}
+    - rid: 2857940045814038911
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: fb957040311d2592b8441e98812f407e
+        asset: {fileID: 0}
+    - rid: 2857940045814038912
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: e8378e2f5a1aabbb499b3ffca594c442
+        asset: {fileID: 0}
+    - rid: 2857940045814038913
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: b1885ce5044d47c45b2635fa63b66106
+        asset: {fileID: 0}
+    - rid: 2857940045814038914
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 0fab84e890a3e8a4590ef0f1e4af5dde
+        asset: {fileID: 0}
+    - rid: 2857940045814038915
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 3cce699ea7a04de41acf6cde001c7dca
+        asset: {fileID: 0}
+    - rid: 2857940045814038916
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 4b96da9381c6bd44bba232aae1c0f24b
+        asset: {fileID: 0}
+    - rid: 2857940045814038917
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: ded56bb2ec013cc25b93efc7f36c38c1
+        asset: {fileID: 0}
+    - rid: 2857940045814038918
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: c5ea2c49b4f8cdf479ffd19dbdb39913
+        asset: {fileID: 0}
+    - rid: 2857940045814038919
+      type: {class: PaletteAsset, ns: RoyTheunissen.AssetPalette, asm: RoyTheunissen.AssetPalette}
+      data:
+        customName: 
+        assetReference:
+          guid: 20e26aa6b508149138913c4d3475662b
+        asset: {fileID: 0}
