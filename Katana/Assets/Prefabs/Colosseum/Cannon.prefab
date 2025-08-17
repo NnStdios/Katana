@@ -80,17 +80,157 @@ MonoBehaviour:
   _barrel: {fileID: 2101967797704420084}
   _wheels: {fileID: 3610707069569453448}
   _projectileSpawnPoint: {fileID: 3401828251624042467}
-  _cooldownRange: {x: 0.1, y: 0.5}
-  _aimCooldownRange: {x: 0.05, y: 0.1}
-  _shootingForceRange: {x: 400, y: 500}
-  _shootingTorqueRange: {x: -360, y: 360}
+  _maxProjectilesPerCycle: 3
+  _shootingForceRange: {x: 100, y: 250}
+  _shootingTorqueRange: {x: -90, y: 90}
+  _shootingPauseRange: {x: 1, y: 2}
   _projectiles:
   - {fileID: 2562961667287607126, guid: 05d2f7c23681718f9bc3dfeace2232ac, type: 3}
   - {fileID: 8879357509263256632, guid: 4218c549e9f4e92029fc3609e59a6c21, type: 3}
   - {fileID: 4207201206932212134, guid: 297c17ddff2b243189d9c2f61893c94b, type: 3}
   - {fileID: 1948522854732417726, guid: f0f3e5e67cd352077b34d46a81cdf672, type: 3}
-  _aimAnimTimeRange: {x: 0.75, y: 1.25}
-  _aimCurve:
+  AimAnimationKey:
+    DurationRange: {x: 0.75, y: 1.25}
+    Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 2.6077383
+        outSlope: 2.6077383
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.24705881
+        outWeight: 0.11810875
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: -0.033211645
+        outSlope: -0.033211645
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.7742369
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    CannonPositionOffsetMin: {x: -1.5, y: 0, z: 1}
+    CannonPositionOffsetMax: {x: 1.5, y: 0, z: 3}
+    TranslateCannonPosition: 1
+    BarrelPositionOffsetMin: {x: 0, y: 0, z: 0}
+    BarrelPositionOffsetMax: {x: 0, y: 0, z: 0}
+    TranslateBarrelPosition: 1
+    BarrelRotationOffsetMin: {x: -30, y: 0, z: 0}
+    BarrelRotationOffsetMax: {x: -20, y: 0, z: 0}
+  _aimPauseRange: {x: 0.25, y: 0.5}
+  ShootAnimationKey:
+    DurationRange: {x: 0.25, y: 0.5}
+    Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 29.323696
+        outSlope: 29.323696
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.05
+        value: 1
+        inSlope: 2.350832
+        outSlope: -0.21743299
+        tangentMode: 1
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -0.24324326
+        outSlope: -0.24324326
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.14035086
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    CannonPositionOffsetMin: {x: 0, y: 0, z: -0.25}
+    CannonPositionOffsetMax: {x: 0, y: 0, z: -0.1}
+    TranslateCannonPosition: 1
+    BarrelPositionOffsetMin: {x: 0, y: 0, z: -0.25}
+    BarrelPositionOffsetMax: {x: 0, y: 0, z: -0.1}
+    TranslateBarrelPosition: 1
+    BarrelRotationOffsetMin: {x: -10, y: 0, z: 0}
+    BarrelRotationOffsetMax: {x: 5, y: 0, z: 0}
+  _pauseBetweenShots: {x: 0.05, y: 0.1}
+  FinalShotAnimationKey:
+    DurationRange: {x: 0.5, y: 0.75}
+    Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 15.608176
+        outSlope: 15.608176
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.16666667
+      - serializedVersion: 3
+        time: 0.1
+        value: 0.75
+        inSlope: 1.5608506
+        outSlope: 1.5608506
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.099200904
+        outWeight: 0.20238096
+      - serializedVersion: 3
+        time: 0.5
+        value: 1.25
+        inSlope: -0.04711572
+        outSlope: -0.04711572
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.23214288
+        outWeight: 0.12457895
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: -0.036821652
+        outSlope: -0.036821652
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.49806654
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    CannonPositionOffsetMin: {x: 0, y: 0, z: -0.5}
+    CannonPositionOffsetMax: {x: 0, y: 0, z: -0.25}
+    TranslateCannonPosition: 1
+    BarrelPositionOffsetMin: {x: 0, y: 0, z: -1}
+    BarrelPositionOffsetMax: {x: 0, y: 0, z: -0.5}
+    TranslateBarrelPosition: 1
+    BarrelRotationOffsetMin: {x: 10, y: 0, z: 0}
+    BarrelRotationOffsetMax: {x: 20, y: 0, z: 0}
+  _returnDurationRange: {x: 1, y: 1.5}
+  _returnCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
@@ -103,69 +243,31 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
+      time: 0.25
+      value: 0.1
+      inSlope: 3.0150168
+      outSlope: 3.0150168
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.099200904
+      outWeight: 0.09734082
+    - serializedVersion: 3
       time: 0.5
-      value: 1
-      inSlope: 2.6077383
-      outSlope: 2.6077383
+      value: 0.9
+      inSlope: 1.5046159
+      outSlope: 1.5046159
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.24705881
-      outWeight: 0.11810875
+      inWeight: 0.3321941
+      outWeight: 0.15788865
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: -0.033211645
-      outSlope: -0.033211645
+      inSlope: -0.32744834
+      outSlope: -0.32744834
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.7742369
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _aimPosRange: {x: -1.5, y: 1.5, z: 1, w: 3}
-  _aimRotIntensity: 0.25
-  _aimBarrelRotationRange: {x: -20, y: 0}
-  _wheelRotIntensity: 40
-  _shootAnimTimeRange: {x: 0.75, y: 1}
-  _shootCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: -13.109839
-      outSlope: -13.109839
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0.208333
-    - serializedVersion: 3
-      time: 0.15
-      value: -0.3
-      inSlope: -2.0351968
-      outSlope: -2.0351968
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 1
-      outWeight: 0.2058823
-    - serializedVersion: 3
-      time: 0.75
-      value: 0
-      inSlope: 1.7193607
-      outSlope: 1.7193607
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.39061975
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: -0.122633874
-      outSlope: -0.122633874
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.9292617
+      inWeight: 0.26613605
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
