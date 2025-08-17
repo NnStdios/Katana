@@ -9845,17 +9845,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _collider: {fileID: 3626176319086523908}
   _rigidbody: {fileID: 8879357509263256632}
-  _destroyForce: 25
   _coins: 75
+  _spawnAnimTime: 0.5
+  _spawnAnimCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.042315025
+      outSlope: 0.042315025
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.75581783
+    - serializedVersion: 3
+      time: 0.2623288
+      value: 0.8506215
+      inSlope: 1.3169769
+      outSlope: 1.3169769
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.22568893
+      outWeight: 0.066254035
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
   _fragmentSettings: {fileID: 5543267838222358531, guid: e477ee761296a20f7986b4c86fbf9e0e, type: 3}
   _destructionMask:
     serializedVersion: 2
     m_Bits: 2007
-  _slice: {fileID: 8328426821523275245}
-  _sliceForce: 10000
-  _fracture: {fileID: 4645734170566181358}
-  _fractureForce: 20000
+  _minDestructionVelocity: 50
   _fruitFragmentLayer: 5
+  _slice: {fileID: 8328426821523275245}
+  _fracture: {fileID: 4645734170566181358}
   _particles: {fileID: 3780264449875566262}
   _explosionParticles:
   - {fileID: 6276309137972857433}

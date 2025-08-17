@@ -156,14 +156,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _collider: {fileID: 1095286721402025833}
   _rigidbody: {fileID: 1948522854732417726}
-  _destroyForce: 1000
   _fracture: {fileID: 2638401674502622217}
   _fragmentSettings: {fileID: 5543267838222358531, guid: e477ee761296a20f7986b4c86fbf9e0e, type: 3}
   _destructibleMask:
     serializedVersion: 2
     m_Bits: 2752
   _explosionRadius: 10
-  _explosionForce: 1
+  _explosionForce: 500
 --- !u!114 &2638401674502622217
 MonoBehaviour:
   m_ObjectHideFlags: 0
