@@ -227,14 +227,14 @@ MonoBehaviour:
       Easing: 8
   _bulletTimeScale:
     Keys:
-    - TimeScale: 0.005
-      Time: 0.1
-      Easing: 17
-    - TimeScale: 0.005
+    - TimeScale: 0.0025
       Time: 0.25
+      Easing: 17
+    - TimeScale: 0.0025
+      Time: 0.1
       Easing: 0
     - TimeScale: 0.1
-      Time: 0.25
+      Time: 0.5
       Easing: 18
   _stickMask:
     serializedVersion: 2
