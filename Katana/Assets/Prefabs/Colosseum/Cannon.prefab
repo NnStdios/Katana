@@ -80,10 +80,10 @@ MonoBehaviour:
   _barrel: {fileID: 2101967797704420084}
   _wheels: {fileID: 3610707069569453448}
   _projectileSpawnPoint: {fileID: 3401828251624042467}
-  _maxProjectilesPerCycle: 3
+  _maxProjectilesPerCycle: 4
   _shootingForceRange: {x: 100, y: 250}
   _shootingTorqueRange: {x: -90, y: 90}
-  _shootingPauseRange: {x: 1, y: 2}
+  _shootingPauseRange: {x: 0.5, y: 1}
   _projectiles:
   - {fileID: 2562961667287607126, guid: 05d2f7c23681718f9bc3dfeace2232ac, type: 3}
   - {fileID: 8879357509263256632, guid: 4218c549e9f4e92029fc3609e59a6c21, type: 3}
@@ -229,49 +229,6 @@ MonoBehaviour:
     TranslateBarrelPosition: 1
     BarrelRotationOffsetMin: {x: 10, y: 0, z: 0}
     BarrelRotationOffsetMax: {x: 20, y: 0, z: 0}
-  _returnDurationRange: {x: 1, y: 1.5}
-  _returnCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.25
-      value: 0.1
-      inSlope: 3.0150168
-      outSlope: 3.0150168
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.099200904
-      outWeight: 0.09734082
-    - serializedVersion: 3
-      time: 0.5
-      value: 0.9
-      inSlope: 1.5046159
-      outSlope: 1.5046159
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.3321941
-      outWeight: 0.15788865
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: -0.32744834
-      outSlope: -0.32744834
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.26613605
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1001 &8647989119252353153
 PrefabInstance:
   m_ObjectHideFlags: 0
