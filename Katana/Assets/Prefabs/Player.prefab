@@ -194,7 +194,7 @@ MonoBehaviour:
   _cameraSwitchEasing: 17
   _tiltSpeed: 1
   _tiltRotationMultiplier: 0.025
-  _dashForce: {x: 0, y: 1500, z: 0}
+  _dashForce: {x: 0, y: 3000, z: 0}
   _dashTimeScale:
     Keys:
     - TimeScale: 1
@@ -203,7 +203,7 @@ MonoBehaviour:
     - TimeScale: 0.1
       Time: 0.5
       Easing: 8
-  _dodgeForce: {x: 0, y: -800, z: 0}
+  _dodgeForce: {x: 0, y: -1500, z: 0}
   _dodgeTimeScale:
     Keys:
     - TimeScale: 1
@@ -212,8 +212,8 @@ MonoBehaviour:
     - TimeScale: 0.1
       Time: 0.25
       Easing: 8
-  _flipForce: {x: 0, y: 1000, z: 100}
-  _flipStuckForce: {x: 0, y: -200, z: -200}
+  _flipForce: {x: 0, y: 1500, z: 150}
+  _flipStuckForce: {x: 0, y: -500, z: -500}
   _flipRotation: 180
   _flipRewardMultiplier: 2
   _flipRewardMultiplierTime: 2
@@ -227,11 +227,14 @@ MonoBehaviour:
       Easing: 8
   _bulletTimeScale:
     Keys:
-    - TimeScale: 0.001
+    - TimeScale: 0.005
       Time: 0.1
-      Easing: 8
+      Easing: 17
+    - TimeScale: 0.005
+      Time: 0.25
+      Easing: 0
     - TimeScale: 0.1
-      Time: 1.5
+      Time: 0.25
       Easing: 18
   _stickMask:
     serializedVersion: 2
