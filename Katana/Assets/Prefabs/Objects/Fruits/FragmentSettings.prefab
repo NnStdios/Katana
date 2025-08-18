@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5837737430619259871}
   - component: {fileID: 8578439361205045845}
+  - component: {fileID: 9039465433416951015}
   - component: {fileID: 5543267838222358531}
   m_Layer: 11
   m_Name: FragmentSettings
@@ -40,10 +41,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819954013829552776}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -57,9 +58,24 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &9039465433416951015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819954013829552776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876ffa78adccc459cb6894456c545f77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SadnessMonday.BetterPhysics::SadnessMonday.BetterPhysics.BetterRigidbody
+  limits: []
+  layerInteractions: []
+  physicsLayer: 5
 --- !u!114 &5543267838222358531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,7 +89,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Rigidbody: {fileID: 8578439361205045845}
-  _lifetime: 10
+  BetterRigidbody: {fileID: 9039465433416951015}
+  Lifetime: 5
   _disappearTime: 0.75
   _disappearCurve:
     serializedVersion: 2
