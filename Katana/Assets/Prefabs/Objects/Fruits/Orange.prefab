@@ -150,8 +150,8 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 10
-      minScalar: 5
+      scalar: 5
+      minScalar: 3
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -4986,8 +4986,8 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 10
-      minScalar: 5
+      scalar: 5
+      minScalar: 3
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -9822,8 +9822,8 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 10
-      minScalar: 5
+      scalar: 5
+      minScalar: 3
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -14755,7 +14755,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2007
   _minDestructionVelocity: 50
-  _fruitFragmentLayer: 5
   _slice: {fileID: 1078031833832199306}
   _fracture: {fileID: 7182325162093764280}
   _particles: {fileID: 3006171325932367138}
