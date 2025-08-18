@@ -279,7 +279,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122352524}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.06682085, y: 0.8626744, z: 0.48716164, w: -0.11832754}
+  m_LocalRotation: {x: -0.1255742, y: 0.008739973, z: 0.0011063158, w: 0.9920451}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1839,7 +1839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _cameraManager: {fileID: 843226436}
   _explosionManager: {fileID: 843226438}
-  IsDead: 0
+  _isDead: 0
   _player: {fileID: 1461481852}
   _deathScreen: {fileID: 1789759881}
 --- !u!114 &843226436
@@ -5166,38 +5166,6 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: ac5df8c91d416ad409961aa904ab9a1c, type: 2}
-    - target: {fileID: 6841603374842545881, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841603374842545881, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841603374842545881, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841603374842545881, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841603374842545881, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841603374842545881, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841603374842545881, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6841603374842545881, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
       propertyPath: _dashForce
       value: 1500
@@ -5227,31 +5195,15 @@ PrefabInstance:
       value: Perspective
       objectReference: {fileID: 0}
     - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _dashTimeScale.Keys.Array.data[1].Time
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _flipTimeScale.Keys.Array.data[1].Time
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _dodgeTimeScale.Keys.Array.data[1].Time
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _dashTimeScale.Keys.Array.data[0].TimeScale
+      propertyPath: _bulletTimeScale.Keys.Array.data[2].Time
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _dashTimeScale.Keys.Array.data[1].TimeScale
-      value: 0.1
+      propertyPath: _bulletTimeScale.Keys.Array.data[2].Easing
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _flipTimeScale.Keys.Array.data[1].TimeScale
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8049333733980845615, guid: 686405cbee95be469b93c305e9304870, type: 3}
-      propertyPath: _dodgeTimeScale.Keys.Array.data[1].TimeScale
+      propertyPath: _bulletTimeScale.Keys.Array.data[2].TimeScale
       value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

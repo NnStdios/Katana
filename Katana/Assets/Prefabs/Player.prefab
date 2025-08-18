@@ -149,7 +149,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 96
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!114 &4031322970660354583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,7 +200,7 @@ MonoBehaviour:
     - TimeScale: 1
       Time: 0
       Easing: 0
-    - TimeScale: 0.25
+    - TimeScale: 0.1
       Time: 0.5
       Easing: 8
   _dodgeForce: {x: 0, y: -800, z: 0}
@@ -209,8 +209,8 @@ MonoBehaviour:
     - TimeScale: 1
       Time: 0
       Easing: 0
-    - TimeScale: 0.25
-      Time: 0.5
+    - TimeScale: 0.1
+      Time: 0.25
       Easing: 8
   _flipForce: {x: 0, y: 1000, z: 100}
   _flipStuckForce: {x: 0, y: -200, z: -200}
@@ -222,9 +222,17 @@ MonoBehaviour:
     - TimeScale: 1
       Time: 0
       Easing: 0
-    - TimeScale: 0.25
+    - TimeScale: 0.1
       Time: 0.75
       Easing: 8
+  _bulletTimeScale:
+    Keys:
+    - TimeScale: 0.001
+      Time: 0
+      Easing: 8
+    - TimeScale: 0.1
+      Time: 1.5
+      Easing: 18
   _stickMask:
     serializedVersion: 2
     m_Bits: 1409
@@ -360,7 +368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 622755268422086721, guid: 5fc0b7a45e9f0344b9ee07143ea41846, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 622755268422086721, guid: 5fc0b7a45e9f0344b9ee07143ea41846, type: 3}
       propertyPath: m_LocalRotation.w
@@ -393,6 +401,18 @@ PrefabInstance:
     - target: {fileID: 947649265504711307, guid: 5fc0b7a45e9f0344b9ee07143ea41846, type: 3}
       propertyPath: m_RenderingLayerMask
       value: 255
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097252380485033150, guid: 5fc0b7a45e9f0344b9ee07143ea41846, type: 3}
+      propertyPath: m_Size.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097252380485033150, guid: 5fc0b7a45e9f0344b9ee07143ea41846, type: 3}
+      propertyPath: m_Size.z
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097252380485033150, guid: 5fc0b7a45e9f0344b9ee07143ea41846, type: 3}
+      propertyPath: m_Center.z
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 1596039586700514142, guid: 5fc0b7a45e9f0344b9ee07143ea41846, type: 3}
       propertyPath: m_Layer
