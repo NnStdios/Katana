@@ -22,22 +22,22 @@ PresetManager:
       m_Filter: 
       m_Disabled: 0
     - m_Preset: {fileID: 2655988077585873504, guid: 1df7af02d48d835f08d382af47d7b29b, type: 2}
-      m_Filter: ao
+      m_Filter: _ao
       m_Disabled: 0
     - m_Preset: {fileID: 2655988077585873504, guid: 5900bb0fd7ead2e82bf5fdbb822b7596, type: 2}
-      m_Filter: metallic
+      m_Filter: _metallic
       m_Disabled: 0
     - m_Preset: {fileID: 2655988077585873504, guid: 1a524e00f0925f43b83188cecaecd146, type: 2}
-      m_Filter: metallicsmoothness
+      m_Filter: _ms
       m_Disabled: 0
     - m_Preset: {fileID: 2655988077585873504, guid: 6df4766a2b8c2bce4ac33c3c9ba1f30f, type: 2}
-      m_Filter: normal
+      m_Filter: _normal
       m_Disabled: 0
     - m_Preset: {fileID: 2655988077585873504, guid: f718c2d11006ba5af8b915a7bec24410, type: 2}
-      m_Filter: roughness
+      m_Filter: _roughness
       m_Disabled: 0
     - m_Preset: {fileID: 2655988077585873504, guid: bc99fbbbd2cafa3ce80e4518d775c016, type: 2}
-      m_Filter: smoothness
+      m_Filter: _smoothness
       m_Disabled: 0
     - m_Preset: {fileID: 2655988077585873504, guid: 5e6017290ef6e9b479341ffa1829a478, type: 2}
       m_Filter: lightmap
