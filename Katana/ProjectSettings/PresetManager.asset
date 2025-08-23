@@ -27,6 +27,9 @@ PresetManager:
     - m_Preset: {fileID: 2655988077585873504, guid: 5900bb0fd7ead2e82bf5fdbb822b7596, type: 2}
       m_Filter: _metallic
       m_Disabled: 0
+    - m_Preset: {fileID: 2655988077585873504, guid: 3febb49005d046c9fab3f247db37bb7d, type: 2}
+      m_Filter: _mas
+      m_Disabled: 0
     - m_Preset: {fileID: 2655988077585873504, guid: 1a524e00f0925f43b83188cecaecd146, type: 2}
       m_Filter: _ms
       m_Disabled: 0
