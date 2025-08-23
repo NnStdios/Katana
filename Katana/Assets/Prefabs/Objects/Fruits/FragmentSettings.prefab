@@ -91,6 +91,7 @@ MonoBehaviour:
   Rigidbody: {fileID: 8578439361205045845}
   BetterRigidbody: {fileID: 9039465433416951015}
   Lifetime: 5
+  _physicsMaterial: {fileID: 13400000, guid: c6553e81779c6d1f5b042ada569c7d0a, type: 2}
   _disappearTime: 0.75
   _disappearCurve:
     serializedVersion: 2
