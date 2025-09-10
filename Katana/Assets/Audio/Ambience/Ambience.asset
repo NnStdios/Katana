@@ -20,12 +20,12 @@ MonoBehaviour:
   SourceType: 0
   Position: {x: 0, y: 0, z: 0}
   FadeIn: 1
-  FadeInTime: 10
+  FadeInTime: 5
   FadeInEasing: 1
   FadeInScale: 1
   FadeInScaleWithPitch: 1
   FadeOut: 1
-  FadeOutTime: 10
+  FadeOutTime: 5
   FadeOutEasing: 1
   FadeOutScale: 1
   FadeOutScaleWithPitch: 1
