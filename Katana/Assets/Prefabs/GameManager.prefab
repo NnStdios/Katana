@@ -65,6 +65,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3663f40409fa1bfce992b6a904226549, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _pauseKey:
+    TimeScale: 0
+    Time: 1
+    Easing: 17
+  _unpauseKey:
+    TimeScale: 1
+    Time: 1
+    Easing: 17
 --- !u!114 &3653763213422082960
 MonoBehaviour:
   m_ObjectHideFlags: 0

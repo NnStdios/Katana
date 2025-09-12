@@ -28367,6 +28367,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 5628954683069759738, guid: 74a40c38c447d584daeee9807b2c605e, type: 3}
+      propertyPath: _tsk.Time
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5628954683069759738, guid: 74a40c38c447d584daeee9807b2c605e, type: 3}
+      propertyPath: _tsk.Easing
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5628954683069759738, guid: 74a40c38c447d584daeee9807b2c605e, type: 3}
+      propertyPath: _tsk.TimeScale
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6802476309410619603, guid: 74a40c38c447d584daeee9807b2c605e, type: 3}
       propertyPath: _ambienceItem.AsChildObject
       value: 0
@@ -46046,11 +46058,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.30660063
+      value: -0.53359264
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.9518383
+      value: 0.8457417
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
