@@ -90,6 +90,8 @@ MonoBehaviour:
   - {fileID: 8879357509263256632, guid: 4218c549e9f4e92029fc3609e59a6c21, type: 3}
   - {fileID: 4207201206932212134, guid: 297c17ddff2b243189d9c2f61893c94b, type: 3}
   - {fileID: 1948522854732417726, guid: f0f3e5e67cd352077b34d46a81cdf672, type: 3}
+  _cannonRotationIntensity: 0.25
+  _wheelRotationIntensity: 40
   AimAnimationKey:
     DurationRange: {x: 0.75, y: 1.25}
     Curve:
@@ -177,7 +179,7 @@ MonoBehaviour:
     TranslateBarrelPosition: 1
     BarrelRotationOffsetMin: {x: -10, y: 0, z: 0}
     BarrelRotationOffsetMax: {x: 5, y: 0, z: 0}
-  _pauseBetweenShots: {x: 0.05, y: 0.1}
+  _pauseBetweenShots: {x: 0.15, y: 0.25}
   FinalShotAnimationKey:
     DurationRange: {x: 0.5, y: 0.75}
     Curve:
@@ -231,7 +233,7 @@ MonoBehaviour:
     BarrelRotationOffsetMin: {x: 10, y: 0, z: 0}
     BarrelRotationOffsetMax: {x: 20, y: 0, z: 0}
   _shotVFX: {fileID: 5628750610269418821}
-  _shotVFXBurstCount: 5
+  _shotVFXBurstCount: 6
   _shotVFXDelayBetweenBursts: 0.025
   _shotVFXSpeedCurve:
     serializedVersion: 2
