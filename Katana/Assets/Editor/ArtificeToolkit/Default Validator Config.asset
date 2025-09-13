@@ -38,6 +38,12 @@ MonoBehaviour:
       Value: 1
     - Key: Artifice_ValidatorModule_ScriptableObject
       Value: 1
+    - Key: Artifice_ValidatorModule_ScriptableObject_NullReferenceChecker
+      Value: 1
+    - Key: Artifice_ValidatorModule_ScriptableObject_CustomAttributeChecker
+      Value: 1
+    - Key: Artifice_ValidatorModule_NullScriptChecker_GameObjects
+      Value: 1
   logTypesMap:
     list:
     - Key: 3
