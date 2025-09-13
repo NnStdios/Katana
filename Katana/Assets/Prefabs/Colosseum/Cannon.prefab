@@ -28,8 +28,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 2.75, z: 4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1504270510082858909}
+  m_Children: []
   m_Father: {fileID: 2101967797704420084}
   m_LocalEulerAnglesHint: {x: -9, y: 0, z: 0}
 --- !u!1 &6152999226736819730
@@ -63,6 +62,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9189996591388800874}
+  - {fileID: 1504270510082858909}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6430877912764789368
@@ -283,13 +283,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8828298469313036469}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000007450579, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3401828251624042467}
-  m_LocalEulerAnglesHint: {x: -9, y: 0, z: 0}
+  m_Father: {fileID: 6100109698983717187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!2083052967 &5628750610269418821
 VisualEffect:
   m_ObjectHideFlags: 0
@@ -309,7 +309,10 @@ VisualEffect:
     m_Float:
       m_Array: []
     m_Vector2f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0, y: 150}
+        m_Name: SpeedRange
+        m_Overridden: 1
     m_Vector3f:
       m_Array: []
     m_Vector4f:
