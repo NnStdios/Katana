@@ -5048,8 +5048,7 @@ MonoBehaviour:
   _collider: {fileID: 7440029884237884367}
   _rigidbody: {fileID: 2562961667287607126}
   _renderer: {fileID: 8069402788654885451}
-  _coins: 50
-  _spawnAnimTime: 0.5
+  _spawnAnimTime: 1
   _spawnAnimCurve:
     serializedVersion: 2
     m_Curve:
@@ -5087,7 +5086,7 @@ MonoBehaviour:
   _destructionMask:
     serializedVersion: 2
     m_Bits: 2007
-  _minDestructionVelocity: 50
+  _rewardCoins: 0
   _slice: {fileID: 3686684621976886088}
   _fracture: {fileID: 9122053593791312149}
   _outlineTransitionDuration: 0.5

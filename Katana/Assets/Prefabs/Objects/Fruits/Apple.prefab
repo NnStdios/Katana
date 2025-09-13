@@ -5012,7 +5012,7 @@ MonoBehaviour:
   _collider: {fileID: 3626176319086523908}
   _rigidbody: {fileID: 8879357509263256632}
   _renderer: {fileID: 894956051010080104}
-  _spawnAnimTime: 0.5
+  _spawnAnimTime: 1
   _spawnAnimCurve:
     serializedVersion: 2
     m_Curve:
