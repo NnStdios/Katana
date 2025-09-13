@@ -12,4 +12,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a60da2a327ac4a3fae1fcf7e65264165, type: 3}
   m_Name: QuickAccessManager
   m_EditorClassIdentifier: CustomToolbar::OpalStudio.CustomToolbar.Editor.ToolbarElements.QuickAccess.Data.QuickAccessManager
-  items: []
+  items:
+  - displayName: ColosseumCage
+    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
+  - displayName: ColosseumCage
+    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
+  - displayName: '- Colosseum'
+    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
+  - displayName: Adaptive Probe Volume
+    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
+  - displayName: ColosseumPit
+    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
+  - displayName: ColosseumModel
+    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
+  - displayName: ColosseumPitMaterial
+    scenePath: 
+  - displayName: ColosseumPit
+    scenePath: 
+  - displayName: Top
+    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
+  - displayName: ColosseumGroundMaterial
+    scenePath: 
+  - displayName: ColosseumStairsMaterial
+    scenePath: 
+  - displayName: ColosseumPit_Normal
+    scenePath: 
+  - displayName: ColosseumGround_MS
+    scenePath: 
+  - displayName: LightingSettings
+    scenePath: 
+  - displayName: Default-HighResolution
+    scenePath: 
+  - displayName: Reflection Probe
+    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
+  - displayName: Cannon (2)
+    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
+  - displayName: ColosseumFloor
+    scenePath: 
+  - displayName: ColosseumStairs
+    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
+  - displayName: ColosseumGround
+    scenePath: 
+  - displayName: ColosseumGround_Diffuse
+    scenePath: 
+  - displayName: ColosseumGround_Normal
+    scenePath: 
+  - displayName: ColosseumPit_Diffuse
+    scenePath: 
+  - displayName: ColosseumStairs
+    scenePath: 
+  - displayName: Assets
+    scenePath: 
