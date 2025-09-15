@@ -287,7 +287,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122352524}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.3231019, y: 0.643369, z: 0.3452755, w: 0.60205185}
+  m_LocalRotation: {x: -0.48883793, y: 0.17398529, z: 0.1001823, w: 0.8489583}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2254,7 +2254,7 @@ GameObject:
   - component: {fileID: 843226436}
   - component: {fileID: 843226438}
   m_Layer: 0
-  m_Name: ColosseumSceneManager
+  m_Name: SceneManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2291,10 +2291,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d83d5f9af484a97a3075873641402f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CameraHolder: {fileID: 287414054}
-  Camera: {fileID: 2087302220}
-  PlayerCamera: {fileID: 898698351}
-  Handlers:
+  _cameraHolder: {fileID: 287414054}
+  _worldCamera: {fileID: 2087302220}
+  _playerCamera: {fileID: 898698351}
+  _defaultAnimationSettings:
+    Duration: 0.5
+    Easing: 17
+    Curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 1
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  _handlers:
   - {fileID: 7885427314332751303}
   - {fileID: 24345335}
   - {fileID: 7885427314332751302}
