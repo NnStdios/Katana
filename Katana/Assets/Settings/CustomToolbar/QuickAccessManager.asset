@@ -13,53 +13,27 @@ MonoBehaviour:
   m_Name: QuickAccessManager
   m_EditorClassIdentifier: CustomToolbar::OpalStudio.CustomToolbar.Editor.ToolbarElements.QuickAccess.Data.QuickAccessManager
   items:
-  - displayName: ColosseumCage
+  - displayName: Image
     scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: ColosseumCage
+  - displayName: = UI
     scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: '- Colosseum'
+  - displayName: LeftCameraHandler
     scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: Adaptive Probe Volume
+  - displayName: RightCameraHandler
     scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: ColosseumPit
+  - displayName: ThirdPersonCameraHandler
     scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: ColosseumModel
+  - displayName: ColosseumSceneManager
     scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: ColosseumPitMaterial
-    scenePath: 
-  - displayName: ColosseumPit
-    scenePath: 
-  - displayName: Top
+  - displayName: CameraHolder
     scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: ColosseumGroundMaterial
-    scenePath: 
-  - displayName: ColosseumStairsMaterial
-    scenePath: 
-  - displayName: ColosseumPit_Normal
-    scenePath: 
-  - displayName: ColosseumGround_MS
-    scenePath: 
-  - displayName: LightingSettings
-    scenePath: 
-  - displayName: Default-HighResolution
-    scenePath: 
-  - displayName: Reflection Probe
+  - displayName: ThirdPersonCameraHandler
     scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: Cannon (2)
+  - displayName: Player
     scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: ColosseumFloor
-    scenePath: 
-  - displayName: ColosseumStairs
+  - displayName: FirstPersonCameraHandler
     scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: ColosseumGround
-    scenePath: 
-  - displayName: ColosseumGround_Diffuse
-    scenePath: 
-  - displayName: ColosseumGround_Normal
-    scenePath: 
-  - displayName: ColosseumPit_Diffuse
-    scenePath: 
-  - displayName: ColosseumStairs
-    scenePath: 
-  - displayName: Assets
-    scenePath: 
+  - displayName: ColosseumSceneManager
+    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
+  - displayName: FirstPersonCameraHandler
+    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
