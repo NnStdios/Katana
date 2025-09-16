@@ -28949,52 +28949,9 @@ MonoBehaviour:
     FadeOutScaleWithPitch: 1
     ReloadTweaksEveryPlay: 1
     Tweaks: []
-    OverrideEffects: 0
     UseEffectsPreset: 0
     AudioEffects:
-      Chorus:
-        Enabled: 0
-        DryMix: 0.5
-        WetMix1: 0.5
-        WetMix2: 0.5
-        WetMix3: 0.5
-        Delay: 40
-        Rate: 0.8
-        Depth: 0.03
-      Distortion:
-        Enabled: 0
-        Level: 0.5
-      Echo:
-        Enabled: 0
-        Delay: 500
-        DecayRatio: 0.5
-        DryMix: 1
-        WetMix: 1
-      HighPass:
-        Enabled: 0
-        HighPassCutoffFrequency: 5000
-        HighPassResonanceQ: 1
-      Lowpass:
-        Enabled: 0
-        LowPassCutoffFrequency: 5007.7
-        LowPassResonanceQ: 1
-      Reverb:
-        Enabled: 0
-        Preset: 0
-        DryLevel: 0
-        Room: 0
-        RoomHF: 0
-        RoomLF: 0
-        DecayTime: 1
-        DecayHFRatio: 0.5
-        ReflectionsLevel: -10000
-        ReflectionsDelay: 0
-        ReverbLevel: 0
-        ReverbDelay: 0.04
-        HFReference: 5000
-        LFReference: 250
-        Diffusion: 100
-        Density: 100
+      Effects: []
     AudioEffectsPreset: {fileID: 0}
   references:
     version: 2
@@ -46036,11 +45993,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.91179603
+      value: -0.57253176
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.4106435
+      value: 0.8198826
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent

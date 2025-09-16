@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 82ab6a93c62c43a8beed8d6911ad406b, type: 3}
-  m_Name: Ambience
+  m_Name: MainMenuAmbience
   m_EditorClassIdentifier: 
   Name: MainMenuAmbience
   Resource: {fileID: 8300000, guid: 2cbd9f5c98e5e13e9afcf66b2c6df637, type: 3}
@@ -34,49 +34,7 @@ MonoBehaviour:
   - rid: 3270339084461801590
   UseEffectsPreset: 0
   AudioEffects:
-    Chorus:
-      Enabled: 0
-      DryMix: 1
-      WetMix1: 1
-      WetMix2: 1
-      WetMix3: 1
-      Delay: 40
-      Rate: 4.45
-      Depth: 0.085
-    Distortion:
-      Enabled: 0
-      Level: 0.5
-    Echo:
-      Enabled: 0
-      Delay: 1000
-      DecayRatio: 0
-      DryMix: 1
-      WetMix: 0
-    HighPass:
-      Enabled: 0
-      HighPassCutoffFrequency: 5000
-      HighPassResonanceQ: 1
-    Lowpass:
-      Enabled: 0
-      LowPassCutoffFrequency: 5007.7
-      LowPassResonanceQ: 1
-    Reverb:
-      Enabled: 0
-      Preset: 0
-      DryLevel: 0
-      Room: 0
-      RoomHF: 0
-      RoomLF: -10000
-      DecayTime: 20
-      DecayHFRatio: 0.5
-      ReflectionsLevel: -10000
-      ReflectionsDelay: 0
-      ReverbLevel: 0
-      ReverbDelay: 0.04
-      HFReference: 5000
-      LFReference: 250
-      Diffusion: 100
-      Density: 100
+    Effects: []
   AudioEffectsPreset: {fileID: 0}
   references:
     version: 2
