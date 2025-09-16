@@ -36,6 +36,8 @@ MonoBehaviour:
   AudioEffects:
     Effects: []
   AudioEffectsPreset: {fileID: 0}
+  UseSteamAudioSource: 1
+  SteamAudioSourcePreset: {fileID: 8613879624570683476, guid: e1c57c93878a1c6f8b5fb9a8c42b6bff, type: 3}
   references:
     version: 2
     RefIds:
