@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   m_Settings:
-    AOMethod: 0
+    AOMethod: 1
     Downsample: 0
-    AfterOpaque: 1
+    AfterOpaque: 0
     Source: 1
     NormalSamples: 1
     Intensity: 3
-    DirectLightingStrength: 0.25
-    Radius: 0.035
-    Samples: 1
+    DirectLightingStrength: 0.5
+    Radius: 0.025
+    Samples: 0
     BlurQuality: 0
-    Falloff: 100
+    Falloff: 10
     SampleCount: -1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -52,9 +52,9 @@ MonoBehaviour:
     probeVolumeBlendStatesCS: {fileID: 7200000, guid: b9a23f869c4fd45f19c5ada54dd82176, type: 3}
   m_RendererFeatures:
   - {fileID: -4835308684839927443}
-  - {fileID: 6191523616085622551}
   - {fileID: 8396533886632575327}
-  m_RendererFeatureMap: 6d41c1a45e88e5bc17bf39bbecb5ec555fc14349157b8674
+  - {fileID: 6191523616085622551}
+  m_RendererFeatureMap: 6d41c1a45e88e5bc5fc14349157b867417bf39bbecb5ec55
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
