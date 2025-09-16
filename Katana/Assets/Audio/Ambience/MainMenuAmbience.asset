@@ -32,6 +32,9 @@ MonoBehaviour:
   Tweaks:
   - rid: 3270339084461801591
   - rid: 3270339084461801590
+  - rid: 5167236631793762442
+  - rid: 5167236631793762446
+  - rid: 5167236631793762447
   UseEffectsPreset: 0
   AudioEffects:
     Effects: []
@@ -49,3 +52,15 @@ MonoBehaviour:
       type: {class: AudioTweaksPresetTweak, ns: AudioManager.Tweaks, asm: nnra.AudioManager}
       data:
         AudioTweaksPreset: {fileID: 11400000, guid: 43eef0739df825b5f9f26027524483b1, type: 2}
+    - rid: 5167236631793762442
+      type: {class: SpatialBlendTweak, ns: AudioManager.Tweaks, asm: nnra.AudioManager}
+      data:
+        SpatialBlend: 1
+    - rid: 5167236631793762446
+      type: {class: DistanceRangeTweak, ns: AudioManager.Tweaks, asm: nnra.AudioManager}
+      data:
+        DistanceRange: {x: 20, y: 500}
+    - rid: 5167236631793762447
+      type: {class: DopplerLevelRangeTweak, ns: AudioManager.Tweaks, asm: nnra.AudioManager}
+      data:
+        DopplerLevelRange: {x: 0, y: 1}
