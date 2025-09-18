@@ -13,27 +13,37 @@ MonoBehaviour:
   m_Name: QuickAccessManager
   m_EditorClassIdentifier: CustomToolbar::OpalStudio.CustomToolbar.Editor.ToolbarElements.QuickAccess.Data.QuickAccessManager
   items:
-  - displayName: Image
+  - displayName: BellRing
+    scenePath: 
+  - displayName: ItemHover
+    scenePath: 
+  - displayName: ItemUnhover
+    scenePath: 
+  - displayName: MainMenuScene
+    scenePath: Assets/Scenes/MainMenu/MainMenuScene.unity
+  - displayName: ColosseumScene
     scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: = UI
+  - displayName: DOF
+    scenePath: Assets/Scenes/MainMenu/MainMenuScene.unity
+  - displayName: DOFPoint
+    scenePath: Assets/Scenes/MainMenu/MainMenuScene.unity
+  - displayName: AncientKatanaShopItem
+    scenePath: Assets/Scenes/MainMenu/MainMenuScene.unity
+  - displayName: ItemUnhover
+    scenePath: 
+  - displayName: BarCounter
+    scenePath: Assets/Scenes/MainMenu/MainMenuScene.unity
+  - displayName: MainMenuAmbience
+    scenePath: 
+  - displayName: MainMenuScene
+    scenePath: Assets/Scenes/MainMenu/MainMenuScene.unity
+  - displayName: BrazierModel
     scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: LeftCameraHandler
-    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: RightCameraHandler
-    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: ThirdPersonCameraHandler
-    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: ColosseumSceneManager
-    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: CameraHolder
-    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: ThirdPersonCameraHandler
-    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: Player
-    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: FirstPersonCameraHandler
-    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: ColosseumSceneManager
-    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
-  - displayName: FirstPersonCameraHandler
-    scenePath: Assets/Scenes/Colosseum/ColosseumScene.unity
+  - displayName: BrazierMaterial
+    scenePath: 
+  - displayName: Flame
+    scenePath: 
+  - displayName: Brazier_Metallic
+    scenePath: 
+  - displayName: Brazier_Roughness
+    scenePath: 
