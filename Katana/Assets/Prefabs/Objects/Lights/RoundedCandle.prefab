@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 2427683157842548099}
   - component: {fileID: 8270870871686247913}
   m_Layer: 0
-  m_Name: CandleFlame
+  m_Name: Flame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5019,7 +5019,7 @@ GameObject:
   - component: {fileID: 5230012883357483857}
   - component: {fileID: 8178888235773790592}
   m_Layer: 0
-  m_Name: CandleSmoke
+  m_Name: Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9910,7 +9910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e4fded7ace1daf3a7b288f853a804f16, type: 3}
       propertyPath: m_Name
-      value: RoundedCandle
+      value: RoundedCandleModel
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e4fded7ace1daf3a7b288f853a804f16, type: 3}
       propertyPath: m_StaticEditorFlags

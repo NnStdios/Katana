@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3178155067201663991}
   - component: {fileID: 86759109481884052}
   m_Layer: 0
-  m_Name: CandleFlame
+  m_Name: Flame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5019,7 +5019,7 @@ GameObject:
   - component: {fileID: 7366745860297929646}
   - component: {fileID: 3007301956523642330}
   m_Layer: 0
-  m_Name: CandleSmoke
+  m_Name: Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9902,7 +9902,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: de5a4556e2042d4369a932d165693214, type: 3}
       propertyPath: m_Name
-      value: BedsideCandle
+      value: BedsideCandleModel
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: de5a4556e2042d4369a932d165693214, type: 3}
       propertyPath: m_StaticEditorFlags
