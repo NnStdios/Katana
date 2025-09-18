@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FlameMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: da589e2124426c4309d31f112ce9773d, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 1087d374463621f2a949c6e1e6381c83, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -113,6 +113,8 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
+    - _DepthFadeDistance: 0.05
+    - _DepthFadePower: 1
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
