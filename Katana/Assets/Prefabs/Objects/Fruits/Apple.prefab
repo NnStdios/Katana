@@ -5050,7 +5050,7 @@ MonoBehaviour:
   _destructionMask:
     serializedVersion: 2
     m_Bits: 2007
-  _rewardCoins: 0
+  _rewardCoins: 25
   _slice: {fileID: 8328426821523275245}
   _fracture: {fileID: 4645734170566181358}
   _outlineTransitionDuration: 0.5
