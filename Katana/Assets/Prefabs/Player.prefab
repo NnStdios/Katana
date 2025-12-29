@@ -187,26 +187,26 @@ MonoBehaviour:
     m_Bits: 512
   _tiltSpeed: 1
   _tiltRotationMultiplier: 0.025
-  _dashForce: {x: 0, y: 3000, z: 0}
+  _dashForce: {x: 0, y: 1500, z: 0}
   _dashTimeScale:
     Keys:
     - TimeScale: 1
       Time: 0
       Easing: 0
-    - TimeScale: 0.1
+    - TimeScale: 0.05
       Time: 0.5
       Easing: 8
-  _dodgeForce: {x: 0, y: -1500, z: 0}
+  _dodgeForce: {x: 0, y: -750, z: 0}
   _dodgeTimeScale:
     Keys:
     - TimeScale: 1
       Time: 0
       Easing: 0
-    - TimeScale: 0.1
+    - TimeScale: 0.05
       Time: 0.25
       Easing: 8
-  _flipForce: {x: 0, y: 2000, z: 200}
-  _flipStuckForce: {x: 0, y: -500, z: -500}
+  _flipForce: {x: 0, y: 1000, z: 100}
+  _flipStuckForce: {x: 0, y: -250, z: -250}
   _flipRotation: 180
   _flipRewardMultiplier: 2
   _flipRewardMultiplierTime: 2
@@ -215,19 +215,19 @@ MonoBehaviour:
     - TimeScale: 1
       Time: 0
       Easing: 0
-    - TimeScale: 0.1
+    - TimeScale: 0.05
       Time: 0.75
       Easing: 8
   _bulletTimeScale:
     Keys:
-    - TimeScale: 0.0025
-      Time: 0.05
+    - TimeScale: 0.001
+      Time: 0.1
       Easing: 17
     - TimeScale: 0.0025
       Time: 0.25
       Easing: 0
-    - TimeScale: 0.1
-      Time: 0.75
+    - TimeScale: 0.05
+      Time: 0.5
       Easing: 18
   _stickMask:
     serializedVersion: 2
