@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e12788796dba89c4290040dbc6d47701
+guid: c22e2a919c80bc768942fbfc96131d27
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -12,8 +12,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: ChandelierMaterial
-    second: {fileID: 2100000, guid: 40c220747af2851439f4da95d7f941eb, type: 2}
+      name: Metal
+    second: {fileID: 2100000, guid: c953e52cf2df64fd9980f6b4d065ef6b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
