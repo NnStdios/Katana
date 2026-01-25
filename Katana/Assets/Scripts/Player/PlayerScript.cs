@@ -223,18 +223,17 @@ namespace Assets.Scripts.Player
             if (IsStuck) return;
 
             // Store mouse input
-            var x = Input.GetAxisRaw("Mouse X") * _tiltSpeed;
-            var y = Input.GetAxisRaw("Mouse Y") * _tiltSpeed;
+            var mouseDelta = Mouse.current.delta.ReadValue();
 
             // Return if there is no input
-            if (x == 0 && y == 0) return;
+            if (mouseDelta.x == 0 && mouseDelta.y == 0) return;
 
             // Drastically lower the rotation when panning
             _rb.angularVelocity *= Mathf.Pow(_tiltRotationMultiplier, Time.deltaTime);
 
             // Apply the rotation
-            var deltaRotX = Quaternion.AngleAxis(x, Vector3.back);
-            var deltaRotY = Quaternion.AngleAxis(y, Vector3.left);
+            var deltaRotX = Quaternion.AngleAxis(mouseDelta.x, Vector3.back);
+            var deltaRotY = Quaternion.AngleAxis(mouseDelta.y, Vector3.left);
             var deltaRot = deltaRotX * deltaRotY;
             _rb.MoveRotation(_rb.rotation * deltaRot);
         }
