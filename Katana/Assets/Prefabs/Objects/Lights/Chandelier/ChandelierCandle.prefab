@@ -4920,7 +4920,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 2
-  m_Color: {r: 1, g: 0.73333335, b: 0.20392157, a: 1}
+  m_Color: {r: 1, g: 0.8454627, b: 0.3915094, a: 1}
   m_Intensity: 150
   m_Range: 150
   m_SpotAngle: 30
