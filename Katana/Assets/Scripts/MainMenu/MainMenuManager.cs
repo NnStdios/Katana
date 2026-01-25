@@ -3,6 +3,7 @@ using ArtificeToolkit.Attributes;
 using Assets.Scripts.Core;
 using NnUtils.Scripts;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts.MainMenu
@@ -32,11 +33,11 @@ namespace Assets.Scripts.MainMenu
 
         public void Update()
         {
-        	if (GameManager.SettingsManager.IsRebinding) return;
+            if (GameManager.SettingsManager.IsRebinding) return;
 
-            if (Input.GetKeyDown(KeyCode.Escape)) MainMenu();
-            if (Input.GetKeyDown(KeyCode.Alpha1)) MainMenu();
-            if (Input.GetKeyDown(KeyCode.Alpha2)) Settings();
+            if (Keyboard.current.escapeKey.wasPressedThisFrame) MainMenu();
+            if (Keyboard.current.digit1Key.wasPressedThisFrame) MainMenu();
+            if (Keyboard.current.digit2Key.wasPressedThisFrame) Settings();
         }
 
         public void Play() => SceneManager.LoadScene(1);
