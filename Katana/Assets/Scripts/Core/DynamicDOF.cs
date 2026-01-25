@@ -5,6 +5,7 @@ using NnUtils.Scripts;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.InputSystem;
 
 namespace Assets.Scripts.Core
 {
@@ -51,7 +52,7 @@ namespace Assets.Scripts.Core
 
             // Create a ray and set the distance if there was a hit
             var ray = _followMouse
-                ? Camera.ScreenPointToRay(Input.mousePosition)
+                ? Camera.ScreenPointToRay(Mouse.current.position.ReadValue())
                 : new(_dofPoint.position, _dofPoint.forward);
             if (Physics.Raycast(ray, out var hit, Mathf.Infinity, _layerMask)) distance = hit.distance;
             if (Mathf.Approximately(distance, _targetDistance)) return;
