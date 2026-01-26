@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3815468285665328122
 Transform:
@@ -45,7 +45,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 0.7824267, b: 0, a: 1}
   m_Intensity: 1
-  m_Range: 2
+  m_Range: 3
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 10, y: 10}
@@ -86,7 +86,7 @@ Light:
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 2
+  m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: -3.3419276e-25, y: -8.551078e+10, z: 4.2277e-41, w: 9.46e-43}
@@ -143,7 +143,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4774172739410915854
 Transform:
@@ -4986,7 +4986,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7248874399620013014
 Transform:
@@ -5023,7 +5023,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8060788498161710537
 Transform:
@@ -9914,7 +9914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e4fded7ace1daf3a7b288f853a804f16, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1410927311265112858, guid: e4fded7ace1daf3a7b288f853a804f16, type: 3}
       propertyPath: m_StaticEditorFlags

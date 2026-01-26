@@ -124,13 +124,14 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 1
+    - _Smoothness: 0.8
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 1
     - _WorkflowMode: 1
+    - _XRMotionVectorsPass: 1
     - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 0.39999995, g: 0.16753921, b: 0, a: 0.69803923}
