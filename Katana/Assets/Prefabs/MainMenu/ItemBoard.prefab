@@ -116,13 +116,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4d5df30ef9eab6b43ab2394747a350e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6901089237431105124}
   m_SourcePrefab: {fileID: 100100000, guid: 4d5df30ef9eab6b43ab2394747a350e2, type: 3}
 --- !u!4 &1359127083804268622 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4d5df30ef9eab6b43ab2394747a350e2, type: 3}
   m_PrefabInstance: {fileID: 1537468673151303589}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1844019869502423796 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4d5df30ef9eab6b43ab2394747a350e2, type: 3}
+  m_PrefabInstance: {fileID: 1537468673151303589}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6901089237431105124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844019869502423796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 11400000, guid: 5272c55b882edd34a9d80b11bd6f240c, type: 2}
+  exportAllChildren: 0
+  terrainSimplificationLevel: 0
 --- !u!1001 &2599488652592622490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -182,13 +205,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fbb1189fefbf05bb295e4db815859f8c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4314605591855883616}
   m_SourcePrefab: {fileID: 100100000, guid: fbb1189fefbf05bb295e4db815859f8c, type: 3}
 --- !u!4 &2565226964877855857 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fbb1189fefbf05bb295e4db815859f8c, type: 3}
   m_PrefabInstance: {fileID: 2599488652592622490}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2941506938329634507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fbb1189fefbf05bb295e4db815859f8c, type: 3}
+  m_PrefabInstance: {fileID: 2599488652592622490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4314605591855883616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2941506938329634507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 11400000, guid: d780f25df1d231d4aa9a31ab3ba935d0, type: 2}
+  exportAllChildren: 0
+  terrainSimplificationLevel: 0
 --- !u!1001 &3453886476690138039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -248,8 +294,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b858c5d731a6639bf9a82cfdb7fd0835, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3567779871414154527}
   m_SourcePrefab: {fileID: 100100000, guid: b858c5d731a6639bf9a82cfdb7fd0835, type: 3}
+--- !u!1 &2535459118918475494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b858c5d731a6639bf9a82cfdb7fd0835, type: 3}
+  m_PrefabInstance: {fileID: 3453886476690138039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3567779871414154527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2535459118918475494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SteamAudioUnity::SteamAudio.SteamAudioGeometry
+  material: {fileID: 11400000, guid: d780f25df1d231d4aa9a31ab3ba935d0, type: 2}
+  exportAllChildren: 0
+  terrainSimplificationLevel: 0
 --- !u!4 &2910471110646121564 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b858c5d731a6639bf9a82cfdb7fd0835, type: 3}

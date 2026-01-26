@@ -127,9 +127,6 @@ MonoBehaviour:
     AudioResourceItem: {fileID: 11400000, guid: fbe2ee1b02d397648b4052ee682c0d3f, type: 2}
     AudioResource: {fileID: 8300000, guid: c3df1461956bacf3a89c77c8385eaec7, type: 3}
     AudioResourceName: 
-    OverrideMixerGroup: 1
-    MixerGroup: {fileID: 1831776637779280436, guid: 058b23a6ebdc6c69a89dbde75f191e96, type: 2}
-    SourceType: 2
     ReuseSource: 1
     OverridePlayOnAwake: 1
     PlayOnAwake: 0
@@ -139,100 +136,35 @@ MonoBehaviour:
     Loop: 0
     DestroySourceOnFinished: 0
     DestroyTargetOnFinished: 0
+    SourceType: 2
     Position: {x: 0, y: 0, z: 0}
     AsChildObject: 1
     AssignTargetAtRuntime: 0
     Target: {fileID: 2366264451381462704}
     OverrideFadeIn: 0
+    OverrideFadeOut: 0
     FadeIn: 0
     FadeInTime: 0
     FadeInEasing: 0
     FadeInScale: 1
     FadeInScaleWithPitch: 1
-    OverrideFadeOut: 0
     FadeOut: 0
     FadeOutTime: 0
     FadeOutEasing: 0
     FadeOutScale: 1
     FadeOutScaleWithPitch: 1
-    OverrideSettings: 1
-    ReloadSettingsEveryPlay: 1
-    UseSettingsPreset: 1
-    AudioSettings:
-      OverrideBypassEffects: 0
-      BypassEffects: 0
-      OverrideBypassListenerEffects: 0
-      BypassListenerEffects: 0
-      OverrideBypassReverbZones: 0
-      BypassReverbZones: 0
-      OverridePriority: 0
-      Priority: 128
-      OverrideVolume: 0
-      VolumeRange: {x: 1, y: 1}
-      OverridePitch: 0
-      PitchRange: {x: 1, y: 1}
-      OverrideStereoPan: 0
-      StereoPanRange: {x: 0, y: 0}
-      OverrideSpatialBlend: 0
-      SpatialBlendRange: {x: 0, y: 0}
-      OverrideReverbZoneMix: 0
-      ReverbZoneMixRange: {x: 1, y: 1}
-      OverrideDopplerLevel: 0
-      DopplerLevelRange: {x: 1, y: 1}
-      OverrideSpread: 0
-      SpreadRange: {x: 0, y: 0}
-      OverrideRolloffMode: 0
-      RolloffMode: 0
-      OverrideDistanceRange: 0
-      DistanceRange: {x: 1, y: 500}
-    AudioSettingsPreset: {fileID: 11400000, guid: 0c7f3c2d84ce52d4e99ac9224897e7a4, type: 2}
-    OverrideEffects: 0
+    ReloadTweaksEveryPlay: 1
+    Tweaks: []
     UseEffectsPreset: 0
     AudioEffects:
-      Chorus:
-        Enabled: 0
-        DryMix: 0.5
-        WetMix1: 0.5
-        WetMix2: 0.5
-        WetMix3: 0.5
-        Delay: 40
-        Rate: 0.8
-        Depth: 0.03
-      Distortion:
-        Enabled: 0
-        Level: 0.5
-      Echo:
-        Enabled: 0
-        Delay: 500
-        DecayRatio: 0.5
-        DryMix: 1
-        WetMix: 1
-      HighPass:
-        Enabled: 0
-        HighPassCutoffFrequency: 5000
-        HighPassResonanceQ: 1
-      Lowpass:
-        Enabled: 0
-        LowPassCutoffFrequency: 5007.7
-        LowPassResonanceQ: 1
-      Reverb:
-        Enabled: 0
-        Preset: 0
-        DryLevel: 0
-        Room: 0
-        RoomHF: 0
-        RoomLF: 0
-        DecayTime: 1
-        DecayHFRatio: 0.5
-        ReflectionsLevel: -10000
-        ReflectionsDelay: 0
-        ReverbLevel: 0
-        ReverbDelay: 0.04
-        HFReference: 5000
-        LFReference: 250
-        Diffusion: 100
-        Density: 100
+      Effects: []
     AudioEffectsPreset: {fileID: 0}
+    OverrideSteamAudioSource: 0
+    UseSteamAudioSource: 0
+    SteamAudioSourcePreset: {fileID: 0}
+  references:
+    version: 2
+    RefIds: []
 --- !u!1001 &7534885393350042893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -296,7 +228,33 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f89c5aa12a4589a41ac987c71d4d5ec8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2088146016796315969}
+    - targetCorrespondingSourceObject: {fileID: 3967531054459268039, guid: f89c5aa12a4589a41ac987c71d4d5ec8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4337856940988281901}
+    - targetCorrespondingSourceObject: {fileID: -7790806349298758847, guid: f89c5aa12a4589a41ac987c71d4d5ec8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8163340017406177500}
   m_SourcePrefab: {fileID: 100100000, guid: f89c5aa12a4589a41ac987c71d4d5ec8, type: 3}
+--- !u!1 &6890166782557458122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3967531054459268039, guid: f89c5aa12a4589a41ac987c71d4d5ec8, type: 3}
+  m_PrefabInstance: {fileID: 7534885393350042893}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4337856940988281901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6890166782557458122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 11400000, guid: 5272c55b882edd34a9d80b11bd6f240c, type: 2}
+  exportAllChildren: 0
+  terrainSimplificationLevel: 0
 --- !u!1 &7228316460796713052 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f89c5aa12a4589a41ac987c71d4d5ec8, type: 3}
@@ -329,3 +287,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f89c5aa12a4589a41ac987c71d4d5ec8, type: 3}
   m_PrefabInstance: {fileID: 7534885393350042893}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8894667198364659276 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7790806349298758847, guid: f89c5aa12a4589a41ac987c71d4d5ec8, type: 3}
+  m_PrefabInstance: {fileID: 7534885393350042893}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8163340017406177500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8894667198364659276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 11400000, guid: d780f25df1d231d4aa9a31ab3ba935d0, type: 2}
+  exportAllChildren: 0
+  terrainSimplificationLevel: 0
