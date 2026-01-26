@@ -80,17 +80,17 @@ namespace Assets.Scripts.Fruits
             // Getting capacity doesn't work in editor so just return true
             return true;
 
-            var capacity = _shotVFX.GetParticleSystemInfo(0).capacity;
-            var spawnCount = _shotVFX.GetFloat("SpawnCount");
-            var particleCount = spawnCount * _shotVFXBurstCount;
+            //var capacity = _shotVFX.GetParticleSystemInfo(0).capacity;
+            //var spawnCount = _shotVFX.GetFloat("SpawnCount");
+            //var particleCount = spawnCount * _shotVFXBurstCount;
 
-            if (particleCount > capacity)
-            {
-                msg = $"{_shotVFX} capacity will be exceeded, it must be at least {particleCount}";
-                return false;
-            }
+            //if (particleCount > capacity)
+            //{
+            //    msg = $"{_shotVFX} capacity will be exceeded, it must be at least {particleCount}";
+            //    return false;
+            //}
 
-            return true;
+            //return true;
         }
 
         private bool ValidateVFXBurstCount(ref string msg)
