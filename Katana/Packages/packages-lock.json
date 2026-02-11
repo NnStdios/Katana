@@ -8,7 +8,7 @@
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       },
-      "hash": "b5f98e4484f646de24a3ed6563f43c810ec3500c"
+      "hash": "3948fa2dbc33598ad9967d778218ee3386a70c68"
     },
     "com.bgtools.playerprefseditor": {
       "version": "https://github.com/Dysman/bgTools-playerPrefsEditor.git#upm",
@@ -24,14 +24,14 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0"
       },
-      "hash": "815162eab9760a7567423deb47fd9d3437eb26d8"
+      "hash": "70937d2ce39b61c29c4feb4d13642c65bb553d6c"
     },
     "com.cqf.urpvolumetricfog": {
       "version": "https://github.com/CristianQiu/Unity-URP-Volumetric-Light.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "0a37318047a7d24651f164718f17123c3c48e9e5"
+      "hash": "ea889ab041bf1d4110ecf431a8488220a86fac9d"
     },
     "com.cysharp.zlinq": {
       "version": "https://github.com/Cysharp/ZLinq.git?path=src/ZLinq.Unity/Assets/ZLinq.Unity",
@@ -45,7 +45,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "34432703a177c97631a4eb1d908f086037c67969"
+      "hash": "c2af83c9d4f8cdaada9d4a0e94de2f195d8e1d01"
     },
     "com.handzlikchris.fastscriptreload": {
       "version": "https://github.com/handzlikchris/FastScriptReload.git?path=Assets",
@@ -110,7 +110,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "406fd0dadc3801e1d149e65175bea0f284c186fd"
+      "hash": "4c2f9f1c10213614aca0e5187e0fd70bb1b56ead"
     },
     "com.opalstudio.scenemanipulator": {
       "version": "https://github.com/Alaxxxx/SceneManipulator.git",
@@ -184,7 +184,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ai.navigation": {
-      "version": "2.0.9",
+      "version": "2.0.10",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -236,7 +236,7 @@
       "dependencies": {}
     },
     "com.unity.ide.rider": {
-      "version": "3.0.38",
+      "version": "3.0.39",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -245,7 +245,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.26",
+      "version": "2.0.27",
       "depth": 0,
       "source": "registry",
       "dependencies": {

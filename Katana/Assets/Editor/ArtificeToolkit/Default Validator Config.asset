@@ -30,6 +30,8 @@ MonoBehaviour:
       Value: 1
     - Key: SomeScene
       Value: 1
+    - Key: Test
+      Value: 1
   validatorTypesMap:
     list:
     - Key: Artifice_ValidatorModule_NullScriptChecker
