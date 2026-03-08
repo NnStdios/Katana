@@ -93,7 +93,7 @@ namespace AudioManager
 
         [EnableIf(nameof(UseEffectsPreset), true)]
         [Required]
-        [PreviewScriptable]
+        [InlineObject]
         public AudioEffectsPreset AudioEffectsPreset;
 
 #if STEAMAUDIO_ENABLED

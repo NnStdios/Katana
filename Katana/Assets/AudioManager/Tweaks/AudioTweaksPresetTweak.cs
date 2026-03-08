@@ -7,9 +7,9 @@ namespace AudioManager.Tweaks
     [Serializable]
     public class AudioTweaksPresetTweak :  IAppliable<AudioSource>
     {
-        [PreviewScriptable]
+        [InlineObject]
         public AudioTweaksPreset AudioTweaksPreset;
-        
+
         public void Apply(AudioSource target) => AudioTweaksPreset?.Apply(target);
     }
 }

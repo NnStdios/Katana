@@ -25,7 +25,7 @@ namespace AudioManager
         [HideLabel]
         [EnableIf(nameof(ResourceAssignmentType), ResourceAssignmentType.ResourceItem)]
         [Required]
-        [PreviewScriptable]
+        [InlineObject]
         public AudioResourceItem AudioResourceItem;
 
         [HideLabel]
@@ -168,7 +168,7 @@ namespace AudioManager
 
         [EnableIf(nameof(UseEffectsPreset), true)]
         [Required]
-        [PreviewScriptable]
+        [InlineObject]
         public AudioEffectsPreset AudioEffectsPreset;
 
 #if STEAMAUDIO_ENABLED
