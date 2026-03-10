@@ -8394,7 +8394,8 @@ MonoBehaviour:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
   m_Direction: 0
-  m_LinkedSlots: []
+  m_LinkedSlots:
+  - {fileID: 8926484042661615665}
 --- !u!114 &8926484042661615609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8531,7 +8532,8 @@ MonoBehaviour:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
   m_Direction: 0
-  m_LinkedSlots: []
+  m_LinkedSlots:
+  - {fileID: 8926484042661615665}
 --- !u!114 &8926484042661615613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8612,6 +8614,24 @@ MonoBehaviour:
       inputSlot: {fileID: 8926484042661615419}
     position: {x: 552, y: -605}
     expandedSlots: []
+    expanded: 1
+    supecollapsed: 0
+  - m_Id: 2
+    linkedSlots:
+    - outputSlot: {fileID: 8926484042661615665}
+      inputSlot: {fileID: 8926484042661615608}
+    position: {x: 351, y: -693}
+    expandedSlots:
+    - {fileID: 8926484042661615651}
+    expanded: 1
+    supecollapsed: 0
+  - m_Id: 3
+    linkedSlots:
+    - outputSlot: {fileID: 8926484042661615665}
+      inputSlot: {fileID: 8926484042661615612}
+    position: {x: 1462, y: 387}
+    expandedSlots:
+    - {fileID: 8926484042661615651}
     expanded: 1
     supecollapsed: 0
 --- !u!114 &8926484042661615650
@@ -9159,7 +9179,9 @@ MonoBehaviour:
       m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
   m_Direction: 1
-  m_LinkedSlots: []
+  m_LinkedSlots:
+  - {fileID: 8926484042661615608}
+  - {fileID: 8926484042661615612}
 --- !u!114 &8926484042661615666
 MonoBehaviour:
   m_ObjectHideFlags: 0
