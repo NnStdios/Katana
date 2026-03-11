@@ -44,7 +44,7 @@ MonoBehaviour:
     x: 418
     y: -1433
     width: 908
-    height: 2325
+    height: 2322
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -134,6 +134,22 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
+  - name: TurbulenceIntensity
+    path: TurbulenceIntensity
+    tooltip: 
+    space: -1
+    spaceable: 0
+    sheetType: m_Float
+    realType: Single
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 5
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
   - name: TurbulenceDrag
     path: TurbulenceDrag
     tooltip: 
@@ -164,6 +180,22 @@ MonoBehaviour:
       m_SerializableObject: 1
     min: -Infinity
     max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: TurbulenceOctaves
+    path: TurbulenceOctaves
+    tooltip: 
+    space: -1
+    spaceable: 0
+    sheetType: m_Int
+    realType: Int32
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 4
+    min: 1
+    max: 8
     enumValues: []
     descendantCount: 0
   - name: TurbulenceRougness
@@ -198,38 +230,6 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: TurbulenceIntensity
-    path: TurbulenceIntensity
-    tooltip: 
-    space: -1
-    spaceable: 0
-    sheetType: m_Float
-    realType: Single
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 5
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
-  - name: TurbulenceOctaves
-    path: TurbulenceOctaves
-    tooltip: 
-    space: -1
-    spaceable: 0
-    sheetType: m_Int
-    realType: Int32
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 4
-    min: 1
-    max: 8
-    enumValues: []
-    descendantCount: 0
   - name: Dust
     path: 
     tooltip: 
@@ -245,18 +245,18 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: AlphaOverLife
-    path: AlphaOverLife
+  - name: DustSizeRange
+    path: DustSizeRange
     tooltip: 
     space: -1
     spaceable: 0
-    sheetType: m_AnimationCurve
-    realType: AnimationCurve
+    sheetType: m_Vector2f
+    realType: Vector2
     defaultValue:
       m_Type:
-        m_SerializableType: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
+        m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"frames":[{"time":0.0,"value":0.0,"inTangent":29.32369613647461,"outTangent":29.32369613647461,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.05000000074505806,"value":1.0,"inTangent":2.350831985473633,"outTangent":-0.21743299067020417,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":true},{"time":1.0,"value":0.0,"inTangent":-2.7383534908294679,"outTangent":-2.7383534908294679,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
+      m_SerializableObject: '{"x":0.05000000074505806,"y":0.10000000149011612}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -309,24 +309,24 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: DustSizeRange
-    path: DustSizeRange
+  - name: AlphaOverLife
+    path: AlphaOverLife
     tooltip: 
     space: -1
     spaceable: 0
-    sheetType: m_Vector2f
-    realType: Vector2
+    sheetType: m_AnimationCurve
+    realType: AnimationCurve
     defaultValue:
       m_Type:
-        m_SerializableType: UnityEngine.Vector2, UnityEngine.CoreModule, Version=0.0.0.0,
+        m_SerializableType: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":0.05000000074505806,"y":0.10000000149011612}'
+      m_SerializableObject: '{"frames":[{"time":0.0,"value":0.0,"inTangent":29.32369613647461,"outTangent":29.32369613647461,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.05000000074505806,"value":1.0,"inTangent":2.350831985473633,"outTangent":-0.21743299067020417,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":true},{"time":1.0,"value":0.0,"inTangent":-2.7383534908294679,"outTangent":-2.7383534908294679,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
     min: -Infinity
     max: Infinity
     enumValues: []
     descendantCount: 0
   m_ImportDependencies: []
-  m_GraphVersion: 18
+  m_GraphVersion: 19
   m_ResourceVersion: 1
   m_SubgraphDependencies: []
   m_CategoryPath: 
@@ -342,10 +342,6 @@ VisualEffectResource:
     m_RendererSettings:
       motionVectorGenerationMode: 0
       shadowCastingMode: 0
-      rayTracingMode: 0
-      receiveShadows: 0
-      reflectionProbeUsage: 0
-      lightProbeUsage: 0
     m_CullingFlags: 3
     m_UpdateMode: 1
     m_PreWarmDeltaTime: 3
@@ -525,7 +521,6 @@ MonoBehaviour:
   m_UISuperCollapsed: 0
   m_InputSlots:
   - {fileID: 8926484042661614774}
-  - {fileID: 8926484042661614783}
   m_OutputSlots: []
   m_Label: Initialize Particles
   m_Data: {fileID: 8926484042661614627}
@@ -565,7 +560,7 @@ MonoBehaviour:
   stripCapacity: 1
   particlePerStripCount: 32
   needsComputeBounds: 0
-  boundsMode: 0
+  boundsMode: 1
   m_Space: 1
 --- !u!114 &8926484042661614628
 MonoBehaviour:
@@ -779,6 +774,7 @@ MonoBehaviour:
   m_SubOutputs:
   - {fileID: 8926484042661614687}
   - {fileID: 8926484042661614833}
+  useBaseColorMap: 3
   colorMapping: 0
   uvMode: 0
   flipbookLayout: 0
@@ -797,7 +793,7 @@ MonoBehaviour:
   enableRayTracing: 0
   decimationFactor: 1
   raytracedScaleMode: 0
-  needsOwnSort: 0
+  needsOwnSort: 1
   needsOwnAabbBuffer: 0
   shaderGraph: {fileID: 0}
   materialSettings:
@@ -1204,142 +1200,6 @@ MonoBehaviour:
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661614774}
-  m_MasterData:
-    m_Owner: {fileID: 0}
-    m_Value:
-      m_Type:
-        m_SerializableType: 
-      m_SerializableObject: 
-    m_Space: -1
-  m_Property:
-    name: z
-    m_serializedType:
-      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-  m_Direction: 0
-  m_LinkedSlots: []
---- !u!114 &8926484042661614783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac39bd03fca81b849929b9c966f1836a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 0}
-  m_Children:
-  - {fileID: 8926484042661614784}
-  - {fileID: 8926484042661614785}
-  - {fileID: 8926484042661614786}
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  m_MasterSlot: {fileID: 8926484042661614783}
-  m_MasterData:
-    m_Owner: {fileID: 8926484042661614613}
-    m_Value:
-      m_Type:
-        m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"x":0.5,"y":0.5,"z":0.5}'
-    m_Space: -1
-  m_Property:
-    name: boundsPadding
-    m_serializedType:
-      m_SerializableType: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  m_Direction: 0
-  m_LinkedSlots: []
---- !u!114 &8926484042661614784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 8926484042661614783}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  m_MasterSlot: {fileID: 8926484042661614783}
-  m_MasterData:
-    m_Owner: {fileID: 0}
-    m_Value:
-      m_Type:
-        m_SerializableType: 
-      m_SerializableObject: 
-    m_Space: -1
-  m_Property:
-    name: x
-    m_serializedType:
-      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-  m_Direction: 0
-  m_LinkedSlots: []
---- !u!114 &8926484042661614785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 8926484042661614783}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  m_MasterSlot: {fileID: 8926484042661614783}
-  m_MasterData:
-    m_Owner: {fileID: 0}
-    m_Value:
-      m_Type:
-        m_SerializableType: 
-      m_SerializableObject: 
-    m_Space: -1
-  m_Property:
-    name: y
-    m_serializedType:
-      m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-  m_Direction: 0
-  m_LinkedSlots: []
---- !u!114 &8926484042661614786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f780aa281814f9842a7c076d436932e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UIIgnoredErrors: []
-  m_Parent: {fileID: 8926484042661614783}
-  m_Children: []
-  m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
-  m_UISuperCollapsed: 0
-  m_MasterSlot: {fileID: 8926484042661614783}
   m_MasterData:
     m_Owner: {fileID: 0}
     m_Value:
@@ -2859,7 +2719,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614925}
   m_ExposedName: DustSizeRange
   m_Exposed: 1
-  m_Order: 10
+  m_Order: 1
   m_Category: Dust
   m_Min:
     m_Type:
@@ -3082,7 +2942,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614937}
   m_ExposedName: DustColor
   m_Exposed: 1
-  m_Order: 7
+  m_Order: 2
   m_Category: Dust
   m_Min:
     m_Type:
@@ -3794,7 +3654,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614982}
   m_ExposedName: SpawnRange
   m_Exposed: 1
-  m_Order: 8
+  m_Order: 3
   m_Category: Dust
   m_Min:
     m_Type:
@@ -4669,7 +4529,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615019}
   m_ExposedName: DustLifetimeRange
   m_Exposed: 1
-  m_Order: 9
+  m_Order: 4
   m_Category: Dust
   m_Min:
     m_Type:
@@ -4822,7 +4682,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615027}
   m_ExposedName: TurbulenceIntensity
   m_Exposed: 1
-  m_Order: 11
+  m_Order: 5
   m_Category: Turbulence
   m_Min:
     m_Type:
@@ -4903,7 +4763,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615029}
   m_ExposedName: TurbulenceDrag
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 6
   m_Category: Turbulence
   m_Min:
     m_Type:
@@ -4984,7 +4844,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615031}
   m_ExposedName: TurbulenceFrequency
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 7
   m_Category: Turbulence
   m_Min:
     m_Type:
@@ -5065,7 +4925,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615033}
   m_ExposedName: TurbulenceOctaves
   m_Exposed: 1
-  m_Order: 12
+  m_Order: 8
   m_Category: Turbulence
   m_Min:
     m_Type:
@@ -5148,7 +5008,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615035}
   m_ExposedName: TurbulenceRougness
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 9
   m_Category: Turbulence
   m_Min:
     m_Type:
@@ -5231,7 +5091,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615037}
   m_ExposedName: TurbulenceLacunarity
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 10
   m_Category: Turbulence
   m_Min:
     m_Type:
@@ -5312,7 +5172,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615041}
   m_ExposedName: DustSizeOverLife
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 11
   m_Category: 
   m_Min:
     m_Type:
@@ -5393,7 +5253,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615043}
   m_ExposedName: AlphaOverLife
   m_Exposed: 1
-  m_Order: 6
+  m_Order: 12
   m_Category: Dust
   m_Min:
     m_Type:
