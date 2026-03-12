@@ -37,7 +37,7 @@ namespace Assets.Scripts.MainMenu.Shop
             UpdateKatana();
         }
 
-        private void OnDestroy()
+        private void OnDisable()
         {
             if (!Application.isPlaying) return;
 
@@ -65,8 +65,12 @@ namespace Assets.Scripts.MainMenu.Shop
 
         private void UpdateKatana()
         {
-            _katana.sharedMaterial = ItemManager.SelectedItem?.Material;
-            var ls = ItemManager.SelectedItem?.LocalizedString;
+            // TODO: Possibly remove when ItemManager is ported to UnitySingleton
+            // SelectedItem is expected to be null on the first run of this script
+            if (!ItemManager.SelectedItem) return;
+
+            _katana.sharedMaterial = ItemManager.SelectedItem.Material;
+            var ls = ItemManager.SelectedItem.LocalizedString;
             _nameLocalizeStringEvent.StringReference
                                     .SetReference(ls.TableReference, ls.TableEntryReference);
             ls.RefreshString();

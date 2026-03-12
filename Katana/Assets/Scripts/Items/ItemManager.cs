@@ -6,6 +6,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.Items
 {
+    // TODO: Make this a UnitySingleton
     public class ItemManager : MonoBehaviour
     {
         private int _coins;
