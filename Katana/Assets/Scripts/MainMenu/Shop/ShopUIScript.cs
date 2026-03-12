@@ -28,10 +28,7 @@ namespace Assets.Scripts.MainMenu.Shop
         private void OnEnable()
         {
             HandleNameTMPChanged();
-        }
 
-        private void Start()
-        {
             if (!Application.isPlaying) return;
 
             ItemManager.OnCoinsChanged += UpdateCoins;
@@ -42,6 +39,8 @@ namespace Assets.Scripts.MainMenu.Shop
 
         private void OnDestroy()
         {
+            if (!Application.isPlaying) return;
+
             ItemManager.OnCoinsChanged -= UpdateCoins;
             ItemManager.OnItemChanged -= UpdateKatana;
         }
