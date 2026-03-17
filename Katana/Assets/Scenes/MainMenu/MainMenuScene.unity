@@ -45900,11 +45900,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.5935478
+      value: -0.6636699
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.8047987
+      value: -0.7480256
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
@@ -46835,7 +46835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[3].m_Value
-      value: 200
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[7].m_Value
