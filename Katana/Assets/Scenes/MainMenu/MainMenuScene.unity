@@ -45900,11 +45900,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.79005367
+      value: -0.5935478
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.61303777
+      value: -0.8047987
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
@@ -46826,6 +46826,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[1].m_Value
       value: 5
       objectReference: {fileID: 0}
@@ -46886,8 +46890,80 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Name
+      value: AlphaOverLife
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
       propertyPath: m_PropertySheet.m_Vector2f.m_Array.Array.data[3].m_Overridden
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Overridden
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_PreInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_RotationOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_Curve.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_Curve.Array.data[1].time
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_Curve.Array.data[2].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_Curve.Array.data[0].inSlope
+      value: 5.4677243
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_Curve.Array.data[2].inSlope
+      value: -4.531879
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_Curve.Array.data[0].outSlope
+      value: 5.4677243
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_Curve.Array.data[1].inWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_Curve.Array.data[2].inWeight
+      value: 0.0589391
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_Curve.Array.data[2].outSlope
+      value: -4.531879
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_Curve.Array.data[0].outWeight
+      value: 0.04589293
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_Curve.Array.data[1].outWeight
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Value.m_Curve.Array.data[1].tangentMode
+      value: 34
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
