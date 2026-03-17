@@ -3451,8 +3451,8 @@
     "m_ObjectId": "af55bdb11ab440edb2502ee57c4d6724",
     "m_Title": "Noise",
     "m_Position": {
-        "x": -1731.999755859375,
-        "y": 178.0
+        "x": -1732.0,
+        "y": 177.99996948242188
     }
 }
 
@@ -3570,7 +3570,7 @@
     "m_RenderFace": 2,
     "m_AlphaClip": false,
     "m_CastShadows": false,
-    "m_ReceiveShadows": true,
+    "m_ReceiveShadows": false,
     "m_DisableTint": false,
     "m_Sort3DAs2DCompatible": false,
     "m_AdditionalMotionVectorMode": 0,
@@ -3961,8 +3961,8 @@
     "m_ObjectId": "ce90e8c168634f54858693a44078db14",
     "m_Title": "Depth Fade",
     "m_Position": {
-        "x": -917.9999389648438,
-        "y": 773.9999389648438
+        "x": -917.9998779296875,
+        "y": 774.0
     }
 }
 
