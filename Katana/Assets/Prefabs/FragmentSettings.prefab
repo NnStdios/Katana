@@ -91,38 +91,38 @@ MonoBehaviour:
   Rigidbody: {fileID: 8578439361205045845}
   BetterRigidbody: {fileID: 9039465433416951015}
   Lifetime: 3
-  _physicsMaterial: {fileID: 13400000, guid: c6553e81779c6d1f5b042ada569c7d0a, type: 2}
-  _disappearTime: 0.75
-  _disappearCurve:
+  PhysicsMaterial: {fileID: 13400000, guid: c6553e81779c6d1f5b042ada569c7d0a, type: 2}
+  DisappearTime: 1
+  DisappearCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.25
-      value: 0
-      inSlope: 4.1860604
-      outSlope: 4.1860604
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.099200904
-      outWeight: 0.027813435
-    - serializedVersion: 3
-      time: 1
       value: 1
       inSlope: 0
       outSlope: 0
-      tangentMode: 0
+      tangentMode: 136
       weightedMode: 0
-      inWeight: 0
-      outWeight: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.25
+      value: 1.1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4

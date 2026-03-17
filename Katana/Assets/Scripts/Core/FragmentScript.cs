@@ -18,11 +18,11 @@ namespace Assets.Scripts.Core
         public float Lifetime = 10;
 
         [Required]
-        [SerializeField] private PhysicsMaterial _physicsMaterial;
+        [SerializeField] public PhysicsMaterial PhysicsMaterial;
         [FoldoutGroup("Disappear Animation")]
-        [SerializeField] private float _disappearTime = 1;
+        [SerializeField] public float DisappearTime = 1;
         [FoldoutGroup("Disappear Animation")]
-        [SerializeField] private AnimationCurve _disappearCurve;
+        [SerializeField] public AnimationCurve DisappearCurve;
 
         private void Awake()
         {
@@ -35,11 +35,11 @@ namespace Assets.Scripts.Core
         {
             gameObject.layer = original.gameObject.layer;
             Lifetime = original.Lifetime;
-            _disappearTime = original._disappearTime;
-            _disappearCurve = original._disappearCurve;
+            DisappearTime = original.DisappearTime;
+            DisappearCurve = original.DisappearCurve;
 
-            _physicsMaterial = original._physicsMaterial;
-            _collider.material = _physicsMaterial;
+            PhysicsMaterial = original.PhysicsMaterial;
+            _collider.material = PhysicsMaterial;
 
             Rigidbody.interpolation = original.Rigidbody.interpolation;
             Rigidbody.collisionDetectionMode = original.Rigidbody.collisionDetectionMode;
@@ -58,7 +58,7 @@ namespace Assets.Scripts.Core
             float lerpPos = 0;
             while (lerpPos < 1)
             {
-                var t = _disappearCurve.Evaluate(Misc.Tween(ref lerpPos, _disappearTime));
+                var t = DisappearCurve.Evaluate(Misc.Tween(ref lerpPos, DisappearTime));
                 transform.localScale = Vector3.LerpUnclamped(originalScale, Vector3.zero, t);
                 yield return null;
             }
