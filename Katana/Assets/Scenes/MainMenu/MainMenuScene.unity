@@ -45900,11 +45900,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.6636699
+      value: -0.7067291
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.7480256
+      value: 0.70748425
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
@@ -46779,11 +46779,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2151628003692783800, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2151628003692783800, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2151628003692783800, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
       propertyPath: m_LocalRotation.w
@@ -46886,8 +46886,20 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.z
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.z
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7140395681003466681, guid: 62515e505d1e5348aa5046851eca2f24, type: 3}
       propertyPath: m_PropertySheet.m_AnimationCurve.m_Array.Array.data[0].m_Name
