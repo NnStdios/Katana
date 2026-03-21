@@ -27,11 +27,11 @@
       "hash": "70937d2ce39b61c29c4feb4d13642c65bb553d6c"
     },
     "com.cqf.urpvolumetricfog": {
-      "version": "https://github.com/CristianQiu/Unity-URP-Volumetric-Light.git",
+      "version": "https://github.com/CristianQiu/Unity-URP-Volumetric-Light.git#dev",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "ea889ab041bf1d4110ecf431a8488220a86fac9d"
+      "hash": "0048113d9a4d92b97cf75f8e6b5a6473db042efd"
     },
     "com.cysharp.zlinq": {
       "version": "https://github.com/Cysharp/ZLinq.git?path=src/ZLinq.Unity/Assets/ZLinq.Unity",
@@ -110,7 +110,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "4c2f9f1c10213614aca0e5187e0fd70bb1b56ead"
+      "hash": "0c9e78373dd207789caa013318260b0b08d25389"
     },
     "com.opalstudio.scenemanipulator": {
       "version": "https://github.com/Alaxxxx/SceneManipulator.git",
@@ -184,7 +184,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ai.navigation": {
-      "version": "2.0.11",
+      "version": "2.0.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -255,7 +255,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.localization": {
-      "version": "1.5.10",
+      "version": "1.5.11",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -413,7 +413,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.8.11",
+      "version": "1.8.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -481,7 +481,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "8f8316266c7d06f02a903aa8ba72e234d87b3a64"
+      "hash": "955972cc005117cb2e03fe4530f67f09d9be4bb7"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
