@@ -198,8 +198,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {x: -0.75, y: 2.5}
   noiseVelocity:
-    m_OverrideState: 0
-    m_Value: {x: 0.1, y: -0.15, z: -0.05}
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0.15, z: 0}
   distortionTexture:
     m_OverrideState: 1
     m_Value: {fileID: -6434664791414598963, guid: 9759c5cc4f9b5f0429252ffc5a5841ec, type: 2}
