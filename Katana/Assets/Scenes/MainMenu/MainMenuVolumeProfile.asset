@@ -139,16 +139,13 @@ MonoBehaviour:
   active: 1
   distance:
     m_OverrideState: 1
-    m_Value: 256
+    m_Value: 128
   baseHeight:
     m_OverrideState: 1
     m_Value: 0
   maximumHeight:
     m_OverrideState: 1
     m_Value: 100
-  enableGround:
-    m_OverrideState: 0
-    m_Value: 0
   groundHeight:
     m_OverrideState: 1
     m_Value: 0
@@ -158,39 +155,84 @@ MonoBehaviour:
   attenuationDistance:
     m_OverrideState: 1
     m_Value: 128
-  enableAPVContribution:
+  ambienceColor:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: {r: 0.0069999998, g: 0.0085, b: 0.01, a: 1}
+  mainLightContribution:
+    m_OverrideState: 1
+    m_Value: 0
+  mainLightAnisotropy:
+    m_OverrideState: 0
+    m_Value: 0.4
+  mainLightScattering:
+    m_OverrideState: 0
+    m_Value: 0.75
+  mainLightTint:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  additionalLightsContribution:
+    m_OverrideState: 1
+    m_Value: 0
+  APVContribution:
+    m_OverrideState: 1
+    m_Value: 0
   APVContributionWeight:
     m_OverrideState: 1
     m_Value: 0.005
-  enableMainLightContribution:
+  reflectionProbesContribution:
     m_OverrideState: 1
-    m_Value: 1
-  anisotropy:
-    m_OverrideState: 1
-    m_Value: 0.5
-  scattering:
-    m_OverrideState: 1
-    m_Value: 0.25
-  tint:
+    m_Value: 0
+  reflectionProbesContributionWeight:
     m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
-  enableAdditionalLightsContribution:
+    m_Value: 0.1
+  noiseMode:
     m_OverrideState: 1
     m_Value: 1
-  maxSteps:
+  noiseTexture:
     m_OverrideState: 1
+    m_Value: {fileID: 11700000, guid: 1b2ce0e55e6d05040b5090820e513b15, type: 2}
+  noiseScale:
+    m_OverrideState: 1
+    m_Value: 15
+  noiseMinMax:
+    m_OverrideState: 0
+    m_Value: {x: -0.75, y: 2.5}
+  noiseVelocity:
+    m_OverrideState: 0
+    m_Value: {x: 0.1, y: -0.15, z: -0.05}
+  distortionTexture:
+    m_OverrideState: 1
+    m_Value: {fileID: -6434664791414598963, guid: 9759c5cc4f9b5f0429252ffc5a5841ec, type: 2}
+  distortionScale:
+    m_OverrideState: 0
+    m_Value: 5
+  distortionIntensity:
+    m_OverrideState: 0
+    m_Value: {x: 0.1, y: -0.1, z: 0.05}
+  distortionVelocity:
+    m_OverrideState: 0
+    m_Value: {x: -0.02, y: 0.01, z: 0.015}
+  renderPassEvent:
+    m_OverrideState: 1
+    m_Value: 550
+  resolutionFactor:
+    m_OverrideState: 0
+    m_Value: 0.5
+  maximumSteps:
+    m_OverrideState: 0
     m_Value: 128
+  minimumStepSize:
+    m_OverrideState: 0
+    m_Value: 0.25
   blurIterations:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
+  reprojection:
+    m_OverrideState: 1
+    m_Value: 0
   enabled:
     m_OverrideState: 1
     m_Value: 1
-  renderPassEvent:
-    m_OverrideState: 0
-    m_Value: 550
 --- !u!114 &4579232406593768479
 MonoBehaviour:
   m_ObjectHideFlags: 3

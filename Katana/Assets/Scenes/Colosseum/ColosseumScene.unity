@@ -978,7 +978,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 122352524}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.12303722, y: 0.7454124, z: 0.14347081, w: -0.63924825}
+  m_LocalRotation: {x: 0.111715965, y: 0.79679024, z: -0.15530092, w: 0.5731724}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1099,7 +1099,7 @@ GameObject:
   - component: {fileID: 185322722}
   - component: {fileID: 185322721}
   - component: {fileID: 185322723}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: '- Score'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2760,7 +2760,7 @@ GameObject:
   - component: {fileID: 494668614}
   - component: {fileID: 494668613}
   - component: {fileID: 494668612}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4671,7 +4671,7 @@ GameObject:
   - component: {fileID: 855563852}
   - component: {fileID: 855563851}
   - component: {fileID: 855563850}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4736,6 +4736,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -5767,7 +5768,7 @@ GameObject:
   - component: {fileID: 992080494}
   - component: {fileID: 992080493}
   - component: {fileID: 992080492}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: PlayAgain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7042,7 +7043,7 @@ GameObject:
   - component: {fileID: 1228693998}
   - component: {fileID: 1228693997}
   - component: {fileID: 1228693999}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8011,7 +8012,7 @@ GameObject:
   - component: {fileID: 1515617363}
   - component: {fileID: 1515617365}
   - component: {fileID: 1515617364}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9151,7 +9152,7 @@ GameObject:
   - component: {fileID: 1631219076}
   - component: {fileID: 1631219075}
   - component: {fileID: 1631219077}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11629,7 +11630,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1727724626}
   m_Enabled: 1
-  serializedVersion: 12
+  serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 0.8414147, b: 0.6839622, a: 1}
   m_Intensity: 10
@@ -11681,7 +11682,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShadowRadius: 0
+  m_ShapeRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -12372,7 +12373,7 @@ GameObject:
   - component: {fileID: 1789759884}
   - component: {fileID: 1789759883}
   - component: {fileID: 1789759885}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: '- DeathScreen'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12539,7 +12540,7 @@ GameObject:
   - component: {fileID: 1884274496}
   - component: {fileID: 1884274495}
   - component: {fileID: 1884274497}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: YouDied
   m_TagString: Untagged
   m_Icon: {fileID: 0}
