@@ -17,10 +17,12 @@
 *.lighting text merge=unityyamlmerge eol=lf
 *.flare text merge=unityyamlmerge eol=lf
 *.signal text merge=unityyamlmerge eol=lf
+
+# Unity LFS
 *.unitypackage filter=lfs diff=lfs merge=lfs -text
 *.cubemap filter=lfs diff=lfs merge=lfs -text
+LightingData.asset filter=lfs diff=lfs merge=lfs -text
 *_SteamAudioProbe.asset filter=lfs diff=lfs merge=lfs -text
-
 # Images
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
