@@ -1,6 +1,6 @@
 [submodule "Katana/Assets/NnUtils"]
 	path = Katana/Assets/NnUtils
-	url = ../NnUtils
+	url = ../../NnUtils
 [submodule "SourceAssets"]
 	path = SourceAssets
 	url = ../KatanaSourceAssets
