@@ -32,6 +32,9 @@ namespace Assets.Scripts.Colosseum
         [SerializeField] private float _fruitParticleLifetime = 10;
         public static float FruitParticleLifetime => Instance._fruitParticleLifetime;
 
+        private WaitForSeconds _fruitParticleWait;
+        public static WaitForSeconds FruitParticleWait => Instance._fruitParticleWait;
+
         [FoldoutGroup("Dev")]
         [SerializeField, ReadOnly] private bool _isDead;
         public static bool IsDead => Instance._isDead;
@@ -45,10 +48,12 @@ namespace Assets.Scripts.Colosseum
             _player = GameObject.FindWithTag("Player")?.GetComponent<PlayerScript>();
         }
 
-        private void Start()
+        protected override void Awake()
         {
+            base.Awake();
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
+            _fruitParticleWait = new WaitForSeconds(FruitParticleLifetime);
         }
 
         public static void Die()

@@ -217,10 +217,18 @@ namespace Assets.Scripts.Fruits
         {
             this.StopRoutine(ref _spawnRoutine);
             _collider.enabled = false;
-            _particles.SetParent(null);
+            _renderer.enabled = false;
+            _rigidbody.isKinematic = true;
+            _rigidbody.Sleep();
             _explosionParticles.ForEach(x => x.Play());
-            Destroy(_particles.gameObject, ColosseumSceneManager.FruitParticleLifetime + 0.1f);
-            Destroy(gameObject);
+            this.StartCoroutine(DestroyRoutine());
+        }
+
+        private IEnumerator DestroyRoutine()
+        {
+            yield return ColosseumSceneManager.FruitParticleWait;
+            _particles.gameObject.SetActive(false);
+            // Add to the pool
         }
     }
 }
