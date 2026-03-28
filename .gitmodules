@@ -1,10 +1,10 @@
 [submodule "SourceAssets"]
-    path = SourceAssets
-    url = ../KatanaSourceAssets
+	path = SourceAssets
+	url = ../KatanaSourceAssets
 
 [submodule "Katana/Assets/Modules/NnUtils"]
-    path = Katana/Assets/Modules/NnUtils
-    url = ../../nnra6864/NnUtils
+	path = Katana/Assets/Modules/NnUtils
+	url = ../../nnra6864/NnUtils
 
 [submodule "Katana/Assets/Modules/nvim-unity"]
 	path = Katana/Assets/Modules/nvim-unity
