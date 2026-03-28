@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.abzorba.artificetoolkit": "https://github.com/AbZorbaGames/artificetoolkit.git",
     "com.bgtools.playerprefseditor": "https://github.com/Dysman/bgTools-playerPrefsEditor.git#upm",
     "com.coffee.ui-effect": "https://github.com/mob-sakai/UIEffect.git?path=Packages/src",
     "com.cqf.urpvolumetricfog": "https://github.com/CristianQiu/Unity-URP-Volumetric-Light.git#dev",
@@ -12,9 +11,6 @@
     "com.nnra6864.openfracture": "https://github.com/nnra6864/OpenFracture.git",
     "com.nnra6864.smoothscenecamera": "https://github.com/nnra6864/SmoothSceneCamera.git",
     "com.ogxd.project-curator": "https://github.com/ogxd/project-curator.git",
-    "com.opalstudio.codepreview": "https://github.com/Alaxxxx/CodePreview.git",
-    "com.opalstudio.customtoolbar": "https://github.com/Alaxxxx/CustomToolbar.git",
-    "com.opalstudio.scenemanipulator": "https://github.com/Alaxxxx/SceneManipulator.git",
     "com.qiaozhilei.easy-text-effects": "https://github.com/LeiQiaoZhi/Easy-Text-Effect.git",
     "com.redbluegames.mulligan": "https://github.com/redbluegames/unity-mulligan-renamer.git?path=/Assets/RedBlueGames/MulliganRenamer",
     "com.roytheunissen.assetpalette": "https://github.com/RoyTheunissen/Asset-Palette.git",
@@ -69,7 +65,6 @@
     "com.unity.modules.vectorgraphics": "1.0.0",
     "com.unity.modules.vehicles": "1.0.0",
     "com.unity.modules.video": "1.0.0",
-    "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
   }

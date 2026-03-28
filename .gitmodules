@@ -1,11 +1,27 @@
 [submodule "SourceAssets"]
-	path = SourceAssets
-	url = ../KatanaSourceAssets
+    path = SourceAssets
+    url = ../KatanaSourceAssets
 
 [submodule "Katana/Assets/Modules/NnUtils"]
-	path = Katana/Assets/Modules/NnUtils
-	url = ../../nnra6864/NnUtils
+    path = Katana/Assets/Modules/NnUtils
+    url = ../../nnra6864/NnUtils
 
 [submodule "Katana/Assets/Modules/nvim-unity"]
-	path = Katana/Assets/Modules/nvim-unity
-	url = ../../nnra6864/nvim-unity
+    path = Katana/Assets/Modules/nvim-unity
+    url = ../../nnra6864/nvim-unity
+
+[submodule "Katana/Assets/Modules/ArtificeToolkit"]
+    path = Katana/Assets/Modules/ArtificeToolkit
+    url = ../../nnra6864/artificetoolkit
+
+[submodule "Katana/Assets/Modules/CustomToolbar"]
+    path = Katana/Assets/Modules/UnityCustomToolbar
+    url = ../../nnra6864/UnityCustomToolbar
+
+[submodule "Katana/Assets/Modules/UnityCodePreview"]
+    path = Katana/Assets/Modules/UnityCodePreview
+    url = ../../nnra6864/UnityCodePreview
+
+[submodule "Katana/Assets/Modules/UnitySceneManipulator"]
+    path = Katana/Assets/Modules/UnitySceneManipulator
+    url = ../../nnra6864/UnitySceneManipulator
