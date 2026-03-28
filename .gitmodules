@@ -28,3 +28,6 @@
 [submodule "Katana/Assets/Modules/bgTools-playerPrefsEditor"]
 	path = Katana/Assets/Modules/bgTools-playerPrefsEditor
 	url = ../../nnra6864/bgTools-playerPrefsEditor
+[submodule "Katana/Assets/Modules/UnityTextureRemapper"]
+	path = Katana/Assets/Modules/UnityTextureRemapper
+	url = ../../nnra6864/UnityTextureRemapper
