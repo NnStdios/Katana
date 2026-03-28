@@ -8,4 +8,4 @@
 
 [submodule "Katana/Assets/Modules/nvim-unity"]
     path = Katana/Assets/Modules/nvim-unity
-    url = ../../nvim-unity
+    url = ../../nnra6864/nvim-unity
