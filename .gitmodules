@@ -7,5 +7,5 @@
     url = ../../nnra6864/NnUtils
 
 [submodule "Katana/Assets/Modules/nvim-unity"]
-    path = Katana/Assets/Modules/nvim-unity
-    url = ../../nnra6864/nvim-unity
+	path = Katana/Assets/Modules/nvim-unity
+	url = ../../nnra6864/nvim-unity
