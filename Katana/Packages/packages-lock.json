@@ -1,12 +1,5 @@
 {
   "dependencies": {
-    "com.bgtools.playerprefseditor": {
-      "version": "https://github.com/Dysman/bgTools-playerPrefsEditor.git#upm",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "211f644d5d859c06d22d7a7f5144b449d432ee09"
-    },
     "com.coffee.ui-effect": {
       "version": "https://github.com/mob-sakai/UIEffect.git?path=Packages/src",
       "depth": 0,
