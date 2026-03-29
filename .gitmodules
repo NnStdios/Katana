@@ -36,3 +36,6 @@
 [submodule "Katana/Assets/Modules/UnityFastScriptReload"]
 	path = Katana/Assets/Modules/UnityFastScriptReload
 	url = ../../nnra6864/UnityFastScriptReload
+[submodule "Katana/Assets/Modules/Unity-URP-Volumetric-Light"]
+	path = Katana/Assets/Modules/Unity-URP-Volumetric-Light
+	url = ../../nnra6864/Unity-URP-Volumetric-Light

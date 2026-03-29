@@ -9,13 +9,6 @@
       },
       "hash": "70937d2ce39b61c29c4feb4d13642c65bb553d6c"
     },
-    "com.cqf.urpvolumetricfog": {
-      "version": "https://github.com/CristianQiu/Unity-URP-Volumetric-Light.git#dev",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "0048113d9a4d92b97cf75f8e6b5a6473db042efd"
-    },
     "com.cysharp.zlinq": {
       "version": "https://github.com/Cysharp/ZLinq.git?path=src/ZLinq.Unity/Assets/ZLinq.Unity",
       "depth": 0,
