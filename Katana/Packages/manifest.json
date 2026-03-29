@@ -14,7 +14,7 @@
     "com.bgtools.playerprefseditor": "file:../../Modules/bgTools-playerPrefsEditor/Packages/PlayerPrefsEditor",
     "com.cysharp.zlinq": "file:../../Modules/ZLinq/src/ZLinq.Unity/Assets/ZLinq.Unity",
     "com.yasirkula.assetusagedetector": "file:../../Modules/UnityAssetUsageDetector",
-    "com.coffee.ui-effect": "https://github.com/mob-sakai/UIEffect.git?path=Packages/src",
+    "com.coffee.ui-effect": "file:../../Modules/UnityUIEffect/Packages/src",
     "com.github-glitchenzo.nugetforunity": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity",
     "com.jimmycushnie.noisynodes": "https://github.com/JimmyCushnie/Noisy-Nodes.git",
     "com.maligan.unity-zed": "https://github.com/maligan/unity-zed.git",

@@ -46,3 +46,6 @@
 [submodule "Modules/UnityAssetUsageDetector"]
 	path = Modules/UnityAssetUsageDetector
 	url = ../../nnra6864/UnityAssetUsageDetector
+[submodule "Modules/UnityUIEffect"]
+	path = Modules/UnityUIEffect
+	url = ../../nnra6864/UnityUIEffect
