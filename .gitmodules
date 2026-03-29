@@ -2,10 +2,6 @@
     path = SourceAssets
     url = ../KatanaSourceAssets
 
-[submodule "Katana/Assets/Modules/NnUtils"]
-    path = Katana/Assets/Modules/NnUnityUtils
-    url = ../../nnra6864/NnUnityUtils
-
 [submodule "Katana/Assets/Modules/UnitySceneManipulator"]
     path = Katana/Assets/Modules/UnitySceneManipulator
     url = ../../nnra6864/UnitySceneManipulator
