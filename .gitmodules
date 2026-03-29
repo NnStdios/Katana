@@ -40,9 +40,9 @@
 [submodule "Modules/NnUnityUtils"]
 	path = Modules/NnUnityUtils
 	url = ../../nnra6864/NnUnityUtils
-[submodule "Modules/UnityTextUtils"]
-	path = Modules/UnityTextUtils
-	url = ../../nnra6864/UnityTextUtils
 [submodule "Modules/NnUnityEasings"]
 	path = Modules/NnUnityEasings
 	url = ../../nnra6864/NnUnityEasings
+[submodule "Modules/NnUnityTextUtils"]
+	path = Modules/NnUnityTextUtils
+	url = ../../nnra6864/NnUnityTextUtils
