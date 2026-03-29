@@ -3,8 +3,8 @@
     url = ../KatanaSourceAssets
 
 [submodule "Katana/Assets/Modules/NnUtils"]
-	path = Katana/Assets/Modules/NnUnityUtils
-	url = ../../nnra6864/NnUnityUtils
+    path = Katana/Assets/Modules/NnUnityUtils
+    url = ../../nnra6864/NnUnityUtils
 
 [submodule "Katana/Assets/Modules/nvim-unity"]
     path = Katana/Assets/Modules/nvim-unity
@@ -25,9 +25,11 @@
 [submodule "Katana/Assets/Modules/UnitySceneManipulator"]
     path = Katana/Assets/Modules/UnitySceneManipulator
     url = ../../nnra6864/UnitySceneManipulator
+
 [submodule "Katana/Assets/Modules/bgTools-playerPrefsEditor"]
-	path = Katana/Assets/Modules/bgTools-playerPrefsEditor
-	url = ../../nnra6864/bgTools-playerPrefsEditor
+    path = Katana/Assets/Modules/bgTools-playerPrefsEditor
+    url = ../../nnra6864/bgTools-playerPrefsEditor
+
 [submodule "Katana/Assets/Modules/UnityTextureRemapper"]
-	path = Katana/Assets/Modules/UnityTextureRemapper
-	url = ../../nnra6864/UnityTextureRemapper
+    path = Katana/Assets/Modules/UnityTextureRemapper
+    url = ../../nnra6864/UnityTextureRemapper
