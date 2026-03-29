@@ -13,9 +13,6 @@
 [submodule "Katana/Assets/Modules/UnityTextureRemapper"]
     path = Katana/Assets/Modules/UnityTextureRemapper
     url = ../../nnra6864/UnityTextureRemapper
-[submodule "Katana/Assets/Modules/UnityFastScriptReload"]
-	path = Katana/Assets/Modules/UnityFastScriptReload
-	url = ../../nnra6864/UnityFastScriptReload
 [submodule "Katana/Assets/Modules/Unity-URP-Volumetric-Light"]
 	path = Katana/Assets/Modules/Unity-URP-Volumetric-Light
 	url = ../../nnra6864/Unity-URP-Volumetric-Light
@@ -46,3 +43,6 @@
 [submodule "Modules/UnityCustomToolbar"]
 	path = Modules/UnityCustomToolbar
 	url = ../../nnra6864/UnityCustomToolbar
+[submodule "Modules/UnityFastScriptReload"]
+	path = Modules/UnityFastScriptReload
+	url = ../../nnra6864/UnityFastScriptReload

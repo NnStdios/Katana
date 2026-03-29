@@ -50,6 +50,12 @@
       "dependencies": {},
       "hash": "c2af83c9d4f8cdaada9d4a0e94de2f195d8e1d01"
     },
+    "com.handzlikchris.fastscriptreload": {
+      "version": "file:../../Modules/UnityFastScriptReload/Assets",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.jimmycushnie.noisynodes": {
       "version": "https://github.com/JimmyCushnie/Noisy-Nodes.git",
       "depth": 0,
