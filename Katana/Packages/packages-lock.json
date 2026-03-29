@@ -9,6 +9,12 @@
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       }
     },
+    "com.bgtools.playerprefseditor": {
+      "version": "file:../../Modules/bgTools-playerPrefsEditor/Packages/PlayerPrefsEditor",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.coffee.ui-effect": {
       "version": "https://github.com/mob-sakai/UIEffect.git?path=Packages/src",
       "depth": 0,
