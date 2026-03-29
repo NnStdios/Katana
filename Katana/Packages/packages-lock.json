@@ -112,6 +112,12 @@
       "dependencies": {},
       "hash": "da8a264a30daf02a7365dbac920203fe1c0d9277"
     },
+    "com.opalstudio.codepreview": {
+      "version": "file:../../Modules/UnityCodePreview",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.qiaozhilei.easy-text-effects": {
       "version": "https://github.com/LeiQiaoZhi/Easy-Text-Effect.git",
       "depth": 0,

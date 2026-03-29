@@ -48,3 +48,6 @@
 [submodule "Modules/Unity-URP-Volumetric-Light"]
 	path = Modules/Unity-URP-Volumetric-Light
 	url = ../../nnra6864/Unity-URP-Volumetric-Light
+[submodule "Modules/UnityCodePreview"]
+	path = Modules/UnityCodePreview
+	url = ../../nnra6864/UnityCodePreview
