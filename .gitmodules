@@ -6,14 +6,6 @@
     path = Katana/Assets/Modules/NnUnityUtils
     url = ../../nnra6864/NnUnityUtils
 
-[submodule "Katana/Assets/Modules/CustomToolbar"]
-    path = Katana/Assets/Modules/UnityCustomToolbar
-    url = ../../nnra6864/UnityCustomToolbar
-
-[submodule "Katana/Assets/Modules/UnityCodePreview"]
-    path = Katana/Assets/Modules/UnityCodePreview
-    url = ../../nnra6864/UnityCodePreview
-
 [submodule "Katana/Assets/Modules/UnitySceneManipulator"]
     path = Katana/Assets/Modules/UnitySceneManipulator
     url = ../../nnra6864/UnitySceneManipulator
@@ -51,3 +43,6 @@
 [submodule "Modules/UnityCodePreview"]
 	path = Modules/UnityCodePreview
 	url = ../../nnra6864/UnityCodePreview
+[submodule "Modules/UnityCustomToolbar"]
+	path = Modules/UnityCustomToolbar
+	url = ../../nnra6864/UnityCustomToolbar

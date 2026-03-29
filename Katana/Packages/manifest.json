@@ -6,6 +6,7 @@
     "com.apyra.nvim-unity": "file:../../Modules/nvim-unity",
     "com.cqf.urpvolumetricfog": "file:../../Modules/Unity-URP-Volumetric-Light",
     "com.opalstudio.codepreview": "file:../../Modules/UnityCodePreview",
+    "com.opalstudio.customtoolbar": "file:../../Modules/UnityCustomToolbar",
     "com.abzorba.artificetoolkit": "file:../../Modules/ArtificeToolkit",
     "com.bgtools.playerprefseditor": "file:../../Modules/bgTools-playerPrefsEditor/Packages/PlayerPrefsEditor",
     "com.coffee.ui-effect": "https://github.com/mob-sakai/UIEffect.git?path=Packages/src",

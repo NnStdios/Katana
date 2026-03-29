@@ -118,6 +118,12 @@
       "source": "local",
       "dependencies": {}
     },
+    "com.opalstudio.customtoolbar": {
+      "version": "file:../../Modules/UnityCustomToolbar",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.qiaozhilei.easy-text-effects": {
       "version": "https://github.com/LeiQiaoZhi/Easy-Text-Effect.git",
       "depth": 0,
