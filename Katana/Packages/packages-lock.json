@@ -498,11 +498,10 @@
       "hash": "b69cf0d6a1b3441f828a94c78f85b2d42edc9418"
     },
     "com.yasirkula.assetusagedetector": {
-      "version": "https://github.com/yasirkula/UnityAssetUsageDetector.git",
+      "version": "file:../../Modules/UnityAssetUsageDetector",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "955972cc005117cb2e03fe4530f67f09d9be4bb7"
+      "source": "local",
+      "dependencies": {}
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",

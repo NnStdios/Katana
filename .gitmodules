@@ -43,3 +43,6 @@
 [submodule "Modules/ZLinq"]
 	path = Modules/ZLinq
 	url = ../../nnra6864/ZLinq
+[submodule "Modules/UnityAssetUsageDetector"]
+	path = Modules/UnityAssetUsageDetector
+	url = ../../nnra6864/UnityAssetUsageDetector
