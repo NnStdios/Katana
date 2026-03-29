@@ -37,11 +37,10 @@
       "dependencies": {}
     },
     "com.cysharp.zlinq": {
-      "version": "https://github.com/Cysharp/ZLinq.git?path=src/ZLinq.Unity/Assets/ZLinq.Unity",
+      "version": "file:../../Modules/ZLinq/src/ZLinq.Unity/Assets/ZLinq.Unity",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "7aea0cf62c7c628f8880b27e7f583c77d7774729"
+      "source": "local",
+      "dependencies": {}
     },
     "com.github-glitchenzo.nugetforunity": {
       "version": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity",
@@ -87,7 +86,7 @@
       "dependencies": {}
     },
     "com.nnra6864.nn-unity-texture-remapper": {
-      "version": "file:../../Modules/UnityTextureRemapper",
+      "version": "file:../../Modules/NnUnityTextureRemapper",
       "depth": 0,
       "source": "local",
       "dependencies": {}

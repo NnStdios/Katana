@@ -40,3 +40,6 @@
 [submodule "Modules/NnUnityTextureRemapper"]
 	path = Modules/NnUnityTextureRemapper
 	url = ../../nnra6864/NnUnityTextureRemapper
+[submodule "Modules/ZLinq"]
+	path = Modules/ZLinq
+	url = ../../nnra6864/ZLinq
