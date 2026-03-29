@@ -1,9 +1,6 @@
 [submodule "SourceAssets"]
     path = SourceAssets
     url = ../KatanaSourceAssets
-[submodule "Katana/Assets/Modules/UnityTextureRemapper"]
-    path = Katana/Assets/Modules/UnityTextureRemapper
-    url = ../../nnra6864/UnityTextureRemapper
 [submodule "Katana/Assets/Modules/Unity-URP-Volumetric-Light"]
 	path = Katana/Assets/Modules/Unity-URP-Volumetric-Light
 	url = ../../nnra6864/Unity-URP-Volumetric-Light
@@ -40,3 +37,6 @@
 [submodule "Modules/UnitySceneManipulator"]
 	path = Modules/UnitySceneManipulator
 	url = ../../nnra6864/UnitySceneManipulator
+[submodule "Modules/UnityTextureRemapper"]
+	path = Modules/UnityTextureRemapper
+	url = ../../nnra6864/UnityTextureRemapper

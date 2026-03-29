@@ -3,6 +3,7 @@
     "com.nnra6864.nn-unity-utils": "file:../../Modules/NnUnityUtils",
     "com.nnra6864.nn-unity-easings": "file:../../Modules/NnUnityEasings",
     "com.nnra6864.nn-unity-text-utils": "file:../../Modules/NnUnityTextUtils",
+    "com.nnra6864.nn-unity-texture-remapper": "file:../../Modules/UnityTextureRemapper",
     "com.apyra.nvim-unity": "file:../../Modules/nvim-unity",
     "com.cqf.urpvolumetricfog": "file:../../Modules/Unity-URP-Volumetric-Light",
     "com.opalstudio.codepreview": "file:../../Modules/UnityCodePreview",
