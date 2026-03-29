@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.nnra.nn-unity-utils": "file:../../Modules/NnUnityUtils",
+    "com.nnra.unity-easings": "file:../../Modules/UnityEasings",
     "com.abzorba.artificetoolkit": "file:../../Modules/ArtificeToolkit",
     "com.bgtools.playerprefseditor": "file:../../Modules/bgTools-playerPrefsEditor/Packages/PlayerPrefsEditor",
     "com.coffee.ui-effect": "https://github.com/mob-sakai/UIEffect.git?path=Packages/src",

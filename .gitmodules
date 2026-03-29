@@ -37,3 +37,12 @@
 [submodule "Modules/bgTools-playerPrefsEditor"]
 	path = Modules/bgTools-playerPrefsEditor
 	url = ../../nnra6864/bgTools-playerPrefsEditor
+[submodule "Modules/NnUnityUtils"]
+	path = Modules/NnUnityUtils
+	url = ../../nnra6864/NnUnityUtils
+[submodule "Modules/UnityTextUtils"]
+	path = Modules/UnityTextUtils
+	url = ../../nnra6864/UnityTextUtils
+[submodule "Modules/UnityEasings"]
+	path = Modules/UnityEasings
+	url = ../../nnra6864/UnityEasings
