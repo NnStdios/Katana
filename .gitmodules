@@ -45,3 +45,6 @@
 [submodule "Modules/nvim-unity"]
 	path = Modules/nvim-unity
 	url = ../../nnra6864/nvim-unity
+[submodule "Modules/Unity-URP-Volumetric-Light"]
+	path = Modules/Unity-URP-Volumetric-Light
+	url = ../../nnra6864/Unity-URP-Volumetric-Light

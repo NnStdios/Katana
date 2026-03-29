@@ -4,6 +4,7 @@
     "com.nnra6864.nn-unity-easings": "file:../../Modules/NnUnityEasings",
     "com.nnra6864.nn-unity-text-utils": "file:../../Modules/NnUnityTextUtils",
     "com.apyra.nvim-unity": "file:../../Modules/nvim-unity",
+    "com.cqf.urpvolumetricfog": "file:../../Modules/Unity-URP-Volumetric-Light",
     "com.abzorba.artificetoolkit": "file:../../Modules/ArtificeToolkit",
     "com.bgtools.playerprefseditor": "file:../../Modules/bgTools-playerPrefsEditor/Packages/PlayerPrefsEditor",
     "com.coffee.ui-effect": "https://github.com/mob-sakai/UIEffect.git?path=Packages/src",
