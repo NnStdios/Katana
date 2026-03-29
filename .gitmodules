@@ -37,6 +37,6 @@
 [submodule "Modules/UnitySceneManipulator"]
 	path = Modules/UnitySceneManipulator
 	url = ../../nnra6864/UnitySceneManipulator
-[submodule "Modules/UnityTextureRemapper"]
-	path = Modules/UnityTextureRemapper
-	url = ../../nnra6864/UnityTextureRemapper
+[submodule "Modules/NnUnityTextureRemapper"]
+	path = Modules/NnUnityTextureRemapper
+	url = ../../nnra6864/NnUnityTextureRemapper
