@@ -9,6 +9,12 @@
         "com.unity.nuget.newtonsoft-json": "3.0.2"
       }
     },
+    "com.apyra.nvim-unity": {
+      "version": "file:../../Modules/nvim-unity",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.bgtools.playerprefseditor": {
       "version": "file:../../Modules/bgTools-playerPrefsEditor/Packages/PlayerPrefsEditor",
       "depth": 0,
@@ -55,6 +61,24 @@
         "com.unity.ide.visualstudio": "2.0.20"
       },
       "hash": "25f1b97fedb6cf7b4b566c4a83ec8311b68d3e82"
+    },
+    "com.nnra6864.nn-unity-easings": {
+      "version": "file:../../Modules/NnUnityEasings",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.nnra6864.nn-unity-text-utils": {
+      "version": "file:../../Modules/NnUnityTextUtils",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.nnra6864.nn-unity-utils": {
+      "version": "file:../../Modules/NnUnityUtils",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
     },
     "com.nnra6864.openfracture": {
       "version": "https://github.com/nnra6864/OpenFracture.git",

@@ -6,10 +6,6 @@
     path = Katana/Assets/Modules/NnUnityUtils
     url = ../../nnra6864/NnUnityUtils
 
-[submodule "Katana/Assets/Modules/nvim-unity"]
-    path = Katana/Assets/Modules/nvim-unity
-    url = ../../nnra6864/nvim-unity
-
 [submodule "Katana/Assets/Modules/CustomToolbar"]
     path = Katana/Assets/Modules/UnityCustomToolbar
     url = ../../nnra6864/UnityCustomToolbar
@@ -46,3 +42,6 @@
 [submodule "Modules/NnUnityTextUtils"]
 	path = Modules/NnUnityTextUtils
 	url = ../../nnra6864/NnUnityTextUtils
+[submodule "Modules/nvim-unity"]
+	path = Modules/nvim-unity
+	url = ../../nnra6864/nvim-unity
