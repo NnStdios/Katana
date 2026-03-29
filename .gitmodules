@@ -1,11 +1,6 @@
 [submodule "SourceAssets"]
     path = SourceAssets
     url = ../KatanaSourceAssets
-
-[submodule "Katana/Assets/Modules/UnitySceneManipulator"]
-    path = Katana/Assets/Modules/UnitySceneManipulator
-    url = ../../nnra6864/UnitySceneManipulator
-
 [submodule "Katana/Assets/Modules/UnityTextureRemapper"]
     path = Katana/Assets/Modules/UnityTextureRemapper
     url = ../../nnra6864/UnityTextureRemapper
@@ -42,3 +37,6 @@
 [submodule "Modules/UnityFastScriptReload"]
 	path = Modules/UnityFastScriptReload
 	url = ../../nnra6864/UnityFastScriptReload
+[submodule "Modules/UnitySceneManipulator"]
+	path = Modules/UnitySceneManipulator
+	url = ../../nnra6864/UnitySceneManipulator

@@ -130,6 +130,12 @@
       "source": "local",
       "dependencies": {}
     },
+    "com.opalstudio.scenemanipulator": {
+      "version": "file:../../Modules/UnitySceneManipulator",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.qiaozhilei.easy-text-effects": {
       "version": "https://github.com/LeiQiaoZhi/Easy-Text-Effect.git",
       "depth": 0,

@@ -7,6 +7,7 @@
     "com.cqf.urpvolumetricfog": "file:../../Modules/Unity-URP-Volumetric-Light",
     "com.opalstudio.codepreview": "file:../../Modules/UnityCodePreview",
     "com.opalstudio.customtoolbar": "file:../../Modules/UnityCustomToolbar",
+    "com.opalstudio.scenemanipulator": "file:../../Modules/UnitySceneManipulator",
     "com.handzlikchris.fastscriptreload": "file:../../Modules/UnityFastScriptReload/Assets",
     "com.abzorba.artificetoolkit": "file:../../Modules/ArtificeToolkit",
     "com.bgtools.playerprefseditor": "file:../../Modules/bgTools-playerPrefsEditor/Packages/PlayerPrefsEditor",
