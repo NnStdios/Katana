@@ -49,3 +49,6 @@
 [submodule "Modules/UnityUIEffect"]
 	path = Modules/UnityUIEffect
 	url = ../../nnra6864/UnityUIEffect
+[submodule "Modules/UnityHierarchyDecorator"]
+	path = Modules/UnityHierarchyDecorator
+	url = ../../nnra6864/UnityHierarchyDecorator
