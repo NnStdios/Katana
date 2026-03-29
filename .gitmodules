@@ -10,10 +10,6 @@
     path = Katana/Assets/Modules/nvim-unity
     url = ../../nnra6864/nvim-unity
 
-[submodule "Katana/Assets/Modules/ArtificeToolkit"]
-    path = Katana/Assets/Modules/ArtificeToolkit
-    url = ../../nnra6864/artificetoolkit
-
 [submodule "Katana/Assets/Modules/CustomToolbar"]
     path = Katana/Assets/Modules/UnityCustomToolbar
     url = ../../nnra6864/UnityCustomToolbar
@@ -39,3 +35,6 @@
 [submodule "Katana/Assets/Modules/Unity-URP-Volumetric-Light"]
 	path = Katana/Assets/Modules/Unity-URP-Volumetric-Light
 	url = ../../nnra6864/Unity-URP-Volumetric-Light
+[submodule "Modules/ArtificeToolkit"]
+	path = Modules/ArtificeToolkit
+	url = ../../nnra6864/ArtificeToolkit
