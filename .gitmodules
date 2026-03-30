@@ -52,3 +52,6 @@
 [submodule "Modules/UnityHierarchyDecorator"]
 	path = Modules/UnityHierarchyDecorator
 	url = ../../nnra6864/UnityHierarchyDecorator
+[submodule "Modules/Unity-Unified-Universal-Blur"]
+	path = Modules/Unity-Unified-Universal-Blur
+	url = ../../nnra6864/Unity-Unified-Universal-Blur

@@ -180,13 +180,12 @@
       "hash": "61962458dcd75068bd2324cf2ba5fc547d9e1ed8"
     },
     "com.unify.unified-universal-blur": {
-      "version": "https://github.com/lukakldiashvili/Unified-Universal-Blur.git",
+      "version": "file:../../Modules/Unity-Unified-Universal-Blur",
       "depth": 0,
-      "source": "git",
+      "source": "local",
       "dependencies": {
         "com.unity.render-pipelines.universal": "14.0.11"
-      },
-      "hash": "31d65c1cf2133476d5d80060305b2335f7a784ab"
+      }
     },
     "com.unity.addressables": {
       "version": "2.9.1",
