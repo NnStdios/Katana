@@ -163,13 +163,12 @@
       "hash": "0e46e799adf39d54a7c5ce17335187e39c3a0183"
     },
     "com.sadnessmonday.betterphysics": {
-      "version": "https://github.com/SadnessMonday/BetterPhysics.git?path=/Assets/BetterPhysics",
+      "version": "file:../../Modules/UnityBetterPhysics/Assets/BetterPhysics",
       "depth": 0,
-      "source": "git",
+      "source": "local",
       "dependencies": {
         "com.unity.collections": "2.4.1"
-      },
-      "hash": "c65686193975d7f45a2d99fd589512e2643ffcf3"
+      }
     },
     "com.seaeees.simple-folder-icon": {
       "version": "https://github.com/SeaeeesSan/SimpleFolderIcon.git?path=Packages/com.seaeees.simple-folder-icon",

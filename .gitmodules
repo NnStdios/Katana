@@ -58,3 +58,6 @@
 [submodule "Modules/unity-mulligan-renamer"]
 	path = Modules/unity-mulligan-renamer
 	url = ../../nnra6864/unity-mulligan-renamer
+[submodule "Modules/UnityBetterPhysics"]
+	path = Modules/UnityBetterPhysics
+	url = ../../nnra6864/UnityBetterPhysics
