@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using ArtificeToolkit.Attributes;
-using NnUtils.Modules.Easings;
 using NnUtils.Scripts;
+using NnUnityEasings;
 using UnityCommunity.UnitySingleton;
 using UnityEngine;
 
@@ -19,7 +19,7 @@ namespace Assets.Scripts.Player.Camera
         public static UnityEngine.Camera PlayerCamera => Instance._playerCamera;
 
         [SerializeField]
-        private CameraAnimationSettings _defaultAnimationSettings = new(0.5f, EasingType.ExpoOut);
+        private CameraAnimationSettings _defaultAnimationSettings = new(0.5f, Easing.ExpoOut);
         public static CameraAnimationSettings DefaultAnimationSettings =>
            Instance._defaultAnimationSettings;
 

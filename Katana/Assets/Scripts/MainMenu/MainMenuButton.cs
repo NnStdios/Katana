@@ -1,7 +1,7 @@
 using System.Collections;
 using ArtificeToolkit.Attributes;
-using NnUtils.Modules.Easings;
 using NnUtils.Scripts;
+using NnUnityEasings;
 using UnityEngine;
 
 namespace Assets.Scripts.MainMenu
@@ -12,7 +12,7 @@ namespace Assets.Scripts.MainMenu
         [SerializeField] private Vector3 _selectedPosition = Vector3.zero;
         [SerializeField] private Vector3 _deselectedPosition = Vector3.left * 0.5f;
         [SerializeField] private float _animationTime = 1;
-        [SerializeField] private EasingType _animationEasing = EasingType.ExpoOut;
+        [SerializeField] private Easing _animationEasing = Easing.ExpoOut;
 
         private void Reset()
         {

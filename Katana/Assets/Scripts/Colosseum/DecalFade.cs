@@ -1,7 +1,7 @@
 using UnityEngine;
 using NnUtils.Scripts;
 using System.Collections;
-using NnUtils.Modules.Easings;
+using NnUnityEasings;
 using UnityEngine.Rendering.Universal;
 
 namespace Assets.Scripts.Colosseum
@@ -12,7 +12,7 @@ namespace Assets.Scripts.Colosseum
         [HideInInspector, SerializeField] private DecalProjector _decalProjector;
         [SerializeField] private float _lifeTime = 10;
         [SerializeField] private float _fadeTime = 5;
-        [SerializeField] private EasingType _fadeEasing = EasingType.SineIn;
+        [SerializeField] private Easing _fadeEasing = Easing.SineIn;
 
         private void Reset()
         {

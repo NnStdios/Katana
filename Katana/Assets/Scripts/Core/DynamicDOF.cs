@@ -1,6 +1,6 @@
 using System.Collections;
 using ArtificeToolkit.Attributes;
-using NnUtils.Modules.Easings;
+using NnUnityEasings;
 using NnUtils.Scripts;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -33,7 +33,7 @@ namespace Assets.Scripts.Core
         [FoldoutGroup("Values"), SerializeField] private LayerMask _layerMask;
         [FoldoutGroup("Values"), SerializeField] private float _defaultDistance = 100;
         [FoldoutGroup("Values"), SerializeField] private float _transitionTime = 1;
-        [FoldoutGroup("Values"), SerializeField] private EasingType _transitionEasing = EasingType.ExpoOut;
+        [FoldoutGroup("Values"), SerializeField] private Easing _transitionEasing = Easing.ExpoOut;
 
         private void Reset()
         {

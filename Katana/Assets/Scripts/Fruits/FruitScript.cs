@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using ArtificeToolkit.Attributes;
 using Assets.Scripts.Core;
 using NnUtils.Scripts;
-using NnUtils.Modules.Easings;
+using NnUnityEasings;
 using UnityEngine;
 using Assets.Scripts.Colosseum;
 
@@ -60,7 +60,7 @@ namespace Assets.Scripts.Fruits
         [FoldoutGroup("Outline")]
         [SerializeField] private float _outlineTransitionDuration;
         [FoldoutGroup("Outline")]
-        [SerializeField] private EasingType _outlineTransitionEasing;
+        [SerializeField] private Easing _outlineTransitionEasing;
 
         [FoldoutGroup("Particles")]
         [SerializeField] private Transform _particles;

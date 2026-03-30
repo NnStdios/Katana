@@ -4,8 +4,8 @@ using System.Linq;
 using ArtificeToolkit.Attributes;
 using Assets.Scripts.Core;
 using Assets.Scripts.Player.Camera;
-using NnUtils.Modules.Easings;
 using NnUtils.Scripts;
+using NnUnityEasings;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
@@ -40,7 +40,7 @@ namespace Assets.Scripts.MainMenu
         [FoldoutGroup("Tabs"), SerializeField]
         private float _animationTime;
         [FoldoutGroup("Tabs"), SerializeField]
-        private EasingType _animationEasing;
+        private Easing _animationEasing;
         [FoldoutGroup("Tabs"), SerializeField]
         private AnimationCurve _animationCurve;
 
