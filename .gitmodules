@@ -55,3 +55,6 @@
 [submodule "Modules/Unity-Unified-Universal-Blur"]
 	path = Modules/Unity-Unified-Universal-Blur
 	url = ../../nnra6864/Unity-Unified-Universal-Blur
+[submodule "Modules/unity-mulligan-renamer"]
+	path = Modules/unity-mulligan-renamer
+	url = ../../nnra6864/unity-mulligan-renamer
