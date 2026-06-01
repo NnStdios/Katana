@@ -15,12 +15,6 @@
       "source": "local",
       "dependencies": {}
     },
-    "com.bgtools.playerprefseditor": {
-      "version": "file:../../Modules/bgTools-playerPrefsEditor/Packages/PlayerPrefsEditor",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
-    },
     "com.coffee.ui-effect": {
       "version": "file:../../Modules/UnityUIEffect/Packages/src",
       "depth": 0,
@@ -219,7 +213,7 @@
       }
     },
     "com.unity.editorcoroutines": {
-      "version": "1.0.1",
+      "version": "1.1.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -335,11 +329,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.sdk.linux-x86_64": {
-      "version": "1.0.2",
+      "version": "1.1.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.sysroot.base": "1.0.2"
+        "com.unity.sysroot.base": "1.1.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -367,7 +361,7 @@
       }
     },
     "com.unity.sysroot.base": {
-      "version": "1.0.2",
+      "version": "1.1.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -394,7 +388,7 @@
       }
     },
     "com.unity.test-framework.performance": {
-      "version": "3.2.0",
+      "version": "3.4.0",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -426,11 +420,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.toolchain.linux-x86_64-linux": {
-      "version": "1.0.2",
+      "version": "1.1.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.sysroot.base": "1.0.2"
+        "com.unity.sysroot.base": "1.1.0"
       },
       "url": "https://packages.unity.com"
     },
