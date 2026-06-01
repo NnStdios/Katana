@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "com.abzorba.artificetoolkit": "file:../../Modules/ArtificeToolkit",
-    "com.apyra.nvim-unity": "file:../../Modules/nvim-unity",
     "com.coffee.ui-effect": "file:../../Modules/UnityUIEffect/Packages/src",
     "com.cqf.urpvolumetricfog": "file:../../Modules/Unity-URP-Volumetric-Light",
     "com.cysharp.zlinq": "file:../../Modules/ZLinq/src/ZLinq.Unity/Assets/ZLinq.Unity",
