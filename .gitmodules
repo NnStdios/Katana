@@ -42,7 +42,7 @@
 	url = ../../nnra6864/NnUnityTextureRemapper
 [submodule "Modules/ZLinq"]
 	path = Modules/ZLinq
-	url = ../../nnra6864/ZLinq
+	url = ../../nnra6864-mirrors/ZLinq
 [submodule "Modules/UnityAssetUsageDetector"]
 	path = Modules/UnityAssetUsageDetector
 	url = ../../nnra6864/UnityAssetUsageDetector
