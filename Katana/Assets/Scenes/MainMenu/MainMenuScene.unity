@@ -953,7 +953,7 @@ MonoBehaviour:
   placementStrategy: 1
   horizontalSpacing: 3
   heightAboveFloor: 1
-  asset: {fileID: 11400000, guid: e9bf8df0ae3baa7f29387202ab3d7229, type: 2}
+  asset: {fileID: 11400000, guid: 4d87b90e0103b74a4b3a5a17a6f871f6, type: 2}
   probeDataSize: 102655756
   mProbeSpheres:
   - center:
@@ -38786,6 +38786,7 @@ VisualEffect:
   m_StartSeed: 0
   m_ResetSeedOnPlay: 1
   m_AllowInstancing: 1
+  m_ReleaseInstanceOnDisable: 0
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
@@ -41772,6 +41773,7 @@ VisualEffect:
   m_StartSeed: 0
   m_ResetSeedOnPlay: 1
   m_AllowInstancing: 1
+  m_ReleaseInstanceOnDisable: 0
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
@@ -45900,11 +45902,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7454231
+      value: -0.49026644
       objectReference: {fileID: 0}
     - target: {fileID: 8521423297126465367, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.66659164
+      value: -0.8715727
       objectReference: {fileID: 0}
     - target: {fileID: 8612604442129506888, guid: b348c4a55de8999b4851ddebb7029c54, type: 3}
       propertyPath: _nameLocalizeStringEvent
