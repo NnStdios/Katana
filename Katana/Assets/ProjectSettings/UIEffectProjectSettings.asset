@@ -39,8 +39,8 @@ MonoBehaviour:
       value: Hidden/TextMeshPro/Mobile/Distance Field SSD (UIEffect)
     m_Asset: {fileID: 667939926922104740}
     m_RegisteredShaders:
-    - {fileID: 4800000, guid: 96246b1ead49a4c5a996fd477bc5a117, type: 3}
     - {fileID: 4800000, guid: 935b7be1c88464d2eb87204fdfab5a38, type: 3}
+    - {fileID: 4800000, guid: 96246b1ead49a4c5a996fd477bc5a117, type: 3}
     m_ErrorOnUnregisteredVariant: 0
     m_UnregisteredVariants: []
 --- !u!200 &667939926922104740
@@ -51,6 +51,33 @@ ShaderVariantCollection:
   m_PrefabAsset: {fileID: 0}
   m_Name: ShaderVariants
   m_Shaders:
+  - first: {fileID: 4800000, guid: 935b7be1c88464d2eb87204fdfab5a38, type: 3}
+    second:
+      variants:
+      - keywords: EDGE_PLAIN UNDERLAY_ON
+        passType: 0
+      - keywords: EDGE_SHINY UNDERLAY_ON
+        passType: 0
+      - keywords: SAMPLING_EDGE_ALPHA UNDERLAY_ON
+        passType: 0
+      - keywords: SAMPLING_EDGE_LUMINANCE UNDERLAY_ON
+        passType: 0
+      - keywords: SAMPLING_PIXELATION UNDERLAY_ON
+        passType: 0
+      - keywords: SAMPLING_RGB_SHIFT UNDERLAY_ON
+        passType: 0
+      - keywords: TRANSITION_BURN UNDERLAY_ON
+        passType: 0
+      - keywords: TRANSITION_DISSOLVE UNDERLAY_ON
+        passType: 0
+      - keywords: TRANSITION_MASK UNDERLAY_ON
+        passType: 0
+      - keywords: TRANSITION_MELT UNDERLAY_ON
+        passType: 0
+      - keywords: TRANSITION_PATTERN UNDERLAY_ON
+        passType: 0
+      - keywords: TRANSITION_SHINY UNDERLAY_ON
+        passType: 0
   - first: {fileID: 4800000, guid: 96246b1ead49a4c5a996fd477bc5a117, type: 3}
     second:
       variants:
@@ -109,31 +136,4 @@ ShaderVariantCollection:
       - keywords: TRANSITION_PATTERN
         passType: 0
       - keywords: TRANSITION_SHINY
-        passType: 0
-  - first: {fileID: 4800000, guid: 935b7be1c88464d2eb87204fdfab5a38, type: 3}
-    second:
-      variants:
-      - keywords: EDGE_PLAIN UNDERLAY_ON
-        passType: 0
-      - keywords: EDGE_SHINY UNDERLAY_ON
-        passType: 0
-      - keywords: SAMPLING_EDGE_ALPHA UNDERLAY_ON
-        passType: 0
-      - keywords: SAMPLING_EDGE_LUMINANCE UNDERLAY_ON
-        passType: 0
-      - keywords: SAMPLING_PIXELATION UNDERLAY_ON
-        passType: 0
-      - keywords: SAMPLING_RGB_SHIFT UNDERLAY_ON
-        passType: 0
-      - keywords: TRANSITION_BURN UNDERLAY_ON
-        passType: 0
-      - keywords: TRANSITION_DISSOLVE UNDERLAY_ON
-        passType: 0
-      - keywords: TRANSITION_MASK UNDERLAY_ON
-        passType: 0
-      - keywords: TRANSITION_MELT UNDERLAY_ON
-        passType: 0
-      - keywords: TRANSITION_PATTERN UNDERLAY_ON
-        passType: 0
-      - keywords: TRANSITION_SHINY UNDERLAY_ON
         passType: 0
