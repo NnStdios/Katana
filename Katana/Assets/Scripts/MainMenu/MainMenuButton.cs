@@ -20,11 +20,6 @@ namespace Assets.Scripts.MainMenu
                 _mesh = transform.GetChild(0);
         }
 
-        private void Update()
-        {
-            Debug.Log("Test1");
-        }
-
         [Button]
         public void Select()
         {
